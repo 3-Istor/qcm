@@ -25,7 +25,7 @@ spec:
         - name: prisma-migrate
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          command: ["/app/node_modules/.bin/prisma", "migrate", "deploy"]
+          command: ["prisma", "migrate", "deploy"]
           workingDir: /app
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
