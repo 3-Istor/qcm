@@ -25,12 +25,13 @@ spec:
         - name: prisma-migrate
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          command: ["npx", "prisma", "migrate", "deploy"]
+          command: ["/app/node_modules/.bin/prisma", "migrate", "deploy"]
+          workingDir: /app
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           env:
             {{- if .Values.env }}
-            {{- toYaml .Values.env | nindent 12 }}
+            {{- toYaml .Values.env | nindent 16 }}
             {{- end }}
       containers:
         - name: "{{ .Chart.Name }}"
