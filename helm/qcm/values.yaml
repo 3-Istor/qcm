@@ -33,9 +33,13 @@ resources:
     memory: 128Mi
 
 env:
-  NODE_ENV: "production"
-  NEXT_PUBLIC_APP_URL: "https://qcm.3istor.com"
-  KEYCLOAK_CLIENT_ID: "qcm"
-  KEYCLOAK_ISSUER: "https://auth.3istor.com/realms/3istor"
+  - name: NODE_ENV
+    value: "production"
+  - name: NEXT_PUBLIC_APP_URL
+    value: "https://qcm.3istor.com"
+  - name: KEYCLOAK_CLIENT_ID
+    value: "qcm"
+  - name: KEYCLOAK_ISSUER
+    value: "https://auth.3istor.com/realms/3istor"
 
 existingSecret: "qcm-secrets"

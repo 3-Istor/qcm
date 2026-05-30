@@ -32,14 +32,9 @@ spec:
               containerPort: 3000
               protocol: TCP
           env:
-            - name: NODE_ENV
-              value: {{ .Values.env.NODE_ENV | quote }}
-            - name: NEXT_PUBLIC_APP_URL
-              value: {{ .Values.env.NEXT_PUBLIC_APP_URL | quote }}
-            - name: KEYCLOAK_CLIENT_ID
-              value: {{ .Values.env.KEYCLOAK_CLIENT_ID | quote }}
-            - name: KEYCLOAK_ISSUER
-              value: {{ .Values.env.KEYCLOAK_ISSUER | quote }}
+            {{- if .Values.env }}
+            {{- toYaml .Values.env | nindent 12 }}
+            {{- end }}
             - name: DATABASE_URL
               valueFrom:
                 secretKeyRef:
