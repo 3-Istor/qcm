@@ -5,7 +5,6 @@ import { authOptions } from "../auth/[...nextauth]/route";
 
 const prisma = new PrismaClient();
 
-// POST: Save progress for a question
 export async function POST(req: Request) {
   const session = await getServerSession(authOptions);
   if (!session?.user?.id) {
@@ -34,12 +33,11 @@ export async function POST(req: Request) {
       },
     });
     return NextResponse.json(progress);
-  } catch (error) {
+  } catch {
     return NextResponse.json({ error: "Database error" }, { status: 500 });
   }
 }
 
-// DELETE: Reset progress for a specific deck (or all decks)
 export async function DELETE(req: Request) {
   const session = await getServerSession(authOptions);
   if (!session?.user?.id) {
@@ -51,7 +49,9 @@ export async function DELETE(req: Request) {
   const chapterId = searchParams.get("chapterId");
 
   try {
-    const whereClause: any = { userId: session.user.id };
+    const whereClause: { userId: string; subjectId?: string; chapterId?: string } = {
+      userId: session.user.id
+    };
     if (subjectId) whereClause.subjectId = subjectId;
     if (chapterId) whereClause.chapterId = chapterId;
 
@@ -60,7 +60,7 @@ export async function DELETE(req: Request) {
     });
 
     return NextResponse.json({ success: true });
-  } catch (error) {
+  } catch {
     return NextResponse.json({ error: "Database error" }, { status: 500 });
   }
 }

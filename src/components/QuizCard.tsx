@@ -1,10 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { Question } from '@/lib/data';
 import { useProgressStore } from '@/store/useProgressStore';
 import { CheckCircle2, ChevronRight, HelpCircle, Lightbulb, XCircle } from "lucide-react";
 import { useSession } from 'next-auth/react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 export default function QuizCard({ question, onNext }: { question: Question, onNext: () => void }) {
   const [ selectedOptionId, setSelectedOptionId ] = useState<string | null>(null);
@@ -13,12 +14,6 @@ export default function QuizCard({ question, onNext }: { question: Question, onN
 
   const saveAnswer = useProgressStore((state) => state.saveAnswer);
   const { status } = useSession();
-
-  useEffect(() => {
-    setSelectedOptionId(null);
-    setShowHint(false);
-    setExpandedOptions({});
-  }, [ question.id ]);
 
   const handleSelect = async (optionId: string, isCorrect: boolean) => {
     if (selectedOptionId) return;

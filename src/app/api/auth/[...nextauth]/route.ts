@@ -5,6 +5,16 @@ import KeycloakProvider from "next-auth/providers/keycloak";
 
 const prisma = new PrismaClient();
 
+interface KeycloakProfile {
+  sub?: string;
+  email?: string;
+  name?: string;
+  picture?: string;
+  given_name?: string;
+  family_name?: string;
+  groups?: string[];
+}
+
 export const authOptions: NextAuthOptions = {
   adapter: PrismaAdapter(prisma),
   providers: [
@@ -19,13 +29,11 @@ export const authOptions: NextAuthOptions = {
   },
   callbacks: {
     async jwt({ token, account, profile }) {
-      // Capture the id_token exactly when the user logs in
       if (account) {
         token.idToken = account.id_token;
       }
-      // Extract Keycloak specific fields from the profile
       if (profile) {
-        const p = profile as any;
+        const p = profile as KeycloakProfile; // <-- Utilisation du type KeycloakProfile au lieu de "any"
         token.sub = p.sub;
         token.given_name = p.given_name;
         token.family_name = p.family_name;

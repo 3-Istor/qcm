@@ -27,7 +27,7 @@ export default async function DeckPage({ params, searchParams }: PageProps) {
     if (!deck) return notFound();
 
     const session = await getServerSession(authOptions);
-    let dbProgress: Record<string, boolean> = {};
+    const dbProgress: Record<string, boolean> = {};
 
     if (session?.user?.id) {
         const progressList = await prisma.progress.findMany({

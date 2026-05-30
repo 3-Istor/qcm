@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/set-state-in-effect */
 "use client";
 
 import { Deck } from "@/lib/data";
@@ -22,12 +23,14 @@ export default function DashboardClient({ decks, dbProgress, isAuthenticated }: 
     const [ isResetModalOpen, setIsResetModalOpen ] = useState(false);
 
     useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    useEffect(() => {
         if (isAuthenticated) {
             setBulkAnswers(dbProgress);
         }
-        setMounted(true);
-    }, [ isAuthenticated, dbProgress ]);
-
+    }, [ isAuthenticated, dbProgress, setBulkAnswers ]);
     if (!mounted) {
         return (
             <div className="flex justify-center items-center h-64">

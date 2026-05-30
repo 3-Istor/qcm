@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/set-state-in-effect */
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { Deck } from "@/lib/data";
@@ -27,14 +29,18 @@ export default function QuizEngine({ deck, dbProgress, isAuthenticated, isReview
     const questionIds = deck.questions.map(q => q.id);
 
     useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    useEffect(() => {
+        if (!mounted) return;
         const firstUnansweredIndex = deck.questions.findIndex(q => !(q.id in activeAnswers));
         if (firstUnansweredIndex === -1) {
             setCurrentQuestionIndex(deck.questions.length);
         } else {
             setCurrentQuestionIndex(firstUnansweredIndex);
         }
-        setMounted(true);
-    }, []);
+    }, [ mounted, deck.questions, activeAnswers ]);
 
     if (!mounted || currentQuestionIndex === null) {
         return (
@@ -175,7 +181,11 @@ export default function QuizEngine({ deck, dbProgress, isAuthenticated, isReview
                 </button>
             </div>
 
-            <QuizCard question={currentQuestion} onNext={handleNext} />
+            <QuizCard
+                key={currentQuestion.id}
+                question={currentQuestion}
+                onNext={handleNext}
+            />
 
             <ConfirmModal
                 isOpen={isResetModalOpen}

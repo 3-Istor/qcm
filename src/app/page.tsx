@@ -11,7 +11,7 @@ export default async function DashboardPage() {
   const decks = await getAllDecks();
   const session = await getServerSession(authOptions);
 
-  let dbProgress: Record<string, boolean> = {};
+  const dbProgress: Record<string, boolean> = {};
 
   if (session?.user?.id) {
     const progressList = await prisma.progress.findMany({

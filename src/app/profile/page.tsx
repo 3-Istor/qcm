@@ -1,5 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
-import { ArrowLeft, IdCard, Mail, Shield, User } from "lucide-react";
+import { ArrowLeft, Fingerprint, Mail, Shield, User } from "lucide-react";
 import { getServerSession } from "next-auth";
 import Link from "next/link";
 import { redirect } from "next/navigation";
@@ -89,7 +90,8 @@ export default async function ProfilePage() {
                         <div className="space-y-1">
                             <label className="text-xs font-bold tracking-wider text-slate-400 uppercase">Keycloak User ID</label>
                             <div className="flex items-center text-slate-500 font-mono text-sm break-all bg-slate-50 p-2 rounded-lg border border-slate-100">
-                                <IdCard className="h-4 w-4 mr-2 text-slate-400 shrink-0" />
+                                {/* Remplacement ici aussi */}
+                                <Fingerprint className="h-4 w-4 mr-2 text-slate-400 shrink-0" />
                                 {user.id}
                             </div>
                         </div>
