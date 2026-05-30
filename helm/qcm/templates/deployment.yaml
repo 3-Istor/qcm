@@ -31,9 +31,10 @@ spec:
             - name: http
               containerPort: 3000
               protocol: TCP
+          envFrom:
+            - secretRef:
+                name: {{ .Values.existingSecret }}
           env:
             {{- if .Values.env }}
             {{- toYaml .Values.env | nindent 12 }}
             {{- end }}
-          resources:
-            {{- toYaml .Values.resources | nindent 12 }}

@@ -1,16 +1,36 @@
 "use client";
 
 import { signIn } from "next-auth/react";
+import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { Suspense, useEffect } from "react";
 
 function SignInContent() {
     const searchParams = useSearchParams();
     const callbackUrl = searchParams.get("callbackUrl") || "/";
+    const error = searchParams.get("error");
 
     useEffect(() => {
-        signIn("keycloak", { callbackUrl });
-    }, [ callbackUrl ]);
+        if (!error) {
+            signIn("keycloak", { callbackUrl });
+        }
+    }, [ callbackUrl, error ]);
+
+    if (error) {
+        return (
+            <div className="flex min-h-screen items-center justify-center bg-slate-50">
+                <div className="text-center bg-white p-8 rounded-3xl shadow-sm border border-rose-200 max-w-sm w-full">
+                    <h1 className="text-xl font-bold text-rose-600 mb-2">
+                        Erreur d&apos;Authentification
+                    </h1>
+                    <p className="text-sm text-slate-600 mb-4">{error}</p>
+                    <Link href="/" className="text-indigo-600 font-medium hover:underline">
+                        Retourner à l&apos;accueil
+                    </Link>
+                </div>
+            </div>
+        );
+    }
 
     return (
         <div className="flex min-h-screen items-center justify-center bg-slate-50">
