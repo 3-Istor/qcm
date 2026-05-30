@@ -38,7 +38,7 @@ env:
   - name: NEXT_PUBLIC_APP_URL
     value: "https://qcm.3istor.com"
   - name: KEYCLOAK_CLIENT_ID
-    value: "qcm"
+    value: "3-istor-openid"
   - name: KEYCLOAK_ISSUER
     value: "https://auth.3istor.com/realms/3istor"
 

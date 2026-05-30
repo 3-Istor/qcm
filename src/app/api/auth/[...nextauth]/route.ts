@@ -4,6 +4,24 @@ import NextAuth, { NextAuthOptions } from "next-auth";
 import KeycloakProvider from "next-auth/providers/keycloak";
 
 const prisma = new PrismaClient();
+const baseAdapter = PrismaAdapter(prisma);
+
+// Custom Adapter wrapper to sanitize non-standard Keycloak parameters
+const customAdapter = {
+  ...baseAdapter,
+  linkAccount: async (account: Record<string, unknown>) => {
+    const sanitizedAccount = { ...account };
+
+    // Safely strip Keycloak-specific fields that violate the database schema
+    delete sanitizedAccount["not-before-policy"];
+    delete sanitizedAccount["refresh_expires_in"];
+
+    if (baseAdapter.linkAccount) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      return baseAdapter.linkAccount(sanitizedAccount as any);
+    }
+  }
+};
 
 interface KeycloakProfile {
   sub?: string;
@@ -16,7 +34,8 @@ interface KeycloakProfile {
 }
 
 export const authOptions: NextAuthOptions = {
-  adapter: PrismaAdapter(prisma),
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  adapter: customAdapter as any,
   providers: [
     KeycloakProvider({
       clientId: process.env.KEYCLOAK_CLIENT_ID!,
@@ -27,14 +46,20 @@ export const authOptions: NextAuthOptions = {
   session: {
     strategy: "jwt",
   },
+  pages: {
+    signIn: "/auth/signin",
+  },
   callbacks: {
-    async jwt({ token, account, profile }) {
+    async jwt({ token, user, account, profile }) {
+      // 1. Capture the true database User.id (CUID) during the initial sign in
+      if (user) {
+        token.userId = user.id;
+      }
       if (account) {
         token.idToken = account.id_token;
       }
       if (profile) {
-        const p = profile as KeycloakProfile; // <-- Utilisation du type KeycloakProfile au lieu de "any"
-        token.sub = p.sub;
+        const p = profile as KeycloakProfile;
         token.given_name = p.given_name;
         token.family_name = p.family_name;
         token.groups = p.groups || [];
@@ -45,7 +70,8 @@ export const authOptions: NextAuthOptions = {
     async session({ session, token }) {
       session.idToken = token.idToken as string;
       if (session.user) {
-        session.user.id = token.sub as string;
+        // 2. Map the true database CUID as the session user ID to preserve foreign keys
+        session.user.id = token.userId as string;
         session.user.given_name = token.given_name as string;
         session.user.family_name = token.family_name as string;
         session.user.groups = (token.groups as string[]) || [];

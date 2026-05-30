@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/set-state-in-effect */
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
@@ -6,7 +5,7 @@ import { Deck } from "@/lib/data";
 import { useProgressStore } from "@/store/useProgressStore";
 import { CheckCircle2, GraduationCap, Home, RefreshCcw } from "lucide-react";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import QuizCard from "./QuizCard";
 import ConfirmModal from "./ui/ConfirmModal";
 
@@ -20,27 +19,32 @@ interface QuizEngineProps {
 export default function QuizEngine({ deck, dbProgress, isAuthenticated, isReviewMode }: QuizEngineProps) {
     const localAnswers = useProgressStore((state) => state.answers);
     const resetDeckLocal = useProgressStore((state) => state.resetDeckLocal);
+    const setBulkAnswers = useProgressStore((state) => state.setBulkAnswers); // <-- Import de l'action de synchronisation
 
     const [ mounted, setMounted ] = useState(false);
     const [ currentQuestionIndex, setCurrentQuestionIndex ] = useState<number | null>(null);
     const [ isResetModalOpen, setIsResetModalOpen ] = useState(false);
 
-    const activeAnswers = isAuthenticated ? dbProgress : localAnswers;
+    const initialized = useRef(false);
+
+    const activeAnswers = localAnswers;
     const questionIds = deck.questions.map(q => q.id);
 
     useEffect(() => {
-        setMounted(true);
-    }, []);
+        if (initialized.current) return;
 
-    useEffect(() => {
-        if (!mounted) return;
-        const firstUnansweredIndex = deck.questions.findIndex(q => !(q.id in activeAnswers));
-        if (firstUnansweredIndex === -1) {
-            setCurrentQuestionIndex(deck.questions.length);
-        } else {
-            setCurrentQuestionIndex(firstUnansweredIndex);
+        if (isAuthenticated) {
+            setBulkAnswers(dbProgress);
         }
-    }, [ mounted, deck.questions, activeAnswers ]);
+
+        const initialAnswers = isAuthenticated ? dbProgress : useProgressStore.getState().answers;
+        const firstUnansweredIndex = deck.questions.findIndex(q => !(q.id in initialAnswers));
+
+        setCurrentQuestionIndex(firstUnansweredIndex === -1 ? deck.questions.length : firstUnansweredIndex);
+        setMounted(true);
+
+        initialized.current = true;
+    }, [ isAuthenticated, dbProgress, deck.questions, setBulkAnswers ]);
 
     if (!mounted || currentQuestionIndex === null) {
         return (
@@ -161,7 +165,6 @@ export default function QuizEngine({ deck, dbProgress, isAuthenticated, isReview
 
     return (
         <div className="space-y-4 sm:space-y-6">
-            {/* Barre de progression compacte sur mobile */}
             <div className="bg-white p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-sm border border-slate-200 flex flex-row justify-between items-center gap-4">
                 <div className="flex-1">
                     <div className="flex justify-between text-[10px] sm:text-xs font-bold text-slate-500 mb-1.5 uppercase tracking-wider">
@@ -185,6 +188,8 @@ export default function QuizEngine({ deck, dbProgress, isAuthenticated, isReview
                 key={currentQuestion.id}
                 question={currentQuestion}
                 onNext={handleNext}
+                subjectId={deck.subjectId}
+                chapterId={deck.chapterId}
             />
 
             <ConfirmModal

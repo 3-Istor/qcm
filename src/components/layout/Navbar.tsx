@@ -2,22 +2,23 @@
 
 "use client";
 
+import { useProgressStore } from "@/store/useProgressStore";
 import { BookOpen, LogIn, LogOut, User } from "lucide-react";
 import { signIn, signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 
 export default function Navbar() {
     const { data: session, status } = useSession();
+    const resetAllLocal = useProgressStore((state) => state.resetAllLocal); // <-- Import de l'action de reset
 
     const handleFederatedLogout = async () => {
-        // 1. Get Keycloak logout URL
+        resetAllLocal();
+
         const res = await fetch('/api/auth/logout-url');
         const data = await res.json();
 
-        // 2. Kill local NextAuth session
         await signOut({ redirect: false });
 
-        // 3. Redirect to Keycloak to kill SSO session
         window.location.href = data.url;
     };
 
@@ -64,7 +65,7 @@ export default function Navbar() {
                             </div>
                         ) : (
                             <button
-                                onClick={() => signIn("keycloak")}
+                                onClick={() => signIn("keycloak", { callbackUrl: window.location.href })}
                                 className="flex items-center space-x-1.5 px-4 py-2 text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg shadow-sm transition-all hover:shadow focus:outline-none"
                             >
                                 <LogIn className="h-4 w-4" />

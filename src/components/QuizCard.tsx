@@ -7,7 +7,14 @@ import { CheckCircle2, ChevronRight, HelpCircle, Lightbulb, XCircle } from "luci
 import { useSession } from 'next-auth/react';
 import { useState } from 'react';
 
-export default function QuizCard({ question, onNext }: { question: Question, onNext: () => void }) {
+interface QuizCardProps {
+  question: Question;
+  onNext: () => void;
+  subjectId: string;
+  chapterId: string;
+}
+
+export default function QuizCard({ question, onNext, subjectId, chapterId }: QuizCardProps) {
   const [ selectedOptionId, setSelectedOptionId ] = useState<string | null>(null);
   const [ showHint, setShowHint ] = useState(false);
   const [ expandedOptions, setExpandedOptions ] = useState<Record<string, boolean>>({});
@@ -25,7 +32,12 @@ export default function QuizCard({ question, onNext }: { question: Question, onN
       await fetch('/api/progress', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ questionId: question.id, isCorrect })
+        body: JSON.stringify({
+          subjectId,
+          chapterId,
+          questionId: question.id,
+          isCorrect
+        })
       });
     }
   };

@@ -31,6 +31,7 @@ export default function DashboardClient({ decks, dbProgress, isAuthenticated }: 
             setBulkAnswers(dbProgress);
         }
     }, [ isAuthenticated, dbProgress, setBulkAnswers ]);
+
     if (!mounted) {
         return (
             <div className="flex justify-center items-center h-64">
@@ -71,7 +72,7 @@ export default function DashboardClient({ decks, dbProgress, isAuthenticated }: 
                 </div>
                 <button
                     onClick={() => setIsResetModalOpen(true)}
-                    className="flex items-center space-x-1.5 px-4 py-2 text-sm font-semibold text-rose-600 hover:text-rose-700 bg-rose-50 hover:bg-rose-100 rounded-lg transition-colors"
+                    className="flex items-center space-x-1.5 px-4 py-2 text-sm font-semibold text-rose-600 hover:text-rose-700 bg-rose-50 hover:bg-rose-100 rounded-lg transition-colors focus:outline-none"
                 >
                     <Trash2 className="h-4 w-4" />
                     <span className="hidden sm:inline">Reset All Data</span>
@@ -96,16 +97,12 @@ export default function DashboardClient({ decks, dbProgress, isAuthenticated }: 
                             return (
                                 <div
                                     key={deck.chapterId}
-                                    className="relative group bg-white rounded-2xl shadow-sm border border-slate-200 hover:border-indigo-300 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between overflow-hidden"
+                                    className="group bg-white rounded-2xl shadow-sm border border-slate-200 hover:border-indigo-300 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between overflow-hidden"
                                 >
                                     <Link
                                         href={`/decks/${deck.subjectId}/${deck.chapterId}`}
-                                        className="absolute inset-0 z-0 focus:outline-none"
+                                        className="p-6 block hover:bg-slate-50/50 transition-colors focus:outline-none"
                                     >
-                                        <span className="sr-only">Start {deck.meta.title}</span>
-                                    </Link>
-
-                                    <div className="p-6 z-10 pointer-events-none">
                                         <div className="flex justify-between items-start mb-4">
                                             <h3 className="text-xl font-bold text-slate-900 leading-tight group-hover:text-indigo-600 transition-colors">
                                                 {deck.meta.title}
@@ -133,17 +130,20 @@ export default function DashboardClient({ decks, dbProgress, isAuthenticated }: 
                                                 ></div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </Link>
 
-                                    <div className="bg-slate-50/80 px-6 py-4 flex justify-between items-center border-t border-slate-100 z-10">
-                                        <span className="flex items-center space-x-1.5 text-sm font-bold text-indigo-600 group-hover:text-indigo-700 pointer-events-none">
+                                    <div className="bg-slate-50/80 px-6 py-4 flex justify-between items-center border-t border-slate-100">
+                                        <Link
+                                            href={`/decks/${deck.subjectId}/${deck.chapterId}`}
+                                            className="inline-flex items-center space-x-1.5 px-3.5 py-2 text-sm font-bold text-white bg-indigo-600 hover:bg-indigo-700 rounded-xl shadow-sm hover:shadow transition-all focus:outline-none"
+                                        >
                                             <PlayCircle className="h-4 w-4" />
                                             <span>{answeredCount > 0 && !isCompleted ? "Resume" : "Start"}</span>
-                                        </span>
+                                        </Link>
 
                                         <Link
                                             href={`/decks/${deck.subjectId}/${deck.chapterId}?mode=review`}
-                                            className="flex items-center space-x-1.5 text-sm font-semibold text-slate-500 hover:text-slate-800 relative z-20 pointer-events-auto bg-white px-3 py-1.5 rounded-md border border-slate-200 hover:border-slate-300 shadow-sm transition-all"
+                                            className="flex items-center space-x-1.5 text-sm font-semibold text-slate-500 hover:text-slate-800 bg-white px-3.5 py-2 rounded-xl border border-slate-200 hover:border-slate-300 shadow-sm hover:shadow transition-all focus:outline-none"
                                         >
                                             <Eye className="h-4 w-4" />
                                             <span>Review</span>
