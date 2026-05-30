@@ -1,3 +1,4 @@
+# helm/qcm/templates/deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -25,10 +26,13 @@ spec:
         - name: prisma-migrate
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          command: ["prisma", "migrate", "deploy"]
+          command: ["prisma", "migrate", "deploy"] # <-- Fonctionne grâce au flag -g du Dockerfile
           workingDir: /app
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
+          envFrom:
+            - secretRef:
+                name: {{ .Values.existingSecret }}
           env:
             {{- if .Values.env }}
             {{- toYaml .Values.env | nindent 16 }}

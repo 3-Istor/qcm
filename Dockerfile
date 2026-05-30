@@ -26,7 +26,7 @@ COPY --from=builder /app/.next/static ./.next/static
 COPY --from=builder /app/data ./data
 
 COPY --from=builder /app/prisma ./prisma
-RUN npm install prisma@6.18.0 --omit=dev --legacy-peer-deps
+RUN npm install -g prisma@6.18.0 --legacy-peer-deps
 
 EXPOSE 3000
 ENV PORT=3000
