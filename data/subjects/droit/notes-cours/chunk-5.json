@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ip-notes-chunk5-41",
+    "type": "practical",
+    "text": "Une start-up developpe une application utilisant des textes d'un auteur celebre decede depuis 100 ans. Elle modifie et tronque ces ecrits de facon irrespectueuse sans mentionner le nom de l'auteur, estimant que l'oeuvre est desormais dans le domaine public. Cette pratique est-elle legale ?",
+    "image": null,
+    "hint": "Le passage dans le domaine public eteint-il l'integralite des droits de l'auteur ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car l'entree dans le domaine public supprime definitivement tous les droits moraux et patrimoniaux lies a l'oeuvre.",
+        "isCorrect": false,
+        "justification": "Le domaine public n'eteint que les droits patrimoniaux d'exploitation, pas le droit moral."
+      },
+      {
+        "id": "B",
+        "text": "Non, car 'une oeuvre, meme dans le domaine public, n'est jamais totalement libre de droits puisque les droits moraux subsistent' ; il faut obligatoirement citer l'auteur et respecter l'integrite de son oeuvre.",
+        "isCorrect": true,
+        "justification": "Comme l'indiquent vos notes de cours et la diapositive 28 : le droit moral est perpetuel. Meme si l'oeuvre est dans le domaine public (droits patrimoniaux eteints), on doit continuer a respecter le droit au nom (paternite) et l'integrite de l'oeuvre d'origine."
+      },
+      {
+        "id": "C",
+        "text": "Oui, a condition que l'application soit distribuee de maniere gratuite en ligne.",
+        "isCorrect": false,
+        "justification": "La gratuite de l'application ne dispense pas du respect imperatif et perpetuel du droit moral de l'auteur."
+      },
+      {
+        "id": "D",
+        "text": "Non, sauf si la start-up a deverse le code source de son application sur un serveur de l'Etat.",
+        "isCorrect": false,
+        "justification": "L'hebergement etatique du code n'a aucune incidence sur l'obligation de respecter le droit moral des auteurs tiers."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk5-42",
+    "type": "practical",
+    "text": "Un developpeur signe un contrat de cession de ses droits en 2010. En 2025, un nouveau support de diffusion holographique est invente. L'editeur peut-il exploiter l'application sur ce nouveau support non previsible a la date de conclusion du contrat ?",
+    "image": null,
+    "hint": "Consultez la condition specifique liee a la remuneration pour les supports d'exploitation futurs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car la cession de droits couvre de maniere implicite et gratuite toutes les technologies futures.",
+        "isCorrect": false,
+        "justification": "Les cessions s'interpretent de maniere restrictive et l'exploitation future est strictement encadree."
+      },
+      {
+        "id": "B",
+        "text": "Non, sauf si le contrat initial contenait une clause expresse autorisant l'exploitation sur des supports futurs non previsibles ET stipulait une participation correlative aux profits d'exploitation generes par ce nouveau support.",
+        "isCorrect": true,
+        "justification": "Selon l'article L131-6 du CPI et vos notes de cours, pour exploiter une oeuvre sur un support imprevu lors de la signature, la clause doit etre expresse et prevoir une remuneration correlative associee a cette nouvelle exploitation."
+      },
+      {
+        "id": "C",
+        "text": "Oui, mais uniquement si le developpeur a valide la mise en conformite technique de l'application sous 48 heures.",
+        "isCorrect": false,
+        "justification": "La validation technique n'ecarte pas l'obligation contractuelle financiere et formelle de l'article L131-6."
+      },
+      {
+        "id": "D",
+        "text": "Non, car la loi interdit formellement d'exploiter une oeuvre sur un support invente apres le deces de l'auteur.",
+        "isCorrect": false,
+        "justification": "L'auteur peut etre vivant ou decede ; c'est la presence d'une clause de participation financiere valide qui regit la legalite de l'acte."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk5-43",
+    "type": "practical",
+    "text": "Un contrat de travail informatique contient une clause redigee ainsi : 'Le salarie cede a l'entreprise l'integralite des droits sur toutes les oeuvres de l'esprit qu'il creera a l'avenir au sein de la societe'. Quelle est la valeur de cette clause ?",
+    "image": null,
+    "hint": "Peut-on ceder par contrat des creations de l'esprit qui n'existent pas encore ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elle est valide car l'employeur doit securiser l'ensemble de ses developpements futurs.",
+        "isCorrect": false,
+        "justification": "La securite economique de l'employeur ne permet pas de violer les dispositions imperatives du Code de la propriete intellectuelle."
+      },
+      {
+        "id": "B",
+        "text": "Elle est nulle de plein droit, car la loi interdit formellement la cession globale des oeuvres futures, ce qui rend les clauses de cession automatique nulle.",
+        "isCorrect": true,
+        "justification": "Selon l'article L131-1 du CPI et vos notes de cours, la cession globale des oeuvres futures est nulle. Cette disposition interdit d'introduire des clauses de cession automatique generales dans les contrats de travail."
+      },
+      {
+        "id": "C",
+        "text": "Elle est valide uniquement si le salarie percoit le SMIC majoré de 10% par an.",
+        "isCorrect": false,
+        "justification": "La majoration de salaire n'altere pas la nullite d'ordre public de la cession globale d'oeuvres futures."
+      },
+      {
+        "id": "D",
+        "text": "Elle est nulle pour les écrits, mais valable pour les logiciels de developpement de bases de donnees.",
+        "isCorrect": false,
+        "justification": "Bien que le logiciel salarie appartienne a l'employeur par l'effet de la loi (L113-9), la clause contractuelle globale reste nulle pour toutes les autres oeuvres de l'esprit."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk5-44",
+    "type": "practical",
+    "text": "Un concurrent copie de maniere identique la structure originale d'une base de donnees (son architecture et ses choix de matieres) mais remplace l'integralite du contenu par de fausses donnees fictives. Peut-on l'attaquer en contrefacon ?",
+    "image": null,
+    "hint": "Quelle partie de la base de donnees est protegee par le droit d'auteur classique ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non, car la contrefacon de base de donnees exige de copier a la fois la structure et les donnees brutes.",
+        "isCorrect": false,
+        "justification": "La structure originale et le contenu sont proteges de maniere cumulative mais totalement independante."
+      },
+      {
+        "id": "B",
+        "text": "Oui, car la structure originale de la base (la selection, l'agencement et l'expression de choix originaux) est protegee par le droit d'auteur, independamment des donnees contenues.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours l'expliquent : le droit d'auteur protege la structure originale de la base de donnees (choix des matieres). Copier cette architecture originale constitue une contrefacon de la structure, meme si les donnees brutes sont differentes."
+      },
+      {
+        "id": "C",
+        "text": "Non, car le droit d'auteur ne s'applique qu'au code SQL d'interrogation de la base.",
+        "isCorrect": false,
+        "justification": "Le code SQL d'interrogation est un outil, mais l'agencement conceptuel de la base (choix et disposition des matieres) est protege en tant que tel."
+      },
+      {
+        "id": "D",
+        "text": "Oui, mais uniquement si la base de donnees a ete enregistree prealablement a l'INPI sous enveloppe Soleau.",
+        "isCorrect": false,
+        "justification": "La protection par le droit d'auteur nait du seul fait de la creation de la structure originale, sans exigence de depot prealable."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk5-45",
+    "type": "practical",
+    "text": "Un editeur signe un contrat de cession avec un partenaire commercial ou il est ecrit : 'L'auteur cede ses droits d'exploitation'. Le contrat ne specifie aucun prix ni gratuite. Suite a un desaccord, le partenaire affirme que le silence du contrat implique la gratuite. Qu'en est-il ?",
+    "image": null,
+    "hint": "La gratuite se presume-t-elle lors du silence d'un contrat de cession ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car le silence d'un contrat commercial est toujours interprete en faveur du client.",
+        "isCorrect": false,
+        "justification": "C'est incorrect ; le droit d'auteur interprete de facon restrictive les contrats en faveur du createur."
+      },
+      {
+        "id": "B",
+        "text": "Non, car la gratuite ne se presume jamais en droit d'auteur francais. Le regime par defaut est la protection et l'on considere par defaut que l'exploitation doit etre payee, a moins que la gratuite ne soit explicitement specifiee.",
+        "isCorrect": true,
+        "justification": "Comme le rappelle vos notes : 'La gratuite ne se presume pas - On considere par defaut que c'est payant'. Le silence du contrat de cession sur le prix ne cree pas de gratuite automatique, rendant le contrat fragile ou contestable."
+      },
+      {
+        "id": "C",
+        "text": "Oui, car seules les administrations publiques peuvent revendiquer des redevances d'auteur.",
+        "isCorrect": false,
+        "justification": "La regle de non-presomption de gratuite s'applique de maniere generale a toutes les personnes physiques ou morales."
+      },
+      {
+        "id": "D",
+        "text": "Non, sauf si le logiciel a fait l'objet d'un depot de brevet logiciel international.",
+        "isCorrect": false,
+        "justification": "Le brevet n'intervient pas dans les regles generales d'interpretation financiere des contrats de droit d'auteur."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk5-46",
+    "type": "practical",
+    "text": "Une start-up souhaite developper une version mobile pour un logiciel dont elle a acquis les droits pour une version web. Le developpeur s'y oppose. L'entreprise peut-elle modifier seule le contrat d'origine ?",
+    "image": null,
+    "hint": "Un contrat d'origine engage les signataires et ne peut etre modifie unilateralement.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car l'adaptation mobile est une simple evolution technique necessaire au marche.",
+        "isCorrect": false,
+        "justification": "L'evolution commerciale ne permet pas de violer les obligations et limites specifiques d'un contrat de cession initial."
+      },
+      {
+        "id": "B",
+        "text": "Non, car une fois qu'un contrat est forme, il ne peut etre modifie que par le consentement mutuel des parties, necessitant la redaction et la signature d'un avenant.",
+        "isCorrect": true,
+        "justification": "Vos notes rappellent ce principe important du droit des contrats (article 1193 du Code civil) : toute modification des termes d'un accord preexistant requiert l'accord des deux parties signataires, concrétisé par la signature d'un avenant."
+      },
+      {
+        "id": "C",
+        "text": "Oui, mais uniquement si la start-up paye une amende forfaitaire symbolique de 1 euro a l'ARMT.",
+        "isCorrect": false,
+        "justification": "L'ARMT n'intervient pas pour valider ou regulariser des modifications contractuelles unilaterales."
+      },
+      {
+        "id": "D",
+        "text": "Non, sauf si le logiciel d'origine a ete developpe par un stagiaire sans convention ecrite.",
+        "isCorrect": false,
+        "justification": "Le statut du createur d'origine ne supprime pas l'obligation d'accord mutuel pour toute modification d'un contrat en cours."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk5-47",
+    "type": "theoretical",
+    "text": "Pourquoi l'article L131-1 du Code de la propriete intellectuelle interdit-il la cession globale des oeuvres futures ?",
+    "image": null,
+    "hint": "Pensez a la protection economique et morale de l'avenir de l'auteur.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pour forcer les auteurs a deposer tous leurs developpements a l'INPI de facon mensuelle.",
+        "isCorrect": false,
+        "justification": "L'INPI ne gere pas l'enregistrement systematique obligatoire des developpements ou des ecrits des auteurs."
+      },
+      {
+        "id": "B",
+        "text": "Pour eviter qu'un auteur ne s'enchaîne economiquement en cedant a l'avance et de facon aveugle l'integralite de ses creations futures, ce qui alienerait son avenir creatif.",
+        "isCorrect": true,
+        "justification": "L'interdiction de la cession globale d'oeuvres futures est une mesure de protection de l'auteur. Elle vise a empecher qu'il ne se depouille par avance de creations dont il ignore encore la valeur et l'etendue, preservant son avenir economique."
+      },
+      {
+        "id": "C",
+        "text": "Pour limiter la duree de vie de tous les contrats de developpement de logiciels a moins de 6 mois.",
+        "isCorrect": false,
+        "justification": "L'interdiction de la cession future n'impose pas de limite de duree maximale de 6 mois aux contrats valides de developpements existants."
+      },
+      {
+        "id": "D",
+        "text": "Pour reserver l'exploitation des logiciels futurs uniquement aux personnes morales publiques.",
+        "isCorrect": false,
+        "justification": "Les personnes morales privees ont parfaitement le droit d'acquerir des logiciels, sous reserve de cessions valides."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk5-48",
+    "type": "practical",
+    "text": "Un developpeur evalue une licence logicielle open source. Plutot que de se focaliser uniquement sur l'etiquette ou le nom de la licence, que lui conseille-t-il d'analyser en priorite selon le cours ?",
+    "image": null,
+    "hint": "C'est l'examen pratique des obligations reelles qui doit guider le developpeur.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il doit verifier si la licence a ete deposee au greffe du tribunal de commerce d'origine.",
+        "isCorrect": false,
+        "justification": "Les licences de logiciels libres ne sont pas soumises a un depot au greffe du tribunal de commerce."
+      },
+      {
+        "id": "B",
+        "text": "Il doit analyser comment la personne souhaite exploiter concretement le logiciel, et verifier quelles obligations reelles (copyleft, obligation d'attribution, etc.) s'appliquent en pratique, peu importe le nom ou l'etiquette du contrat.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours l'expliquent : 'on se fiche du nom du contrat, on veut juste savoir comment la personne souhaite exploiter'. L'analyse doit porter sur les compatibilites et les obligations pratiques reelles de la licence liees a l'usage prevu."
+      },
+      {
+        "id": "C",
+        "text": "Il doit s'assurer que la licence interdit l'utilisation commerciale par des developpeurs independants.",
+        "isCorrect": false,
+        "justification": "Les licences libres certifiees par l'OSI n'ont pas le droit de discriminer ou d'interdire l'usage commercial ou professionnel."
+      },
+      {
+        "id": "D",
+        "text": "Il doit simplement verifier si le logo de la Free Software Foundation apparait sur le site d'accueil.",
+        "isCorrect": false,
+        "justification": "La presence d'un logo de la FSF n'est pas un critere d'analyse juridique de compatibilite contractuelle."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk5-49",
+    "type": "theoretical",
+    "text": "Dans la methodologie contractuelle enseignee en cours, pourquoi le preambule d'un accord de cession de droits doit-il decrire precisement le contexte de la creation ?",
+    "image": null,
+    "hint": "Le preambule vise a eclairer le consentement mutuel des parties lors de la signature.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pour s'assurer que le developpeur a declare l'adresse IP de son serveur de developpement.",
+        "isCorrect": false,
+        "justification": "Les aspects purement techniques d'infrastructure reseau n'ont pas leur place dans le preambule d'un contrat de cession."
+      },
+      {
+        "id": "B",
+        "text": "Pour securiser la phase d'echange des consentements, en verifiant que les deux parties comprennent et partagent les memes objectifs d'exploitation, ce qui evite les recours ulterieurs pour mauvaise foi.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours l'expliquent : un bon contrat decrit ce que l'on veut faire dans le preambule pour bien securiser l'echange des consentements, evitant ainsi qu'une partie affirme plus tard qu'on lui a cache la destination de l'oeuvre."
+      },
+      {
+        "id": "C",
+        "text": "Pour reecrire toutes les regles de protection par defaut du Code civil francais.",
+        "isCorrect": false,
+        "justification": "Reecrire la loi est inutile et alourdit le contrat ; le preambule sert uniquement a eclairer le contexte de l'accord."
+      },
+      {
+        "id": "D",
+        "text": "Pour forcer l'auteur a accepter une clause d'exclusivite implicite non ecrite.",
+        "isCorrect": false,
+        "justification": "L'exclusivite doit faire l'objet d'une clause expresse dans le corps du contrat et ne peut etre imposee via le preambule."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk5-50",
+    "type": "theoretical",
+    "text": "Pourquoi le cours de Propriete Intellectuelle se concentre-t-il sur 'l'appreciation du risque' et le 'raisonnement' plutot que sur la simple mémorisation de textes legislatifs ?",
+    "image": null,
+    "hint": "Pensez a la nature meme des biens immateriels et aux incertitudes qui y sont liees.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parce que le Code de la propriete intellectuelle n'est plus applicable en France depuis 2024.",
+        "isCorrect": false,
+        "justification": "Le CPI est parfaitement valide et reste le pilier de la protection de l'innovation."
+      },
+      {
+        "id": "B",
+        "text": "Parce que l'on traite de choses immaterielles sujettes a de nombreuses incertitudes juridiques, ou l'analyse pratique des circonstances de creation et la gestion du risque sont plus utiles que des regles brutes disponibles sur Internet.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours le soulignent : 'But du cours : comprendre le raisonnement (on parle de choses immaterielles), pourquoi il y a tant d'incertitudes (travail sur l'appreciation du risque)'. Les connaissances pures etant accessibles en ligne, c'est l'analyse pratique et la gestion des risques qui font la valeur de l'apprentissage."
+      },
+      {
+        "id": "C",
+        "text": "Parce que les developpeurs de logiciels n'ont pas le droit de consulter les textes de loi officiels.",
+        "isCorrect": false,
+        "justification": "Toute personne a le droit de consulter les lois, qui sont publiques et accessibles en ligne (ex: Legifrance)."
+      },
+      {
+        "id": "D",
+        "text": "Parce que le cours vise uniquement a developper des competences d'auditeur de code source en C++.",
+        "isCorrect": false,
+        "justification": "Il s'agit d'un cours de droit et de gestion des risques juridiques, pas d'un cours d'informatique technique."
+      }
+    ]
+  }
+]

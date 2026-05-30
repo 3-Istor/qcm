@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ip-notes-chunk2-11",
+    "type": "practical",
+    "text": "Un stagiaire developpe seul un outil de scripting durant son stage en entreprise. L'entreprise souhaite l'integrer definitivement a son catalogue d'outils proprietaires. Quelle regle issue du cours s'applique a la cession de cette creation ?",
+    "image": null,
+    "hint": "Le stagiaire n'est pas un salarie. L'exception du logiciel de l'article L113-9 ne s'applique donc pas.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le logiciel appartient d'office a l'entreprise grace a la convention de stage signee par l'ecole.",
+        "isCorrect": false,
+        "justification": "La convention de stage ne vaut pas contrat de cession de droits d'auteur, et le stagiaire n'est pas un salarie."
+      },
+      {
+        "id": "B",
+        "text": "Tout ce que le stagiaire cree seul lui appartient ; l'entreprise doit faire un contrat de cession de droits distinct de la convention, avec une remuneration distincte de la gratification (la gratuite etant possible mais devant etre justifiee).",
+        "isCorrect": true,
+        "justification": "Selon le cours, le stagiaire detient l'integralite des droits sur ses creations solo (l'exception logicielle ne s'applique pas). L'entreprise doit proceder a une cession specifique, distincte de la convention, et justifier la gratuite si aucune remuneration n'est prevue."
+      },
+      {
+        "id": "C",
+        "text": "L'outil est d'office considere comme une oeuvre collective de l'entreprise des que le tuteur de stage a valide le code source.",
+        "isCorrect": false,
+        "justification": "La simple validation technique par un tuteur ne suffit pas a caracteriser le role de 'chef d'orchestre' d'une oeuvre collective."
+      },
+      {
+        "id": "D",
+        "text": "Les droits sont repartis a 50/50 entre l'ecole du stagiaire et l'entreprise d'accueil sans contrat ecrit.",
+        "isCorrect": false,
+        "justification": "L'ecole n'a aucun droit de copropriete automatique sur les creations de ses etudiants en stage."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk2-12",
+    "type": "practical",
+    "text": "Une start-up passe commande d'un site web dynamique a un prestataire externe et regle la facture correspondante. La start-up est-elle proprietaire des droits d'auteur sur le site ?",
+    "image": null,
+    "hint": "C'est une regle d'or du developpement externe : commander et payer ne signifie pas acquerir les droits.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car le paiement integral de la facture de commande developpe un transfert automatique de propriete intellectuelle.",
+        "isCorrect": false,
+        "justification": "Le paiement de la facture valide la prestation mais ne transfere aucun droit d'auteur sans contrat ecrit specifique."
+      },
+      {
+        "id": "B",
+        "text": "Non, car 'ce n'est pas parce que la personne a commande un logiciel qu'elle detient les droits' ; il faut imperativement un contrat de cession de droits d'auteur integre ou associe au contrat de commande.",
+        "isCorrect": true,
+        "justification": "Comme le rappelle le cours : le contrat de commande/prestation n'emporte pas transfert des droits d'auteur. Une clause ou un contrat de cession de droits d'auteur est absolument obligatoire pour que le client devienne titulaire."
+      },
+      {
+        "id": "C",
+        "text": "Oui, a condition que le site web integre le logo de la start-up sur sa page d'accueil.",
+        "isCorrect": false,
+        "justification": "L'apposition d'un logo de marque n'influe pas sur la titularite des droits d'auteur du code source ou du design."
+      },
+      {
+        "id": "D",
+        "text": "Non, car les droits d'auteur d'un site web appartiennent obligatoirement et exclusivement a l'hebergeur de domaine.",
+        "isCorrect": false,
+        "justification": "L'hebergeur est un prestataire technique et n'acquiert aucun droit d'auteur sur les contenus qu'il heberge."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk2-13",
+    "type": "practical",
+    "text": "Un groupe de developpeurs salaries s'organise en interne pour coder un nouvel outil sans que l'idee, la coordination ou l'initiative ne viennent de la direction. En cas de litige, l'employeur peut-il revendiquer la qualification d'oeuvre collective ?",
+    "image": null,
+    "hint": "Pour l'oeuvre collective, l'employeur doit prouver un role precis de 'chef d'orchestre'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car toute oeuvre creee par plusieurs salaries est d'office qualifiee d'oeuvre collective au profit de la personne morale.",
+        "isCorrect": false,
+        "justification": "Il n'existe pas de presomption d'oeuvre collective automatique pour toutes les creations plurielles de salaries."
+      },
+      {
+        "id": "B",
+        "text": "Non, car l'employeur doit prouver qu'il a pris l'initiative et la coordination de la creation en se comportant comme un 'chef d'orchestre' ; si les salaries s'organisent seuls sans controle, la qualification d'oeuvre collective est exclue.",
+        "isCorrect": true,
+        "justification": "Vos notes soulignent que pour l'oeuvre collective, l'employeur doit prouver son role actif d'initiative, de coordination et de direction (chef d'orchestre). Si les salaries se coordonnent seuls sans directive, l'oeuvre ne sera pas qualifiee de collective."
+      },
+      {
+        "id": "C",
+        "text": "Oui, car l'outil a ete developpe sur les ordinateurs de l'entreprise avec l'electricite payee par l'employeur.",
+        "isCorrect": false,
+        "justification": "La fourniture de moyens materiels (ordinateurs, serveurs) ne suffit pas a caracteriser la maitrise d'oeuvre intellectuelle requise pour l'oeuvre collective."
+      },
+      {
+        "id": "D",
+        "text": "Non, car seules les oeuvres de collaboration sont autorisees dans le cadre d'un contrat de travail.",
+        "isCorrect": false,
+        "justification": "L'oeuvre collective est parfaitement autorisee et tres recherchee par les employeurs pour les creations de salaries, sous reserve d'en apporter la preuve."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk2-14",
+    "type": "theoretical",
+    "text": "Comment se definit le droit moral en tant que droit 'extra-patrimonial' par opposition aux actifs classiques d'une personne physique (comme sa maison) ?",
+    "image": null,
+    "hint": "Le patrimoine contient ce qui est transmissible au deces, contrairement aux droits extra-patrimoniaux.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le droit moral fait partie du patrimoine et peut etre vendu pour rembourser des dettes personnelles.",
+        "isCorrect": false,
+        "justification": "Le droit moral est inalienable et ne peut pas etre saisi ou vendu pour rembourser des dettes."
+      },
+      {
+        "id": "B",
+        "text": "Le patrimoine represente la faculte d'avoir des actifs transmissibles au deces (comme une maison), tandis que le droit moral est un droit extra-patrimonial lie a la personnalite, perpetuel, inalienable et imprescriptible, qu'on ne peut pas vendre ou ceder.",
+        "isCorrect": true,
+        "justification": "Vos notes expliquent cette distinction : le patrimoine regroupe les actifs transmissibles (maison, argent), alors que le droit moral est un droit de la personnalite extra-patrimonial. Il est perpetuel, imprescriptible et inalienable (on ne peut pas s'en separer, meme par contrat)."
+      },
+      {
+        "id": "C",
+        "text": "Le droit moral s'eteint automatiquement au deces de l'auteur, tandis que la maison reste dans la succession.",
+        "isCorrect": false,
+        "justification": "Le droit moral est perpetuel et se transmet aux heritiers lors du deces, il ne s'eteint pas."
+      },
+      {
+        "id": "D",
+        "text": "Le droit moral ne s'applique qu'aux personnes morales, alors que la maison appartient aux personnes physiques.",
+        "isCorrect": false,
+        "justification": "Le droit moral appartient d'abord a la personne physique de l'auteur (le createur)."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk2-15",
+    "type": "practical",
+    "text": "Un developpeur numerise et integre une photographie papier protegee sur l'interface de son application mobile. Quelle regle du cours liee au droit de reproduction s'applique a ce changement de support ?",
+    "image": null,
+    "hint": "La reproduction s'apprécie-t-elle differemment si l'on change de support d'origine ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il n'y a pas de reproduction car le passage du format physique (papier) au format numerique (ecran) cree une oeuvre nouvelle libre de droits.",
+        "isCorrect": false,
+        "justification": "Le changement de support ne cree pas une oeuvre libre de droits ; il s'agit d'une adaptation soumise a autorisation."
+      },
+      {
+        "id": "B",
+        "text": "Il y a reproduction des lors que l'on fixe l'oeuvre sur un support, quel que soit le support d'origine (numerisation d'une photo papier) ou de destination, et cela doit etre expressement prevu par le contrat de cession.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours le precisent : il y a reproduction des lors que l'on fixe l'oeuvre sur un support (ex: numerisation), quel que soit le support d'origine ou cible. Cette utilisation doit etre clairement autorisee par l'auteur dans le contrat de cession."
+      },
+      {
+        "id": "C",
+        "text": "La numerisation est consideree comme une simple consultation technique exempte de droits d'auteur.",
+        "isCorrect": false,
+        "justification": "La numerisation implique une fixation permanente ou temporaire en memoire, ce qui constitue un acte de reproduction soumis a autorisation."
+      },
+      {
+        "id": "D",
+        "text": "La reproduction n'est caracterisee que si la photo papier d'origine est detruite apres sa numerisation.",
+        "isCorrect": false,
+        "justification": "La destruction de l'original n'influe pas sur la qualification de reproduction illegale de la copie numerique."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk2-16",
+    "type": "theoretical",
+    "text": "Lors de la redaction d'un contrat de cession de droits d'auteur, quelle est l'utilite juridique du 'preambule' ?",
+    "image": null,
+    "hint": "Pensez a la phase cruciale de l'echange des volontes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il sert a lister les adresses physiques des serveurs d'hebergement du code source.",
+        "isCorrect": false,
+        "justification": "Les details techniques d'hebergement n'ont pas leur place dans le preambule d'un contrat."
+      },
+      {
+        "id": "B",
+        "text": "Il sert a expliquer le contexte, les intentions et les objectifs du contrat afin de securiser la phase d'echange de consentement et d'eviter qu'un signataire ne conteste en pretendant qu'on lui a cache la destination finale de l'oeuvre.",
+        "isCorrect": true,
+        "justification": "Comme l'explique le cours : rediger un bon preambule permet d'expliquer ce que l'on veut faire et securise la phase de consentement. Cela evite les recours ulterieurs ou une partie affirmerait qu'on lui a cache des elements essentiels de l'accord."
+      },
+      {
+        "id": "C",
+        "text": "Il remplace le contrat de cession lui-meme des lors qu'il est redige de bonne foi.",
+        "isCorrect": false,
+        "justification": "Le preambule introduit le contrat mais ne remplace pas les clauses operationnelles de cession de droits."
+      },
+      {
+        "id": "D",
+        "text": "Il est obligatoire sous peine de nullite immediate du contrat par le greffe du tribunal.",
+        "isCorrect": false,
+        "justification": "Le preambule est une bonne pratique redactionnelle hautement recommandee pour securiser l'accord, mais son absence n'entraine pas de nullite de plein droit."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk2-17",
+    "type": "theoretical",
+    "text": "Pourquoi est-il generalement inutile de preciser dans un contrat de travail informatique que 'le salarie sera paye au moins au salaire minimum legal (SMIC)' ?",
+    "image": null,
+    "hint": "C'est une regle d'or de la redaction contractuelle liee aux regles par defaut etablies par la loi.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parce que les salaries du numerique sont legalement exclus du droit au salaire minimum.",
+        "isCorrect": false,
+        "justification": "Le SMIC s'applique a tous les salaries, y compris dans le domaine de l'informatique."
+      },
+      {
+        "id": "B",
+        "text": "Parce qu'on n'ecrit dans un contrat que ce qui differe de la loi ; la loi s'appliquant par defaut, il est inutile d'y reecrire ce qu'elle impose deja obligatoirement, sauf si l'on souhaite prevoir une disposition differente.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours illustrent ce principe avec l'exemple du SMIC : comme la loi s'applique de toute facon, il est inutile d'alourdir le contrat en reecrivant les obligations legales par defaut. On n'ecrit dans le contrat que ce qui differe de la loi."
+      },
+      {
+        "id": "C",
+        "text": "Parce que l'ecrit n'est pas obligatoire pour formaliser le paiement du SMIC.",
+        "isCorrect": false,
+        "justification": "Bien que le contrat de travail de droit commun puisse parfois etre verbal, l'inutilite de la clause n'est pas liee a cela, mais a la force de la loi qui s'applique par defaut."
+      },
+      {
+        "id": "D",
+        "text": "Parce que le contrat de cession de droits d'auteur remplace integralement le contrat de travail.",
+        "isCorrect": false,
+        "justification": "Le contrat de cession de droits d'auteur est distinct du contrat de travail et ne regit pas la relation salariale de base."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk2-18",
+    "type": "theoretical",
+    "text": "Un developpeur signe un contrat contenant la formule : 'L'auteur cede tous ses droits sur le logiciel a l'entreprise'. Quelle est la portee reelle de cette clause en droit d'auteur ?",
+    "image": null,
+    "hint": "La formulation 'ceder tous ses droits' est-elle reconnue et efficace en droit francais ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La clause est parfaitement valable et permet de transferer tous les droits moraux et patrimoniaux.",
+        "isCorrect": false,
+        "justification": "Le transfert global non detaille est nul, et le droit moral est inalienable par principe."
+      },
+      {
+        "id": "B",
+        "text": "Cette formule ne veut rien dire et est inefficace. Chaque droit cede doit etre specifiquement identifie (reproduction, adaptation) avec mention precise des supports, de la duree (ex: un an au lieu de la vie de l'auteur) et de l'etendue geographique.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours le martellent : 'On ne peut pas ceder tous ses droits, cela ne veut rien dire'. Chaque droit doit etre clairement identifie par une mention specifique, precisant les supports de reproduction, la duree et la geographie, sous peine de nullite ou de conservation des droits par l'auteur."
+      },
+      {
+        "id": "C",
+        "text": "La clause est valable uniquement si le developpeur a valide son code via un huissier de justice.",
+        "isCorrect": false,
+        "justification": "La validation par huissier n'efface pas l'exigence de formalisme strict de l'article L131-3 du CPI."
+      },
+      {
+        "id": "D",
+        "text": "La clause est automatiquement requalifiee en licence open source permissive de type BSD.",
+        "isCorrect": false,
+        "justification": "La justice ne peut pas imposer un modele de licence open source specifique en remplacement d'une clause de cession nulle."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk2-19",
+    "type": "practical",
+    "text": "Un contrat de cession prevoit la possibilite d'exploiter une oeuvre sur des supports techniques de diffusion encore inconnus au moment de la signature. Quelle regle du cours s'applique a cette clause d'exploitation future ?",
+    "image": null,
+    "hint": "Peut-on prevoir un support qui n'existe pas encore ? Si oui, a quelle condition financiere ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "C'est strictement interdit ; on ne peut signer un contrat que sur des technologies deja commercialisees.",
+        "isCorrect": false,
+        "justification": "Le CPI autorise l'exploitation sur des supports futurs (article L131-6), mais l'encadre strictement."
+      },
+      {
+        "id": "B",
+        "text": "On peut prevoir un mode de support qui n'existe pas encore, mais il faut obligatoirement prevoir et preciser une remuneration correlative pour l'auteur lors de la reproduction sur ce nouveau support.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours rappellent cette possibilite : il est permis de prevoir l'exploitation sur des supports inconnus (futurs), mais la clause doit etre expresse et stipuler une remuneration correlative specifique pour l'auteur des lors que ce nouveau support est utilise."
+      },
+      {
+        "id": "C",
+        "text": "L'exploitation future sur un nouveau support est gratuite par defaut pour compenser l'effort d'adaptation technique.",
+        "isCorrect": false,
+        "justification": "La gratuite de l'exploitation sur support futur ne se presume jamais, et la loi impose une remuneration de l'auteur."
+      },
+      {
+        "id": "D",
+        "text": "La clause est d'office nulle si le nouveau support n'est pas brevete a l'INPI dans les 12 mois.",
+        "isCorrect": false,
+        "justification": "La validite de la clause n'est pas conditionnee a un brevet INPI lie au nouveau support."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk2-20",
+    "type": "practical",
+    "text": "Un utilisateur souhaite extraire et consulter de maniere ponctuelle une toute petite quantite de donnees d'une base protegee. Rien n'est precise dans les conditions d'utilisation concernant la gratuite ou l'autorisation. Quelle regle du cours s'applique ?",
+    "image": null,
+    "hint": "La gratuité est-elle presumee par defaut lors de la consultation d'une base de donnees ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La consultation est presumee libre et gratuite des lors qu'elle porte sur une petite quantite de donnees.",
+        "isCorrect": false,
+        "justification": "C'est une fausse croyance ; l'absence de clause n'autorise pas par defaut l'exploitation."
+      },
+      {
+        "id": "B",
+        "text": "La gratuite n'est jamais presumee (on considere par defaut que c'est payant) et le regime par defaut est la protection ; si rien n'est precise, il faut l'autorisation explicite de l'auteur de la base.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours l'expliquent clairement : 'La gratuite n'est jamais presumee - On considere par defaut que c'est payant'. Le regime par defaut etant la protection, si rien n'est specifie pour l'extraction ou la consultation, l'autorisation expresse de l'auteur de la base est obligatoire."
+      },
+      {
+        "id": "C",
+        "text": "La base de donnees etant sur Internet, elle est presumee libre d'usage pour toute requete SQL de moins de 50 lignes.",
+        "isCorrect": false,
+        "justification": "La complexite ou la longueur de la requete SQL n'influe pas sur l'obligation legale d'obtenir l'autorisation de l'auteur."
+      },
+      {
+        "id": "D",
+        "text": "La consultation est geree d'office par la licence de logiciel libre de type copyleft fort de l'hebergeur de la base.",
+        "isCorrect": false,
+        "justification": "La licence du logiciel de gestion de base de donnees (SGBD) est distincte du droit d'auteur et du droit sui generis applicables au contenu de la base elle-meme."
+      }
+    ]
+  }
+]

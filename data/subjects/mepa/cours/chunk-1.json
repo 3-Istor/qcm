@@ -1,0 +1,332 @@
+[
+  {
+    "id": "MEPA-Scrum-chunk1-01",
+    "type": "practical",
+    "text": "Lors de la préparation de votre soutenance pour la CNIL, votre équipe doit présenter la Roadmap de votre produit 'IA citoyenne'. Un membre propose de définir précisément toutes les fonctionnalités avec des dates de fin exactes pour les deux prochaines années. Quelle doit être votre réaction selon les concepts vus en cours ?",
+    "image": null,
+    "hint": "Rappelez-vous comment l'incertitude doit être gérée et le niveau de précision attendu selon l'horizon temporel.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accepter, car une Roadmap Agile doit toujours éliminer l'incertitude en fixant des dates de fin strictes pour rassurer les clients comme le Ministère.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le cours précise que sur des projets à long terme, il est irréaliste de donner une date de fin stricte et qu'il faut accepter l'incertitude plutôt que d'essayer de la maîtriser à tout prix."
+      },
+      {
+        "id": "B",
+        "text": "Refuser, car une Roadmap ne doit contenir que le MVP. Tout ce qui vient après ne doit pas être documenté pour garder une agilité totale.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le MVP doit être au milieu de la Roadmap (avec un 'avant' et un 'après'), elle donne bien une idée du futur, ce n'est pas limité qu'au MVP."
+      },
+      {
+        "id": "C",
+        "text": "Refuser, car une bonne Roadmap est précise sur le court terme mais donne seulement une idée du futur. Trop de précision donnerait la fausse impression que tout sera réalisé tel quel.",
+        "isCorrect": true,
+        "justification": "C'est la bonne approche. Le cours indique qu'une bonne Roadmap est précise à court terme, donne une idée du futur, montre comment le produit est susceptible d'évoluer et que trop de précision donne l'illusion d'un plan figé."
+      },
+      {
+        "id": "D",
+        "text": "Accepter, à condition que le Product Owner valide les dates, car c'est lui qui s'engage sur les délais de livraison à long terme.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Même si le PO est responsable du Backlog, fixer des dates exactes sur 2 ans relève d'une approche prédictive (Waterfall) et non empirique/Agile."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk1-02",
+    "type": "theoretical",
+    "text": "Le framework Scrum repose sur deux fondements philosophiques et méthodologiques majeurs. Lesquels ?",
+    "image": null,
+    "hint": "L'un concerne l'apprentissage par l'expérience et l'observation, l'autre se concentre sur l'élimination du gaspillage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le cycle en V et la pensée systémique.",
+        "isCorrect": false,
+        "justification": "Scrum s'oppose aux approches prédictives traditionnelles comme le cycle en V."
+      },
+      {
+        "id": "B",
+        "text": "L'empirisme et la pensée Lean.",
+        "isCorrect": true,
+        "justification": "Exactement. Selon le cours, l'empirisme affirme que la connaissance provient de l'expérience et de l'observation, tandis que la pensée Lean réduit le gaspillage et se focalise sur l'essentiel."
+      },
+      {
+        "id": "C",
+        "text": "Le management visuel et l'ingénierie extrême (XP).",
+        "isCorrect": false,
+        "justification": "Bien que le management visuel et XP soient utiles et souvent combinés à Scrum, ils ne sont pas les fondements théoriques définis dans le Scrum Guide (qui sont l'empirisme et le Lean)."
+      },
+      {
+        "id": "D",
+        "text": "La pluridisciplinarité et la hiérarchie matricielle.",
+        "isCorrect": false,
+        "justification": "L'équipe Scrum est pluridisciplinaire, mais elle n'a justement aucune hiérarchie interne. Ce ne sont pas les fondements théoriques de Scrum."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk1-03",
+    "type": "practical",
+    "text": "Lors d'un projet, l'équipe décide de cacher une baisse de qualité de son code au Product Owner pour ne pas ralentir la validation des fonctionnalités. Lequel des 3 piliers de Scrum est immédiatement violé par ce comportement ?",
+    "image": null,
+    "hint": "Ce pilier est indispensable pour que les deux autres (qui permettent d'analyser et de corriger) puissent fonctionner correctement.",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'Inspection",
+        "isCorrect": false,
+        "justification": "L'inspection est entravée, mais la cause première est le manque de visibilité/vérité de l'information."
+      },
+      {
+        "id": "B",
+        "text": "L'Adaptation",
+        "isCorrect": false,
+        "justification": "L'adaptation (la correction du problème) sera impossible, mais ce n'est pas le pilier violé en premier par le fait de cacher l'information."
+      },
+      {
+        "id": "C",
+        "text": "Le Courage",
+        "isCorrect": false,
+        "justification": "Le courage est l'une des 5 Valeurs de Scrum, et non l'un des 3 Piliers (Transparence, Inspection, Adaptation)."
+      },
+      {
+        "id": "D",
+        "text": "La Transparence",
+        "isCorrect": true,
+        "justification": "C'est correct. La Transparence exige que le travail et son état réel soient visibles et honnêtes pour tous. Sans elle, l'Inspection et l'Adaptation sont faussées."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk1-04",
+    "type": "theoretical",
+    "text": "Selon les règles d'organisation d'une Scrum Team mises à jour en 2020, quelle affirmation est vraie concernant la taille et la structure de l'équipe ?",
+    "image": null,
+    "hint": "Pensez au nombre maximum de personnes et à la façon dont l'équipe prend ses décisions internes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elle doit contenir exactement 7 personnes, plus ou moins 2, et est dirigée par le Scrum Master.",
+        "isCorrect": false,
+        "justification": "La règle des 7 ± 2 a été abandonnée en 2020. De plus, il n'y a pas de hiérarchie, le Scrum Master ne dirige pas l'équipe."
+      },
+      {
+        "id": "B",
+        "text": "Elle est composée au maximum de 10 personnes, est pluridisciplinaire et s'autogère.",
+        "isCorrect": true,
+        "justification": "Le cours précise bien que la limite est désormais fixée à 10 personnes maximum et que l'équipe est 'cross-functional' (pluridisciplinaire) et s'autogère (décide en interne de qui fait quoi)."
+      },
+      {
+        "id": "C",
+        "text": "Elle n'a pas de limite de taille tant que la valeur 'Focus' est respectée par tous les membres.",
+        "isCorrect": false,
+        "justification": "Il y a bien une limite recommandée d'un maximum de 10 personnes pour préserver la dynamique et la communication."
+      },
+      {
+        "id": "D",
+        "text": "Elle est divisée en deux sous-équipes hiérarchiques : les concepteurs et les développeurs.",
+        "isCorrect": false,
+        "justification": "Le cours insiste sur le fait qu'il n'y a 'pas de hiérarchie' et qu'il s'agit d'une équipe co-organisée et co-responsable."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk1-05",
+    "type": "theoretical",
+    "text": "Dans Scrum, les responsabilités sont clairement réparties pour éviter les conflits et maximiser l'efficacité. Quelle est la responsabilité principale des 'Developers' selon le modèle présenté ?",
+    "image": null,
+    "hint": "Associez les 3 rôles à : 'Faire le BON produit', 'Faire BIEN le produit' et 'Faire de manière EFFICACE le produit'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Faire de manière efficace le produit.",
+        "isCorrect": false,
+        "justification": "Ceci est la responsabilité du Scrum Master, qui s'assure du bon fonctionnement du processus et aide l'équipe."
+      },
+      {
+        "id": "B",
+        "text": "Faire le BON produit.",
+        "isCorrect": false,
+        "justification": "C'est le rôle du Product Owner (PO), qui cherche à maximiser la valeur pour les utilisateurs."
+      },
+      {
+        "id": "C",
+        "text": "Faire BIEN le produit.",
+        "isCorrect": true,
+        "justification": "Les Developers sont responsables de 'Faire BIEN le produit', c'est-à-dire de garantir la qualité logicielle et technique de l'incrément."
+      },
+      {
+        "id": "D",
+        "text": "Définir la vision et ordonner le Product Backlog.",
+        "isCorrect": false,
+        "justification": "C'est une responsabilité exclusive du Product Owner."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk1-06",
+    "type": "practical",
+    "text": "Le Ministère de l'Éducation souhaite ajouter plusieurs nouvelles fonctionnalités au projet 'IA citoyenne'. Le Product Owner (PO) décide de déléguer la gestion et l'ordonnancement de ces éléments du Backlog à un membre technique de l'équipe car il se sent débordé. Est-ce autorisé par Scrum et qui porte la responsabilité finale ?",
+    "image": null,
+    "hint": "Déléguer la tâche =/= Déléguer la responsabilité.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non, le PO est une seule personne et n'a absolument pas le droit de déléguer l'écriture ou l'ordonnancement du Backlog.",
+        "isCorrect": false,
+        "justification": "Le cours précise explicitement que le PO 'peut déléguer ce travail à d'autres', bien qu'il reste le seul redevable."
+      },
+      {
+        "id": "B",
+        "text": "Oui, le PO peut déléguer ce travail, et la responsabilité finale est alors transférée au développeur qui a accepté la tâche.",
+        "isCorrect": false,
+        "justification": "La responsabilité (la redevabilité) ne se transfère pas. Le PO reste l'unique responsable du Backlog."
+      },
+      {
+        "id": "C",
+        "text": "Oui, le PO peut déléguer ce travail à d'autres membres de l'équipe, mais il demeure l'unique redevable de ces choix.",
+        "isCorrect": true,
+        "justification": "C'est exact. Le PO est une seule personne (pas un comité) et s'il peut déléguer les tâches matérielles liées au backlog, il en 'demeure redevable' devant l'organisation."
+      },
+      {
+        "id": "D",
+        "text": "Oui, mais uniquement si un comité de validation (comprenant le Scrum Master) approuve le nouveau tri du Backlog.",
+        "isCorrect": false,
+        "justification": "Scrum rejette l'idée de 'comité' pour le rôle du PO. Le PO prend seul les décisions qui doivent être respectées par toute l'organisation."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk1-07",
+    "type": "theoretical",
+    "text": "Parmi les éléments suivants, lesquels correspondent aux 5 valeurs de Scrum identifiées dans le cours ?",
+    "image": null,
+    "hint": "Pensez à l'acronyme anglais FORCC (Focus, Openness, Respect, Courage, Commitment) traduit en français.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Engagement, Courage, Focus, Ouverture, Respect",
+        "isCorrect": true,
+        "justification": "Ce sont bien les 5 valeurs fondamentales de Scrum présentées dans le cours."
+      },
+      {
+        "id": "B",
+        "text": "Transparence, Inspection, Adaptation, Courage, Respect",
+        "isCorrect": false,
+        "justification": "Transparence, Inspection et Adaptation sont les 3 Piliers (l'empirisme), et non les 5 Valeurs."
+      },
+      {
+        "id": "C",
+        "text": "Créativité, Qualité, Collectif, Engagement, Discipline",
+        "isCorrect": false,
+        "justification": "Créativité, Qualité, Collectif et Engagement sont cités comme les 'bénéfices de l'équipe auto-organisée', pas les valeurs de Scrum."
+      },
+      {
+        "id": "D",
+        "text": "Écoute, Enthousiasme, Respect, Participation, Focus",
+        "isCorrect": false,
+        "justification": "Ces termes font référence aux règles de savoir-être en cours (règles de la soutenance), pas au framework Scrum."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk1-08",
+    "type": "practical",
+    "text": "L'équipe 'IA citoyenne' doit prioriser son Product Backlog. Selon les instructions du cours, quelle approche d'ordonnancement est recommandée ?",
+    "image": null,
+    "hint": "Faut-il commencer par évaluer l'effort technique (Story Points) ou bien par l'utilité pour le client final ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trier d'abord en fonction de l'effort technique (Story points) et de l'emmerdement, puis regarder la valeur.",
+        "isCorrect": false,
+        "justification": "C'est l'inverse de ce qui est recommandé. Le cours insiste sur le fait de ne pas réfléchir d'abord en termes de story points."
+      },
+      {
+        "id": "B",
+        "text": "Prioriser uniquement en fonction de la faisabilité pour réduire les coûts le plus rapidement possible.",
+        "isCorrect": false,
+        "justification": "Ne pas être que sur un seul axe. Mais surtout, la valeur doit primer avant la faisabilité/coût."
+      },
+      {
+        "id": "C",
+        "text": "Trier en priorité par la Valeur, l'adéquation au MVP, la faisabilité et les charges/emmerdements, de manière combinée.",
+        "isCorrect": true,
+        "justification": "Le cours indique qu'il faut ordonnancer le Backlog 'dans l'ordre : d'abord orienté valeur puis trier' en considérant la valeur, le MVP, la faisabilité et les charges, sans être que sur un seul axe."
+      },
+      {
+        "id": "D",
+        "text": "Laisser le Scrum Master ordonner le Backlog car c'est lui qui gère la dynamique de l'équipe.",
+        "isCorrect": false,
+        "justification": "Ordonnancer le Backlog est la responsabilité du Product Owner, pas du Scrum Master."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk1-09",
+    "type": "theoretical",
+    "text": "L'équipe doit rédiger le contenu de ses User Stories (US). Selon le cours, quelles sont les trois informations fondamentales que doit contenir une User Story (la règle dite 'des 3 C' présentée dans les notes) ?",
+    "image": null,
+    "hint": "Ces trois éléments définissent l'utilisateur, l'action à réaliser et le but recherché.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le Coût, la Complexité et le Code.",
+        "isCorrect": false,
+        "justification": "Ces éléments sont liés à l'estimation et à l'implémentation technique, pas au contenu formel d'une User Story côté métier."
+      },
+      {
+        "id": "B",
+        "text": "De qui, De quoi, De pourquoi.",
+        "isCorrect": true,
+        "justification": "Selon le résumé fourni dans les notes de cours, le contenu de la User Story se concentre sur ces trois questions : 'De qui' (utilisateur), 'De quoi' (l'action) et 'De pourquoi' (la valeur/objectif)."
+      },
+      {
+        "id": "C",
+        "text": "Le Client, la Cible, le Contrat.",
+        "isCorrect": false,
+        "justification": "Ce sont des termes métiers généraux mais ils ne correspondent pas à la structure canonique d'une US telle que vue dans ce module."
+      },
+      {
+        "id": "D",
+        "text": "Carte, Conversation, Confirmation.",
+        "isCorrect": false,
+        "justification": "Bien que ces 3C (Card, Conversation, Confirmation) soient le concept global de Ron Jeffries pour la dynamique de l'US, le contenu textuel exact demandé dans les notes de ce cours s'articule formellement autour de 'Qui, Quoi, Pourquoi'."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk1-10",
+    "type": "practical",
+    "text": "L'événement 'Sprint Planning' approche. D'après le Manifeste Agile et Scrum, quand est-il impératif de réaliser cette cérémonie et quel est son but principal ?",
+    "image": null,
+    "hint": "Réfléchissez à l'impact temporel d'une planification tardive sur l'exécution du Sprint.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il doit se faire à la fin du Sprint précédent pour évaluer les performances passées.",
+        "isCorrect": false,
+        "justification": "L'évaluation des performances passées (processus/équipe) est le rôle de la Sprint Retrospective, et l'inspection du produit se fait lors de la Sprint Review."
+      },
+      {
+        "id": "B",
+        "text": "Il n'est pas obligatoire, l'équipe peut simplement prendre les tâches une par une dans le Backlog de manière asynchrone.",
+        "isCorrect": false,
+        "justification": "Le Sprint Planning est un événement fondamental de Scrum, utilisé pour créer de la régularité et définir l'objectif de l'itération."
+      },
+      {
+        "id": "C",
+        "text": "Il sert à planifier le Sprint actuel. Bien que le Manifeste ne force pas à le faire strictement au début, c'est très préférable pour éviter les problèmes temporels.",
+        "isCorrect": true,
+        "justification": "Les notes de cours précisent exactement ceci : 'Il sert à planifier le sprint actuel... préférable de le faire au début pour éviter les pb temporels'."
+      },
+      {
+        "id": "D",
+        "text": "Il se fait au milieu du Sprint pour pouvoir s'adapter aux retours clients (Adaptation).",
+        "isCorrect": false,
+        "justification": "L'adaptation quotidienne se fait lors du Daily Scrum. La planification globale du Sprint doit se faire idéalement au début de celui-ci."
+      }
+    ]
+  }
+]

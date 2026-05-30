@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ip-fondements-chunk1-01",
+    "type": "theoretical",
+    "text": "Selon le principe du libre parcours des idées en droit français, à partir de quel moment précis une création intellectuelle devient-elle éligible à la protection par le droit d'auteur ?",
+    "image": null,
+    "hint": "Le droit d'auteur ne protège pas les concepts abstraits mais exige une certaine matérialisation, même minime.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dès la formulation claire du concept ou de l'idée originale à l'écrit ou lors d'une présentation orale.",
+        "isCorrect": false,
+        "justification": "L'idée en elle-même reste de libre parcours. Même formulée clairement, une idée non matérialisée sous une forme d'expression concrète n'est pas protégeable."
+      },
+      {
+        "id": "B",
+        "text": "À compter du moment 't' où l'idée s'exprime sous une forme concrète permettant sa communication, même si l'œuvre demeure inachevée.",
+        "isCorrect": true,
+        "justification": "Le cours indique qu'à compter du moment 't', l'idée devient une œuvre protégeable, et précise que même non achevée, l'œuvre est protégeable dès lors que la forme s'est exprimée."
+      },
+      {
+        "id": "C",
+        "text": "Uniquement après l'achèvement complet de l'œuvre et sa validation par un dépôt légal obligatoire.",
+        "isCorrect": false,
+        "justification": "L'achèvement complet n'est pas une condition de protection, et le droit d'auteur en France s'acquiert sans aucune formalité de dépôt obligatoire."
+      },
+      {
+        "id": "D",
+        "text": "À partir du moment où l'œuvre a fait l'objet d'une exploitation commerciale ou d'une publication officielle.",
+        "isCorrect": false,
+        "justification": "L'exploitation commerciale ou la publication ne sont pas des conditions requises pour faire naître le droit d'auteur."
+      }
+    ]
+  },
+  {
+    "id": "ip-fondements-chunk1-02",
+    "type": "practical",
+    "text": "Alice imagine un concept de jeu vidéo basé sur la physique des fluides. Elle le décrit en détail oralement à un éditeur sans signer d'accord de confidentialité. L'éditeur développe le jeu en s'appropriant le concept. Alice peut-elle agir en contrefaçon de droit d'auteur ?",
+    "image": null,
+    "hint": "Distinguez bien le concept intellectuel abstrait de la forme d'expression concrète.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car la description orale d'un concept très précis et technique équivaut légalement à une fixation matérielle.",
+        "isCorrect": false,
+        "justification": "La description orale d'une idée non concrétisée sous une forme d'expression originale ne suffit pas à créer un droit d'auteur opposable."
+      },
+      {
+        "id": "B",
+        "text": "Oui, car l'éditeur a commis un plagiat manifeste d'une idée à forte valeur économique.",
+        "isCorrect": false,
+        "justification": "Les idées, même si leur valeur économique est certaine, ne peuvent pas être protégées par le droit d'auteur."
+      },
+      {
+        "id": "C",
+        "text": "Non, car une idée est de libre parcours ; impossible d'obtenir un monopole sur elle par la propriété intellectuelle. Seule la forme d'expression est protégeable.",
+        "isCorrect": true,
+        "justification": "Le droit français refuse de monopoliser les idées afin de ne pas bloquer le progrès. En l'absence de contrat ou d'accord de secret, Alice ne peut pas interdire l'utilisation de son idée."
+      },
+      {
+        "id": "D",
+        "text": "Non, car Alice n'a pas procédé à un dépôt préalable auprès de l'Agence pour la Protection des Programmes (APP).",
+        "isCorrect": false,
+        "justification": "L'absence d'action possible découle de l'absence de forme protégeable (idée de libre parcours), et non d'un défaut de dépôt à l'APP."
+      }
+    ]
+  },
+  {
+    "id": "ip-fondements-chunk1-03",
+    "type": "theoretical",
+    "text": "D'après la jurisprudence de la Cour de Justice de l'Union Européenne (CJUE), quels éléments liés au logiciel sont exclus de la protection par le droit d'auteur ?",
+    "image": null,
+    "hint": "Cherchez les éléments qui relèvent des idées ou des outils de mise en œuvre, indispensables au développement technique de tiers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le code source et le code objet du programme informatique.",
+        "isCorrect": false,
+        "justification": "Le code source et le code objet sont expressément reconnus par la CJUE comme des formes d'expression protégées par le droit d'auteur."
+      },
+      {
+        "id": "B",
+        "text": "Le matériel de conception préparatoire, y compris les maquettes et organigrammes.",
+        "isCorrect": false,
+        "justification": "Le matériel de conception préparatoire est expressément protégé par le droit d'auteur au même titre que le logiciel lui-même."
+      },
+      {
+        "id": "C",
+        "text": "Les fonctionnalités du logiciel, le langage de programmation et le format des fichiers de données.",
+        "isCorrect": true,
+        "justification": "La CJUE exclut les fonctionnalités, le langage de programmation et le format de fichiers de la protection afin d'éviter la monopolisation des idées au détriment du progrès technique."
+      },
+      {
+        "id": "D",
+        "text": "La documentation utilisateur rédigée en langage naturel.",
+        "isCorrect": false,
+        "justification": "La documentation d'accompagnement fait partie des éléments protégeables par le droit d'auteur classique."
+      }
+    ]
+  },
+  {
+    "id": "ip-fondements-chunk1-04",
+    "type": "practical",
+    "text": "Une entreprise développe un algorithme critique qu'elle ne peut pas protéger par le droit d'auteur. Elle souhaite s'appuyer sur la loi du 30 juillet 2018 relative à la protection du secret des affaires. Quelle mesure doit-elle obligatoirement mettre en place ?",
+    "image": null,
+    "hint": "Le secret des affaires exige du détenteur une attitude proactive pour préserver la confidentialité.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Déposer obligatoirement un brevet logiciel auprès de l'INPI pour rendre l'algorithme public tout en interdisant sa copie.",
+        "isCorrect": false,
+        "justification": "Un brevet implique la publication de l'invention, ce qui est incompatible avec la nature secrète requise pour le secret des affaires."
+      },
+      {
+        "id": "B",
+        "text": "Faire l'objet de mesures de protection raisonnables (charte informatique, politique d'accès, accords de confidentialité) pour en conserver le secret.",
+        "isCorrect": true,
+        "justification": "Pour bénéficier du secret des affaires, la loi exige que l'information ait une valeur commerciale et fasse l'objet de mesures de protection raisonnables."
+      },
+      {
+        "id": "C",
+        "text": "Publier l'algorithme sous une licence open source restrictive interdisant les usages commerciaux.",
+        "isCorrect": false,
+        "justification": "La publication sous licence open source rend l'algorithme accessible, violant la condition essentielle de secret."
+      },
+      {
+        "id": "D",
+        "text": "Enregistrer l'algorithme dans le registre public de la Cour de justice de l'Union européenne.",
+        "isCorrect": false,
+        "justification": "Il n'existe pas de registre public d'enregistrement pour le secret des affaires, et la publicité détruirait le secret."
+      }
+    ]
+  },
+  {
+    "id": "ip-fondements-chunk1-05",
+    "type": "theoretical",
+    "text": "Comment la définition de l'originalité a-t-elle évolué pour s'adapter aux œuvres dites 'utilitaires' comme les logiciels ou le design industriel ?",
+    "image": null,
+    "hint": "Pensez au glissement d'un critère purement artistique et personnel vers un critère plus technique et rationnel.",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'originalité est désormais assimilée à la nouveauté absolue, exigeant qu'aucun équivalent n'existe.",
+        "isCorrect": false,
+        "justification": "La nouveauté est un critère du droit des brevets, distinct de l'originalité en droit d'auteur."
+      },
+      {
+        "id": "B",
+        "text": "Les juges recherchent un 'effort de création' ou un 'effort individualisé' plutôt que l'expression de 'l'empreinte de la personnalité'.",
+        "isCorrect": true,
+        "justification": "Pour les œuvres utilitaires, l'expression 'l'empreinte de la personnalité' est difficile à appliquer ; la jurisprudence privilégie donc les notions d'effort de création ou d'effort individualisé."
+      },
+      {
+        "id": "C",
+        "text": "La loi a supprimé l'exigence d'originalité pour les logiciels, les protégeant de manière automatique.",
+        "isCorrect": false,
+        "justification": "L'originalité reste la seule et unique condition pour qu'un logiciel soit protégé par le droit d'auteur."
+      },
+      {
+        "id": "D",
+        "text": "L'originalité est mesurée uniquement de façon comptable en fonction du nombre d'heures de développement.",
+        "isCorrect": false,
+        "justification": "Le temps passé ou le coût financier ne sont pas des critères d'évaluation de l'originalité."
+      }
+    ]
+  },
+  {
+    "id": "ip-fondements-chunk1-06",
+    "type": "practical",
+    "text": "Un studio développe un jeu vidéo combinant un moteur de rendu original, des musiques, un scénario complexe et des illustrations 2D. Selon la jurisprudence de la Cour de cassation du 25 juin 2009, quel est le régime applicable ?",
+    "image": null,
+    "hint": "Rappelez-vous la décision de la Cour de cassation concernant la nature pluridisciplinaire des jeux vidéo.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le jeu vidéo est traité exclusivement comme un logiciel ; toutes ses composantes sont soumises à ce seul régime.",
+        "isCorrect": false,
+        "justification": "L'arrêt de 2009 refuse de réduire le jeu vidéo à sa seule dimension logicielle."
+      },
+      {
+        "id": "B",
+        "text": "Le jeu vidéo est une 'œuvre complexe' dont chaque composante est soumise au régime qui lui est applicable en fonction de sa nature.",
+        "isCorrect": true,
+        "justification": "La Cour de cassation a jugé qu'un jeu vidéo est une œuvre complexe et ne saurait être réduit à sa seule dimension logicielle, soumettant chaque élément à son régime propre."
+      },
+      {
+        "id": "C",
+        "text": "Le jeu vidéo n'est pas protégeable car la réunion d'éléments disparates annule le critère d'originalité.",
+        "isCorrect": false,
+        "justification": "L'association de différents éléments ne fait pas perdre la protection, elle divise l'œuvre en composantes."
+      },
+      {
+        "id": "D",
+        "text": "Le jeu vidéo est qualifié de base de données d'images et de sons, soumis uniquement au droit sui generis du producteur.",
+        "isCorrect": false,
+        "justification": "L'œuvre complexe du jeu vidéo se distingue d'une base de données et ne relève pas du régime sui generis."
+      }
+    ]
+  },
+  {
+    "id": "ip-fondements-chunk1-07",
+    "type": "theoretical",
+    "text": "Un créateur français publie un logiciel utilitaire sur Internet sans y apposer le symbole de copyright (©) ni réaliser de dépôt légal. Un tiers récupère le code source et le commercialise. Le créateur peut-il agir en contrefaçon ?",
+    "image": null,
+    "hint": "Pensez au formalisme requis en droit d'auteur français.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non, car l'absence de la mention '©' ou d'un dépôt officiel fait tomber l'œuvre dans le domaine public dès sa diffusion.",
+        "isCorrect": false,
+        "justification": "La mention '©' est une pratique anglo-saxonne sans valeur attributive de droit en France."
+      },
+      {
+        "id": "B",
+        "text": "Non, car la protection du logiciel nécessite un enregistrement préalable auprès de l'INPI.",
+        "isCorrect": false,
+        "justification": "L'enregistrement à l'INPI aide à dater la création mais n'est pas une condition de naissance du droit."
+      },
+      {
+        "id": "C",
+        "text": "Oui, car l'auteur jouit d'un droit de propriété incorporelle exclusif du seul fait de la création de l'œuvre, sans aucune formalité.",
+        "isCorrect": true,
+        "justification": "L'article L111-1 du CPI accorde la protection du seul fait de la création, sans formalité obligatoire."
+      },
+      {
+        "id": "D",
+        "text": "Oui, mais uniquement s'il prouve que le tiers a contourné une mesure technique de protection (DRM).",
+        "isCorrect": false,
+        "justification": "La contrefaçon est caractérisée par la reproduction non autorisée, indépendamment de la présence d'un DRM."
+      }
+    ]
+  },
+  {
+    "id": "ip-fondements-chunk1-08",
+    "type": "practical",
+    "text": "Pour dater précisément ses travaux de conception, un développeur décide d'utiliser l'enveloppe Soleau auprès de l'INPI. Quelle est la limite matérielle majeure de ce moyen de preuve ?",
+    "image": null,
+    "hint": "L'enveloppe Soleau est conçue pour des types de supports spécifiques.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elle ne peut contenir que des documents (textes, schémas) et exclut l'envoi de supports physiques comme des clés USB.",
+        "isCorrect": true,
+        "justification": "L'enveloppe Soleau est réservée aux documents. On ne peut pas y insérer de matériel physique ou de supports d'enregistrement volumineux."
+      },
+      {
+        "id": "B",
+        "text": "Elle n'est valable que pendant une durée maximale de 6 mois après sa réception.",
+        "isCorrect": false,
+        "justification": "L'enveloppe Soleau est conservée par l'INPI pour une période de 5 ans, renouvelable une fois."
+      },
+      {
+        "id": "C",
+        "text": "Elle exige la divulgation publique immédiate des documents déposés.",
+        "isCorrect": false,
+        "justification": "Le dépôt Soleau reste confidentiel ; l'INPI archive l'enveloppe sans en publier le contenu."
+      },
+      {
+        "id": "D",
+        "text": "Elle ne peut être ouverte que par un huissier mandaté par la Cour de justice européenne.",
+        "isCorrect": false,
+        "justification": "Elle peut être produite devant tout tribunal français compétent et ouverte par le juge ou l'officier ministériel."
+      }
+    ]
+  },
+  {
+    "id": "ip-fondements-chunk1-09",
+    "type": "theoretical",
+    "text": "En cas de litige concernant la paternité d'une œuvre, comment est établie la qualité d'auteur selon l'article L113-1 du Code de la propriété intellectuelle ?",
+    "image": null,
+    "hint": "La loi simplifie la défense de l'auteur en instaurant une présomption basée sur l'apparence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elle est attribuée par défaut à la personne physique ou morale qui apporte la preuve du premier investissement financier.",
+        "isCorrect": false,
+        "justification": "L'investissement financier ne détermine pas la qualité d'auteur, qui reste liée à la création."
+      },
+      {
+        "id": "B",
+        "text": "La qualité d'auteur appartient, sauf preuve contraire, à celui ou ceux sous le nom de qui l'œuvre est divulguée.",
+        "isCorrect": true,
+        "justification": "L'article L113-1 pose une présomption simple : celui qui divulgue l'œuvre sous son nom est présumé en être l'auteur."
+      },
+      {
+        "id": "C",
+        "text": "Elle doit être validée par un examen technique d'originalité réalisé par un collège d'experts de l'INPI.",
+        "isCorrect": false,
+        "justification": "L'INPI ne valide pas l'originalité des œuvres ; l'appréciation relève des tribunaux."
+      },
+      {
+        "id": "D",
+        "text": "Elle est réservée aux personnes physiques inscrites au registre national des artistes.",
+        "isCorrect": false,
+        "justification": "L'inscription à une société de gestion collective n'est pas obligatoire pour être reconnu comme auteur."
+      }
+    ]
+  },
+  {
+    "id": "ip-fondements-chunk1-10",
+    "type": "practical",
+    "text": "Un ingénieur rédige des spécifications internes, des analyses et des maquettes d'interface pour un futur logiciel. Un concurrent copie ces documents. Comment ces travaux préalables sont-ils traités par le droit d'auteur ?",
+    "image": null,
+    "hint": "Vérifiez si les travaux de préparation bénéficient du même niveau de protection que le programme finalisé.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ils ne sont pas protégés car le droit d'auteur spécifique au logiciel ne s'applique qu'au code source écrit.",
+        "isCorrect": false,
+        "justification": "La protection ne se limite pas au code source ; elle s'étend également aux phases préparatoires du projet."
+      },
+      {
+        "id": "B",
+        "text": "Ils sont considérés comme de simples idées ou concepts de libre parcours exclus de toute protection.",
+        "isCorrect": false,
+        "justification": "S'ils sont formalisés sous forme de maquettes ou de cahiers des charges, ils dépassent le stade de la simple idée."
+      },
+      {
+        "id": "C",
+        "text": "Ils sont protégés en tant que matériel de conception préparatoire par le droit d'auteur au même titre que le logiciel, et les mêmes dérogations leur sont appliquées.",
+        "isCorrect": true,
+        "justification": "Le matériel de conception préparatoire (analyses, maquettes) est assimilé au logiciel par l'article L112-2 du CPI, bénéficiant ainsi de la même protection."
+      },
+      {
+        "id": "D",
+        "text": "Ils sont automatiquement convertis en brevet d'invention d'une durée de 20 ans dès leur création.",
+        "isCorrect": false,
+        "justification": "Il n'existe aucune conversion automatique en brevet d'invention, le brevet requérant un dépôt de demande d'enregistrement."
+      }
+    ]
+  }
+]

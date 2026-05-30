@@ -1,0 +1,332 @@
+[
+  {
+    "id": "MEPA-PM-chunk2-01",
+    "type": "practical",
+    "text": "Lors du cadrage du projet 'IA citoyenne' avec la CNIL, un responsable exige que l'équipe passe les trois premières semaines à rédiger une documentation technique et fonctionnelle exhaustive de 200 pages avant de commencer le moindre développement. En vous basant sur les valeurs du Manifeste Agile, quelle est la meilleure posture à adopter ?",
+    "image": null,
+    "hint": "Pensez à la notion de 'priorisation, pas opposition' concernant la documentation et le logiciel opérationnel.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Refuser catégoriquement de rédiger toute documentation, car le Manifeste Agile stipule que la documentation est inutile et que seul le code compte.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le Manifeste Agile ne rejette pas la documentation, il valorise simplement davantage les logiciels opérationnels ('priorisation, pas opposition'). Une documentation minimale et utile reste nécessaire."
+      },
+      {
+        "id": "B",
+        "text": "Accepter la demande, car le respect des processus et des livrables documentaires est le principal indicateur d'avancement d'un projet en mode produit.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. En mode produit et en Agile, l'avancement se mesure par des logiciels opérationnels (valeur livrée), et non par l'avancement de documents de spécifications."
+      },
+      {
+        "id": "C",
+        "text": "Proposer une approche adaptative : rédiger une documentation juste suffisante pour démarrer, puis privilégier la livraison rapide d'un premier incrément fonctionnel (MVP) pour obtenir du feedback.",
+        "isCorrect": true,
+        "justification": "C'est la bonne posture. Elle respecte la valeur 'Des logiciels opérationnels plus qu'une documentation exhaustive' en concentrant l'effort sur la valeur utilisateur tout en gardant une documentation utile et vivante."
+      },
+      {
+        "id": "D",
+        "text": "Négocier un contrat qui stipule que la documentation finale sera rédigée par le client (la CNIL) pendant que l'équipe développe.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Cela s'apparente à de la négociation contractuelle rigide plutôt qu'à de la collaboration active, et cela ne résout pas le problème de l'alignement sur la vision du produit."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-PM-chunk2-02",
+    "type": "theoretical",
+    "text": "La transition du 'Mode Projet' traditionnel vers le 'Mode Produit' modifie profondément la philosophie de gestion. Quelle est la question fondamentale et l'indicateur clé que l'on cherche à optimiser en Mode Produit ?",
+    "image": null,
+    "hint": "Pensez à la différence entre livrer une liste de fonctionnalités (Livrables) et résoudre un problème utilisateur (Résultats).",
+    "options": [
+      {
+        "id": "A",
+        "text": "Question : 'Quand ?' / Optimisation : La conformité stricte au macro-planning et aux spécifications initiales.",
+        "isCorrect": false,
+        "justification": "Cette approche correspond au Mode Projet traditionnel (approche prédictive orientée coûts/délais)."
+      },
+      {
+        "id": "B",
+        "text": "Question : 'Pourquoi ?' / Optimisation : Les résultats (outcomes), l'adoption et la valeur réelle créée pour l'utilisateur.",
+        "isCorrect": true,
+        "justification": "Correct. En Mode Produit, on cherche à comprendre le 'Pourquoi' (le besoin de l'utilisateur) et on optimise les résultats/impacts plutôt que la simple production de livrables déconnectés de l'usage."
+      },
+      {
+        "id": "C",
+        "text": "Question : 'Combien ?' / Optimisation : La réduction maximale des coûts de maintenance informatique.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'optimisation des coûts à court terme est un objectif du Mode Projet (livrer à moindre coût), pas du Mode Produit qui se focalise sur la maximisation de la valeur."
+      },
+      {
+        "id": "D",
+        "text": "Question : 'Comment ?' / Optimisation : L'utilisation de la méthodologie la plus complexe possible pour éliminer l'incertitude.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. En Agile, on accepte l'incertitude et on s'adapte via des cycles courts plutôt que d'essayer de la masquer derrière des processus lourds."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-PM-chunk2-03",
+    "type": "practical",
+    "text": "Votre équipe développe le MVP du projet 'IA citoyenne'. Suite à des imprévus techniques majeurs, vous réalisez que vous ne pourrez pas livrer l'intégralité des fonctionnalités prévues pour la date de soutenance (qui est fixe, tout comme le budget). Selon le modèle de la négociation du périmètre dans le triangle d'or Agile, que devez-vous faire ?",
+    "image": null,
+    "hint": "Dans le triangle d'or traditionnel, le périmètre est fixe. En Agile, qu'est-ce qui est négociable pour protéger la qualité ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Travailler en heures supplémentaires pour tout livrer, quitte à négliger les tests unitaires et d'acceptation (dégrader la qualité).",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Dégrader la qualité est proscrit en Agile. Le triangle Agile verrouille la qualité ('Quality' au centre de l'attention constante)."
+      },
+      {
+        "id": "B",
+        "text": "Négocier une extension de budget auprès du Ministère de l'Éducation pour recruter des développeurs supplémentaires en urgence.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ajouter des ressources en urgence sur un projet en retard augmente souvent la complexité à court terme et n'est pas viable dans le cadre de budgets fixes."
+      },
+      {
+        "id": "C",
+        "text": "Négocier une réduction du périmètre (scope) en éliminant les fonctionnalités non essentielles (Should/Nice) afin de livrer à temps un MVP de haute qualité contenant uniquement le strict nécessaire (Must).",
+        "isCorrect": true,
+        "justification": "C'est la bonne réponse. Dans les approches Agiles, le coût et le délai sont fixes sur de petites itérations, et c'est le périmètre qui devient négociable afin de garantir une qualité irréprochable sur ce qui est effectivement livré."
+      },
+      {
+        "id": "D",
+        "text": "Reporter unilatéralement la date de soutenance, car en Agile, le temps n'a pas d'importance tant que l'équipe s'auto-organise.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le respect des délais et des rituels temporels (Timeboxing) est un cadre fondamental de l'agilité pour maintenir la confiance des parties prenantes."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-PM-chunk2-04",
+    "type": "theoretical",
+    "text": "Dans le Product Vision Canvas, la section 'Manifeste' (Manifeste de la vision) formalise l'intention du produit sous une structure sémantique précise. Quel est l'enchaînement correct de ses composants ?",
+    "image": null,
+    "hint": "Le manifeste relie les clients cibles, leurs besoins, la valeur proposée, l'enjeu d'entreprise et les critères de succès.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pour <valeur>, afin de <enjeu>, nous proposons <clients> afin de <besoins> qui nous permet <succès>.",
+        "isCorrect": false,
+        "justification": "Cette structure n'a pas de sens logique et ne correspond pas au template standard."
+      },
+      {
+        "id": "B",
+        "text": "Pour nos <clients/utilisateurs>, afin de <leurs besoins>, nous proposons <valeur> afin de <enjeu pour l'entreprise> qui nous permet <critère de succès>.",
+        "isCorrect": true,
+        "justification": "C'est exact. Cette phrase de synthèse (le Manifeste) permet d'aligner l'équipe sur la cible, la promesse de valeur, l'alignement stratégique et les critères d'évaluation du succès."
+      },
+      {
+        "id": "C",
+        "text": "Pour notre <budget>, afin de respecter <les délais>, nous proposons <un périmètre> afin de satisfaire <la CNIL>.",
+        "isCorrect": false,
+        "justification": "Cette formulation se concentre sur des contraintes de gestion projet et non sur la vision produit axée sur la valeur utilisateur."
+      },
+      {
+        "id": "D",
+        "text": "Pour nos <développeurs>, afin de <compétences tech>, nous proposons <Scrum> afin de <qualité> qui nous permet <vitesse de livraison>.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le Product Vision Canvas s'adresse au produit et à ses utilisateurs finaux, pas à la méthode de travail interne de l'équipe technique."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-PM-chunk2-05",
+    "type": "theoretical",
+    "text": "Concernant la création de 'Personas' dans le cadre du cadrage produit (MEPA Cours #2), quelle règle fondamentale devez-vous respecter pour que l'outil soit réellement efficace ?",
+    "image": null,
+    "hint": "Un persona ne doit pas être le fruit de l'imagination ou d'intuitions déconnectées du terrain.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le persona doit être basé sur des faits et des données rigoureuses (interviews, statistiques, observations) et non sur des impressions ou des ressentis.",
+        "isCorrect": true,
+        "justification": "C'est exact. Un persona efficace est une représentation virtuelle d'un groupe d'utilisateurs réels construite sur la base de recherches et d'entretiens découverte pour éviter les biais cognitifs."
+      },
+      {
+        "id": "B",
+        "text": "Le persona doit représenter le client qui achète le produit (ex: le Ministère de l'Éducation) et non l'utilisateur final qui s'en sert (ex: les lycéens).",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le persona doit s'intéresser en priorité à l'utilisateur final pour concevoir une bonne expérience (UX). Le cours montre l'exemple 'Clients vs Users' avec le mobile de bébé pour illustrer cette différence."
+      },
+      {
+        "id": "C",
+        "text": "Il faut concevoir un persona unique qui englobe à la fois les enseignants, les lycéens et les agents de la CNIL pour simplifier le Story Mapping.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Regrouper des profils aux comportements et besoins si différents dans un seul persona mènerait à un produit flou qui ne convient à personne."
+      },
+      {
+        "id": "D",
+        "text": "Le persona doit être créé uniquement par les développeurs pendant le Sprint 1 à partir des spécifications techniques de la base de données.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le persona est un outil de cadrage fonctionnel et UX qui se co-construit idéalement en amont et s'affine avec les retours utilisateurs."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-PM-chunk2-06",
+    "type": "practical",
+    "text": "Lors d'un atelier d'identification des risques pour le produit 'IA citoyenne', votre équipe note le risque suivant : 'Nous manquons d'expérience sur la technologie d'analyse sémantique choisie pour le chatbot pédagogique'. Dans quelle catégorie de risques (parmi les 4 présentées en cours) devez-vous classer cette alerte ?",
+    "image": null,
+    "hint": "Les 4 catégories sont : Business, Humain, Tech, Planning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "BUSINESS",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les risques Business s'intéressent à la question : 'Est-ce le bon produit à réaliser ?' (valeur, adéquation marché)."
+      },
+      {
+        "id": "B",
+        "text": "HUMAIN",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Bien que la notion de compétence semble humaine, le manque de connaissances spécifiques sur les inconnues liées aux choix technologiques relève de la catégorie TECH."
+      },
+      {
+        "id": "C",
+        "text": "TECH",
+        "isCorrect": true,
+        "justification": "Correct. La catégorie TECH regroupe toutes les inconnues et risques liés à la technique, aux outils de réalisation et aux choix technologiques de l'architecture."
+      },
+      {
+        "id": "D",
+        "text": "PLANNING",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les risques Planning concernent le budget, les jalons temporels, les vacances ou les indisponibilités de l'équipe."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-PM-chunk2-07",
+    "type": "practical",
+    "text": "L'équipe a identifié un risque de non-conformité par rapport au RGPD sur la collecte des données d'usage des lycéens. Après discussion, vous décidez de co-rédiger une charte de confidentialité claire et d'implémenter un écran de consentement conforme. Vous savez exactement comment faire. Selon la méthode R.O.A.M. vue en cours, comment gérez-vous ce risque ?",
+    "image": null,
+    "hint": "ROAM signifie Resolved, Owned, Accepted, Managed. Vous connaissez la solution et les actions sont planifiées.",
+    "options": [
+      {
+        "id": "A",
+        "text": "RESOLVED, car le risque n'existe plus du simple fait d'avoir trouvé une idée.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Un risque est 'Resolved' uniquement lorsqu'une parade a été *mise en œuvre* et que le risque est définitivement écarté."
+      },
+      {
+        "id": "B",
+        "text": "MANAGED, car vous savez exactement quoi faire et un plan d'actions clair a été identifié et intégré au backlog.",
+        "isCorrect": true,
+        "justification": "C'est exact. Un risque 'Managed' est un risque pour lequel on a identifié un plan d'actions concret pour en réduire la probabilité ou l'impact."
+      },
+      {
+        "id": "C",
+        "text": "OWNED, car vous l'attribuez au Product Owner pour qu'il s'en charge en cas de problème juridique.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Un risque est 'Owned' lorsqu'on ne sait pas encore comment le résoudre techniquement, mais qu'une personne prend la responsabilité de l'analyser et de chercher des solutions."
+      },
+      {
+        "id": "D",
+        "text": "ACCEPTED, car le RGPD est une contrainte réglementaire incontournable que l'on doit subir sans rien pouvoir faire.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Un risque 'Accepted' concerne les événements sur lesquels on ne peut pas agir (ex: une panne réseau globale). Ici, vous pouvez agir sur la conformité de votre produit."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-PM-chunk2-08",
+    "type": "theoretical",
+    "text": "Dans le cadre de la méthode R.O.A.M., quelle est la différence fondamentale entre un risque classé comme 'OWNED' (Pris en charge) et un risque classé comme 'ACCEPTED' (Accepté) ?",
+    "image": null,
+    "hint": "Pensez à la capacité d'action et à la désignation d'un responsable pour suivre l'évolution de l'alerte.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Owned signifie qu'on a déjà résolu le problème, alors qu'Accepted signifie qu'on refuse de travailler dessus.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Si le problème était résolu, il serait 'Resolved'."
+      },
+      {
+        "id": "B",
+        "text": "Owned s'applique aux risques internes à l'équipe de développement, tandis qu'Accepted s'applique uniquement aux risques financiers imposés par le client.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La classification ne dépend pas de l'origine interne ou externe du risque."
+      },
+      {
+        "id": "C",
+        "text": "Owned signifie qu'on ne sait pas encore comment faire mais qu'une personne prend le risque en charge pour l'instruire. Accepted signifie qu'on ne peut rien faire d'autre que tolérer le risque et qu'on interviendra uniquement s'il survient.",
+        "isCorrect": true,
+        "justification": "C'est la définition exacte du cours. Le risque 'Owned' est géré activement par un porteur désigné, tandis que le risque 'Accepted' est toléré de façon passive par l'équipe car hors de son contrôle direct."
+      },
+      {
+        "id": "D",
+        "text": "Il n'y a aucune différence, les deux termes sont synonymes dans l'agilité à l'échelle.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les quatre quadrants du R.O.A.M. ont des rôles et des actions de suivi très distincts."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-PM-chunk2-09",
+    "type": "practical",
+    "text": "Lors de la création de votre Story Mapping, vous devez détourer le MVP (Minimum Viable Product). Comment devez-vous procéder pour définir cette ligne de démarcation sur votre mur physique ou virtuel ?",
+    "image": null,
+    "hint": "Pensez au découpage horizontal du Story Map basé sur la priorisation des récits utilisateurs par rapport au parcours global.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sélectionner la totalité des fonctionnalités de la première étape utilisateur, même si elles sont classées en 'NICE'.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Un MVP doit couvrir l'ensemble du parcours utilisateur de bout en bout (tranche fine) et ne doit contenir que le strict nécessaire (MUST)."
+      },
+      {
+        "id": "B",
+        "text": "Dessiner une ligne horizontale qui englobe uniquement les fonctionnalités 'MUST' (vitales) nécessaires pour valider le parcours utilisateur global de bout en bout et sécuriser les risques majeurs.",
+        "isCorrect": true,
+        "justification": "C'est correct. Le MVP est la première étape rapide vers votre produit, permettant de recueillir des retours utilisateurs précoces de bout en bout sur un périmètre restreint mais fonctionnel et qualitatif."
+      },
+      {
+        "id": "C",
+        "text": "Inclure toutes les fonctionnalités de taille 'S' (Petites) et reporter toutes les fonctionnalités de taille 'L' ou 'XL' après la livraison finale.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'estimation de l'effort (S, M, L...) aide à la planification mais l'arbitrage du MVP se fait d'abord par la Valeur (Must/Should) pour répondre au besoin."
+      },
+      {
+        "id": "D",
+        "text": "Laisser chaque développeur choisir individuellement 2 fonctionnalités à intégrer au MVP sans concertation.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'alignement sur le périmètre du MVP doit se faire de manière collégiale avec toute la Scrum Team pour garantir la cohérence du produit."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-PM-chunk2-10",
+    "type": "theoretical",
+    "text": "Dans le cadre de l'atelier de Story Mapping, l'équipe utilise la technique de l'eXtreme Quotation (MEPA Cours #3) pour estimer les récits. Quel est le principe de fonctionnement de cet atelier ?",
+    "image": null,
+    "hint": "C'est un processus itératif, rapide et silencieux au début, qui recherche un consensus final sur des tailles relatives (S, M, L, XL).",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chaque développeur calcule individuellement le nombre d'heures exactes et le soumet par écrit au Product Owner pour validation.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'estimation Agile privilégie les estimations relatives (complexité/taille de t-shirt) plutôt que les estimations en temps absolu (heures/jours) qui s'avèrent souvent fausses à ce stade."
+      },
+      {
+        "id": "B",
+        "text": "Le Scrum Master décide seul de la taille de chaque ticket en se basant sur la vélocité passée de l'équipe.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Seuls les Developers sont responsables des estimations techniques de leur travail de manière collaborative."
+      },
+      {
+        "id": "C",
+        "text": "L'équipe définit un étalon d'estimation, puis chaque personne à son tour peut ajouter une fonctionnalité dans une colonne de taille (S, M, L, XL) ou déplacer une carte déjà estimée. Le résultat final doit faire l'objet d'un consensus.",
+        "isCorrect": true,
+        "justification": "C'est exact. L'eXtreme Quotation permet une estimation relative, très rapide et collaborative de grands volumes de tickets en s'appuyant sur l'intelligence collective de l'équipe."
+      },
+      {
+        "id": "D",
+        "text": "Il s'agit d'estimer uniquement les coûts financiers matériels (serveurs, licences) pour le budget de la CNIL.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. C'est une technique d'estimation de l'effort de développement logiciel/produit pour les stories, pas de budgétisation financière."
+      }
+    ]
+  }
+]

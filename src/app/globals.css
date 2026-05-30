@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Global overrides for light theme */
+body {
+  background-color: #f8fafc !important; /* slate-50 background forced */
+  color: #0f172a !important; /* slate-900 text forced */
+}
+
+/* Custom fade-in transition for revealed justifications */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-out forwards;
+}

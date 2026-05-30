@@ -1,0 +1,332 @@
+[
+  {
+    "id": "MEPA-ADV-chunk4-01",
+    "type": "practical",
+    "text": "Lors du workshop 'Artists & Specifiers' (Cours #1), vous avez d'abord dû dessiner un schéma complexe en suivant uniquement des instructions écrites (Challenge #1), puis collaborer à l'oral sans montrer le dessin (Challenge #3). Quelle leçon fondamentale de la communication de projet ce workshop met-il en évidence ?",
+    "image": null,
+    "hint": "Comparez la précision et la rapidité d'ajustement entre des spécifications unilatérales écrites et un dialogue collaboratif en boucle courte.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Les spécifications écrites exhaustives sont le seul moyen de garantir la conformité d'un dessin, tandis que la communication orale crée trop de bruit et d'erreurs.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le workshop démontre l'inverse : les instructions écrites unilatérales mènent presque toujours à des contresens majeurs car il n'y a pas de boucle de rétroaction rapide."
+      },
+      {
+        "id": "B",
+        "text": "Le dialogue face à face et les boucles de feedback rapides (orales) sont infiniment plus efficaces pour aligner la compréhension qu'une spécification écrite unilatérale. C'est l'illustration de la valeur 'les individus et leurs interactions plus que les processus et les outils'.",
+        "isCorrect": true,
+        "justification": "C'est exact. Ce workshop illustre de manière concrète que la spécification purement écrite (processus/outil) est rigide et génère des écarts de compréhension, tandis que la collaboration directe (interactions) permet de s'aligner rapidement."
+      },
+      {
+        "id": "C",
+        "text": "Le workshop montre que les artistes (développeurs) n'ont pas besoin de comprendre le besoin métier pour bien dessiner (développer).",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Au contraire, sans la compréhension globale du but (le 'Pourquoi'), l'artiste commet d'importantes erreurs d'interprétation."
+      },
+      {
+        "id": "D",
+        "text": "Il prouve que l'on doit toujours montrer le produit fini au client avant de commencer à spécifier les étapes suivantes.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. On ne peut pas montrer un produit fini qui n'a pas encore été conçu, l'important est la co-conception par étapes itératives."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-ADV-chunk4-02",
+    "type": "theoretical",
+    "text": "En plein milieu d'un Sprint de 2 semaines sur le projet 'IA citoyenne', le Ministère de l'Éducation change radicalement de stratégie politique, rendant l'objectif du Sprint en cours (Sprint Goal) totalement obsolète. Que devez-vous faire selon le Scrum Guide ?",
+    "image": null,
+    "hint": "Qui a le pouvoir exclusif d'annuler un Sprint et sous quelle condition ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le Scrum Master doit immédiatement annuler le Sprint de son propre chef pour protéger l'équipe de tout travail inutile.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le Scrum Master ne possède pas l'autorité pour annuler un Sprint."
+      },
+      {
+        "id": "B",
+        "text": "L'équipe de développement doit voter à la majorité absolue pour décider si elle continue ou non le Sprint.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Bien que l'équipe s'autogère, la décision d'annulation d'un Sprint n'est pas soumise à un vote démocratique des développeurs."
+      },
+      {
+        "id": "C",
+        "text": "Seul le Product Owner a l'autorité d'annuler le Sprint, et il ne peut le faire que si le Sprint Goal devient obsolète.",
+        "isCorrect": true,
+        "justification": "C'est exact. Selon le Scrum Guide, seul le Product Owner a le pouvoir d'annuler le Sprint si l'objectif de ce dernier n'a plus de sens (devient obsolète) par rapport à la stratégie produit."
+      },
+      {
+        "id": "D",
+        "text": "Le Sprint ne peut jamais être annulé. L'équipe doit terminer les développements prévus et les jeter au début du Sprint suivant.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Poursuivre un travail que l'on sait inutile est un gaspillage majeur contraire à la pensée Lean sur laquelle repose Scrum."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-ADV-chunk4-03",
+    "type": "theoretical",
+    "text": "Le Product Owner utilise des outils graphiques de prévision de type 'Burn-down charts' et 'Cumulative Flow' pour estimer la date de livraison finale du produit. Que dit le Scrum Guide sur l'usage de ces outils de prévision par rapport à l'empirisme ?",
+    "image": null,
+    "hint": "Ces outils sont-ils des garanties absolues ou de simples aides à la décision basées sur le passé ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ces graphiques sont mathématiquement exacts et remplacent l'empirisme en garantissant le respect de la date de livraison dans un environnement complexe.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Dans un environnement complexe, l'avenir est inconnu. Aucun outil mathématique basé sur le passé ne peut garantir une date de livraison exacte à l'avance."
+      },
+      {
+        "id": "B",
+        "text": "Ces outils de prévision sont interdits par le Scrum Guide car ils rappellent trop le diagramme de Gantt traditionnel.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ces outils sont reconnus et couramment utilisés en Scrum, ils ne sont pas interdits."
+      },
+      {
+        "id": "C",
+        "text": "Bien que prouvés utiles, ils ne remplacent pas l'importance de l'empirisme. Dans les environnements complexes, seul ce qui s'est déjà produit peut être utilisé pour prendre des décisions prospectives.",
+        "isCorrect": true,
+        "justification": "C'est exact. Le Scrum Guide précise bien que ces pratiques de prévision (burn-down, etc.) sont utiles mais ne remplacent pas l'empirisme. Seules les données historiques réelles permettent de guider les décisions futures dans la complexité."
+      },
+      {
+        "id": "D",
+        "text": "Ces outils ne doivent être manipulés que par le Scrum Master, qui est le seul garant des indicateurs de vélocité de l'équipe.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Tous les membres de l'équipe, ainsi que les parties prenantes, peuvent consulter et utiliser ces graphiques pour inspecter l'avancement."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-ADV-chunk4-04",
+    "type": "practical",
+    "text": "La fonctionnalité de 'Quiz sur l'éthique de l'IA' est entièrement testée et validée conforme à la DoD le mercredi, soit 3 jours avant la fin officielle du Sprint. Un commanditaire de la CNIL souhaite la déployer immédiatement en production. Le développeur s'y oppose au motif qu'aucune mise en production ne peut se faire avant la Sprint Review. Qui a raison ?",
+    "image": null,
+    "hint": "La Sprint Review est-elle une barrière de livraison (gate) ou un moment d'inspection ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le développeur a raison. Un incrément ne peut légalement exister et être livré qu'après avoir été présenté et validé collectivement lors de la Sprint Review.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le Scrum Guide indique explicitement qu'un incrément peut être livré aux parties prenantes avant la fin du Sprint."
+      },
+      {
+        "id": "B",
+        "text": "Le commanditaire de la CNIL a raison. Un incrément utilisable peut être livré à tout moment du Sprint. La Sprint Review ne doit jamais être considérée comme une barrière (gate) à la libération de la valeur.",
+        "isCorrect": true,
+        "justification": "C'est exact. Scrum encourage le déploiement continu. Dès qu'un élément respecte la DoD, l'incrément est né et peut être livré. La Review sert à inspecter ce qui a été accompli et à adapter le futur, ce n'est pas un comité d'approbation de mise en production."
+      },
+      {
+        "id": "C",
+        "text": "Le développeur a raison, car livrer avant la fin du Sprint fausserait le calcul de la vélocité de l'équipe lors de la rétrospective.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La vélocité comptabilise les points 'Terminés' (Done) durant le Sprint, peu importe le moment exact de leur mise en production."
+      },
+      {
+        "id": "D",
+        "text": "Le commanditaire a raison, mais uniquement si l'équipe s'engage à travailler durant le week-end restant pour compenser la charge système.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'agilité promeut un rythme de développement soutenable (principe 7) et s'oppose au travail supplémentaire systématique."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-ADV-chunk4-05",
+    "type": "theoretical",
+    "text": "Pourquoi Scrum recommande-t-il des Sprints d'une durée maximale d'un mois, et quels sont les avantages spécifiques de choisir des Sprints encore plus courts (ex : 2 semaines) ?",
+    "image": null,
+    "hint": "Pensez au lien entre la durée du Sprint, la validité du Sprint Goal, la complexité et les opportunités d'apprentissage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Les Sprints courts permettent d'augmenter artificiellement le nombre de story points produits par l'équipe à chaque fin de mois.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La durée du Sprint n'augmente pas la capacité réelle de production de l'équipe (la vélocité s'ajuste au prorata)."
+      },
+      {
+        "id": "B",
+        "text": "Des Sprints courts évitent aux développeurs de s'ennuyer sur le même sujet et permettent de changer de Product Owner plus souvent.",
+        "isCorrect": false,
+        "justification": "C'text incorrect. La Scrum Team (incluant le PO) est une unité stable à long terme."
+      },
+      {
+        "id": "C",
+        "text": "Des Sprints courts génèrent plus de cycles d'apprentissage, limitent les risques financiers et d'effort à un horizon court, et évitent que le Sprint Goal ne devienne obsolète face à la complexité.",
+        "isCorrect": true,
+        "justification": "C'est exact. Plus le Sprint est long, plus le risque de dérive, de hausse de complexité ou d'obsolescence du Sprint Goal est élevé. Des Sprints courts maximisent les opportunités d'inspection et d'adaptation rapides."
+      },
+      {
+        "id": "D",
+        "text": "Les Sprints d'un mois sont réservés aux projets simples, tandis que les Sprints de 2 semaines sont imposés pour les projets d'IA complexes.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Scrum s'applique à la complexité en général, et le choix de la durée du Sprint (jusqu'à un mois maximum) revient à l'équipe en fonction de son contexte, pas de la technologie."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-PM-chunk4-06",
+    "type": "theoretical",
+    "text": "La CNIL (votre organisation mandataire) possède des normes de sécurité informatique très strictes. Comment votre équipe de développement doit-elle construire sa 'Definition of Done' (DoD) face à ces exigences d'organisation ?",
+    "image": null,
+    "hint": "La DoD de l'équipe peut-elle ignorer ou être moins exigeante que les standards de l'entreprise ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'équipe peut ignorer les normes de sécurité de la CNIL pour aller plus vite, car l'auto-organisation lui donne le droit de définir ses propres règles de qualité.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'auto-organisation ne permet pas de s'affranchir des règles de sécurité et de conformité de l'entreprise mandataire."
+      },
+      {
+        "id": "B",
+        "text": "Si la DoD d'un incrément fait partie des standards de l'organisation, l'équipe Scrum doit la suivre au minimum. Elle peut ensuite l'enrichir de critères spécifiques si nécessaire.",
+        "isCorrect": true,
+        "justification": "C'est exact. Le Scrum Guide stipule que si la DoD est un standard de l'organisation, c'est un minimum non négociable à respecter pour toutes les équipes. L'équipe peut l'étendre (DoD de l'équipe), mais ne peut jamais être moins exigeante."
+      },
+      {
+        "id": "C",
+        "text": "L'équipe doit exiger que la CNIL supprime ses standards pour s'adapter à la philosophie Agile qui rejette toute norme préétablie.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'agilité s'intègre dans les contextes d'entreprise et respecte les contraintes de qualité et de sécurité réglementaires (ex: RGPD, sécurité de l'État)."
+      },
+      {
+        "id": "D",
+        "text": "La DoD de l'organisation ne s'applique qu'au produit fini en fin d'année, l'incrément de chaque Sprint n'a pas besoin de s'y conformer.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Chaque incrément doit être 'utilisable' et respecter les standards de qualité à chaque fin de Sprint."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-PM-chunk4-07",
+    "type": "practical",
+    "text": "Dans le Product Backlog de votre projet, outre les récits utilisateurs, l'équipe a identifié 3 bugs critiques, une tâche de nettoyage du code (refactoring) et une étude exploratoire (spike) sur un algorithme. Le Product Owner refuse d'intégrer ces éléments techniques dans le backlog, affirmant qu'il ne doit contenir que des fonctionnalités visibles pour l'utilisateur. Est-ce correct ?",
+    "image": null,
+    "hint": "Le Product Backlog est-il uniquement fonctionnel ou regroupe-t-il l'ensemble des travaux de l'équipe ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le PO a raison, les anomalies, le refactoring et les tâches techniques doivent être gérés de manière masquée par l'équipe de développement dans un fichier Excel séparé.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Cacher du travail détruit la Transparence. De plus, il n'y a qu'une unique source de travail pour la Scrum Team."
+      },
+      {
+        "id": "B",
+        "text": "Le PO a raison, car Scrum interdit de travailler sur des tâches techniques qui n'apportent pas de valeur directe immédiate à l'utilisateur.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le refactoring et la correction d'anomalies maintiennent la qualité et la durabilité du produit, ce qui est indispensable pour continuer à délivrer de la valeur dans le futur."
+      },
+      {
+        "id": "C",
+        "text": "Le PO a tort. Le Product Backlog est l'unique source de travail de la Scrum Team. Il est émergent et ordonné, et contient tout ce qui est nécessaire pour améliorer le produit (fonctionnalités, anomalies, refactoring, améliorations, etc.).",
+        "isCorrect": true,
+        "justification": "C'est exact. Le Product Backlog centralise l'intégralité du travail requis pour le produit. Comme l'indique le cours (schéma en camembert), il intègre les fonctionnalités, mais aussi les anomalies, le refactoring, les améliorations et les tâches exploratoires."
+      },
+      {
+        "id": "D",
+        "text": "Le PO a tort, car le backlog technique est géré exclusivement par le Scrum Master qui y place les tâches sans en informer le PO.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le Product Owner reste l'unique responsable du Product Backlog dans sa globalité."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-PM-chunk4-08",
+    "type": "theoretical",
+    "text": "Sur votre projet 'IA citoyenne', vous avez nommé un développeur senior comme 'Tech Lead' de l'équipe. Il prend les décisions d'architecture finale et distribue les tâches aux autres développeurs. Que dit le Scrum Guide à propos de cette organisation ?",
+    "image": null,
+    "hint": "Existe-t-il des rôles intermédiaires ou des structures hiérarchiques au sein d'une Scrum Team ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le Scrum Guide encourage vivement la nomination d'un Tech Lead pour s'assurer que les développeurs respectent les choix d'architecture.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le Scrum Guide ne définit pas de rôle de 'Tech Lead'. En Scrum, l'équipe de développement s'autogère de manière collective et transverse."
+      },
+      {
+        "id": "B",
+        "text": "Le rôle de Tech Lead est une responsabilité officielle de Scrum (au même titre que Scrum Master et Product Owner) révisée dans la version 2020.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les trois seules responsabilités définies dans Scrum sont : Product Owner, Scrum Master et Developers."
+      },
+      {
+        "id": "C",
+        "text": "Scrum ne reconnaît aucun sous-groupe ou hiérarchie au sein de la Scrum Team. Les tâches ne sont pas 'distribuées' par un tiers, les Developers s'auto-organisent collectivement pour définir comment réaliser le travail.",
+        "isCorrect": true,
+        "justification": "C'est exact. En Scrum, il n'y a pas de hiérarchie ni de sous-équipes (comme une équipe d'architecture ou de test). Les développeurs sont collectivement responsables et décident ensemble de la répartition du travail pour préserver l'auto-organisation et l'engagement collectif."
+      },
+      {
+        "id": "D",
+        "text": "C'est une pratique autorisée, à condition que le Tech Lead rende des comptes directement au Scrum Master chaque matin.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les développeurs ne rendent pas de comptes individuels au Scrum Master."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-PM-chunk4-09",
+    "type": "practical",
+    "text": "Plusieurs enseignants (parties prenantes de votre projet) demandent à assister au rituel du Sprint Planning pour vous aider à décomposer les récits utilisateurs en tâches techniques de développement. Quelle est la règle Scrum concernant leur participation ?",
+    "image": null,
+    "hint": "Qui participe à la création du plan du Sprint et qui décide de la décomposition technique du travail ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Les enseignants doivent obligatoirement participer pour s'assurer que les développeurs ne commettent pas d'erreurs pédagogiques dans les tâches de code.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La décomposition en tâches techniques de développement est du ressort exclusif des développeurs."
+      },
+      {
+        "id": "B",
+        "text": "Les parties prenantes ne peuvent jamais assister au Sprint Planning, ce rituel est strictement confidentiel et fermé à l'extérieur.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La Scrum Team peut inviter d'autres personnes (comme des experts ou des parties prenantes) à assister au Sprint Planning pour fournir des conseils ou des éclairages."
+      },
+      {
+        "id": "C",
+        "text": "La Scrum Team peut inviter des personnes externes pour donner des conseils, mais seuls les Developers sont responsables de définir COMMENT transformer les éléments du backlog en incréments de valeur.",
+        "isCorrect": true,
+        "justification": "C'est exact. Les invités externes (comme les enseignants) peuvent apporter leur expertise ou des conseils fonctionnels lors de la planification, mais la décision finale sur la planification technique ('Comment') appartient uniquement aux Developers."
+      },
+      {
+        "id": "D",
+        "text": "C'est le Product Owner qui doit décomposer les tâches techniques à la place des enseignants lors de la réunion.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le PO n'intervient pas dans l'organisation technique du travail (le 'Comment')."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-PM-chunk4-10",
+    "type": "theoretical",
+    "text": "Le Management Visuel (Cours #4) est un ingrédient clé des approches Agiles. En quoi l'usage d'un tableau Kanban visuel physique ou virtuel soutient-il directement l'efficacité de l'équipe et la démarche d'Amélioration Continue ?",
+    "image": null,
+    "hint": "Pensez aux bénéfices immédiats d'un partage d'information transparent et à la réduction du temps d'analyse des écarts.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il sert à surveiller individuellement le temps de travail de chaque développeur pour pénaliser les retards.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le management visuel vise l'alignement et la collaboration de l'équipe, pas le flicage ou la micro-surveillance individuelle."
+      },
+      {
+        "id": "B",
+        "text": "Il permet de masquer les difficultés techniques aux yeux du client en ne déplaçant les tickets qu'en fin de Sprint.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Cela violerait le pilier de Transparence, augmentant les risques d'échec du projet."
+      },
+      {
+        "id": "C",
+        "text": "Il facilite le partage d'information, évite les interprétations erronées, réduit le temps de compréhension et permet d'identifier immédiatement les écarts entre la situation réelle et la situation prévisionnelle pour faciliter la prise de décision.",
+        "isCorrect": true,
+        "justification": "C'est exact. Selon les notes de cours (utilités du management visuel), le management visuel sert d'outil d'alignement rapide, permettant d'identifier immédiatement les écarts de flux, facilitant ainsi la prise de décision et l'adaptation collective."
+      },
+      {
+        "id": "D",
+        "text": "Il remplace le besoin de faire des rétrospectives en fin de Sprint car le tableau s'auto-analyse.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Un tableau de management visuel est un outil passif de transparence, il a besoin des rituels humains (comme la rétrospective) pour déclencher l'action d'amélioration continue."
+      }
+    ]
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "MEPA-Scrum-chunk3-01",
+    "type": "practical",
+    "text": "Lors du Daily Scrum du projet 'IA citoyenne', le Scrum Master anime la réunion en demandant individuellement à chaque développeur de lui rendre des comptes sur ses tâches, ce qui fait déborder la réunion à 30 minutes. Pourquoi cette pratique est-elle incorrecte selon le Scrum Guide ?",
+    "image": null,
+    "hint": "Qui est le destinataire du Daily Scrum, quelle est sa durée maximale et quel est son but ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le Daily Scrum est un statut d'avancement pour le Scrum Master. L'erreur réside uniquement dans le dépassement des 15 minutes.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le Daily Scrum n'est pas un rapport d'avancement destiné au Scrum Master ou au PO. C'est un rituel par et pour les Developers."
+      },
+      {
+        "id": "B",
+        "text": "La réunion est limitée à 15 minutes, est destinée aux Developers pour inspecter la progression vers le Sprint Goal et adapter le plan de la journée. Le Scrum Master n'en est pas le destinataire.",
+        "isCorrect": true,
+        "justification": "C'est exact. Le Daily Scrum est un événement de 15 minutes pour les Developers. Son but est l'ajustement du plan quotidien vers l'atteinte du Sprint Goal, favorisant l'autogestion de l'équipe."
+      },
+      {
+        "id": "C",
+        "text": "Le Product Owner aurait dû animer la réunion à la place du Scrum Master pour valider ou rejeter immédiatement les tâches terminées.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le PO n'anime pas le Daily Scrum et la validation des récits ne se fait pas lors de ce rituel quotidien."
+      },
+      {
+        "id": "D",
+        "text": "L'erreur est d'avoir fait la réunion debout, alors que le Scrum Guide impose que les membres soient assis pour mieux se concentrer.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. 'Stand-up' fait référence à la pratique (souvent debout) mais le Scrum Guide ne spécifie pas de posture physique obligatoire."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk3-02",
+    "type": "practical",
+    "text": "À la fin de l'un de vos Sprints, le Product Owner propose d'annuler la session de travail de la Sprint Review et de la remplacer par une simple présentation PowerPoint résumant les fonctionnalités développées. Comment devez-vous réagir ?",
+    "image": null,
+    "hint": "La Sprint Review est-elle une simple réunion de démonstration passive ou un atelier de travail collaboratif ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accepter, car la Sprint Review est uniquement une démonstration marketing passive destinée à rassurer les sponsors.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le cours et le Scrum Guide insistent sur le fait que la Sprint Review ne doit pas être limitée à une simple présentation."
+      },
+      {
+        "id": "B",
+        "text": "Refuser, car la Sprint Review est une session de travail collaborative où la Scrum Team et les parties prenantes inspectent l'incrément, recueillent du feedback réel et ajustent le Product Backlog.",
+        "isCorrect": true,
+        "justification": "C'est exact. C'est une session de travail interactive. On y présente le produit réel (démonstration en direct), on discute de l'avenir du produit et on ajuste le backlog en conséquence."
+      },
+      {
+        "id": "C",
+        "text": "Accepter, à condition que le PowerPoint soit rédigé conjointement par le Scrum Master et les développeurs pour garantir la précision technique.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Rédiger un document de présentation ne remplace pas l'inspection collaborative de l'incrément logiciel opérationnel."
+      },
+      {
+        "id": "D",
+        "text": "Refuser, car la Sprint Review doit obligatoirement durer 8 heures complètes, quel que soit le format de présentation choisi.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La Sprint Review est timeboxée à un maximum de 4 heures pour un Sprint d'un mois (et généralement plus courte pour des Sprints plus courts), pas 8 heures (qui est la limite du Sprint Planning)."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk3-03",
+    "type": "practical",
+    "text": "Pendant la Sprint Retrospective, un développeur déclare : 'Le déploiement a échoué parce que Thomas (absent aujourd'hui) a fait n'importe quoi avec la configuration'. Quelles règles fondamentales de la rétrospective Agile présentées en cours sont violées ici ?",
+    "image": null,
+    "hint": "Pensez aux règles d'expression bienveillante, à la manière de cibler les problèmes plutôt que les personnes, et à la gestion des absents.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aucune, la rétrospective est un espace de liberté totale où l'on doit dénoncer les erreurs individuelles pour s'améliorer.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La rétrospective n'est pas un tribunal. Juger et accuser détruit la confiance et la sécurité psychologique de l'équipe."
+      },
+      {
+        "id": "B",
+        "text": "La règle de la co-localisation obligatoire de tous les membres de la Scrum Team pendant tous les rituels de fin de sprint.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Bien que la co-localisation soit valorisée, des absences peuvent survenir et l'agilité sait gérer le travail à distance."
+      },
+      {
+        "id": "C",
+        "text": "Les règles : s'exprimer en 'JE' pour être non violent, éviter de parler des absents (car ils ne peuvent pas s'expliquer), et le prérequis de bienveillance (chacun a fait du mieux qu'il pouvait).",
+        "isCorrect": true,
+        "justification": "C'est exact. Les règles basiques de la rétrospective imposent de s'exprimer en 'JE', de ne pas parler des absents qui ne peuvent pas se défendre, et de garder un esprit constructif et bienveillant."
+      },
+      {
+        "id": "D",
+        "text": "La règle de l'utilisation exclusive du format 'Speed Boat' pour remonter les points bloquants de l'architecture.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le 'Speed Boat' ou le 'Keep/Start/Stop' sont des exemples de formats d'animation possibles, mais ils ne sont pas imposés de manière exclusive."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk3-04",
+    "type": "practical",
+    "text": "À la fin du Sprint, une User Story de votre projet respecte tous ses critères d'acceptation fonctionnels, mais n'est pas conforme à la 'Definition of Done' (DoD) globale de l'équipe car elle n'a pas été testée sur mobile. Que devez-vous faire de cet élément ?",
+    "image": null,
+    "hint": "Peut-on livrer ou présenter un travail qui ne respecte pas les critères de qualité globaux (DoD) ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La présenter quand même à la Sprint Review et la déclarer 'Terminée', car les critères d'acceptation fonctionnels priment sur la DoD.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les critères d'acceptation et la DoD sont complémentaires. Un élément ne peut pas être considéré comme faisant partie d'un Incrément s'il ne respecte pas la DoD."
+      },
+      {
+        "id": "B",
+        "text": "La publier en production immédiatement, puis réaliser les tests mobiles manquants lors du prochain Sprint.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Publier un travail non conforme à la DoD présente des risques de régression et dégrade la qualité du produit."
+      },
+      {
+        "id": "C",
+        "text": "Ne pas la présenter à la Sprint Review, ne pas la publier, et la renvoyer au Product Backlog pour être finalisée lors d'un prochain Sprint.",
+        "isCorrect": true,
+        "justification": "C'est la bonne pratique. Le cours précise que si un élément du Product Backlog n'est pas conforme à la DoD, il ne peut pas être publié ni même présenté à la Sprint Review. Il retourne au Product Backlog."
+      },
+      {
+        "id": "D",
+        "text": "Demander au Scrum Master de modifier temporairement la DoD pour ce Sprint afin de pouvoir valider la story.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. On ne dégrade pas les standards de qualité (DoD) pour maquiller un retard de livraison."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk3-05",
+    "type": "theoretical",
+    "text": "Dans le cadre de l'ingénierie agile eXtreme Programming (XP), quel est le rôle et l'exigence forte imposée au 'Client' (customer) ?",
+    "image": null,
+    "hint": "La réactivité en boucle courte dans un projet XP exige une proximité extrême avec le métier.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le client intervient uniquement lors de la signature du contrat initial et lors de la recette finale de livraison.",
+        "isCorrect": false,
+        "justification": "Cette approche correspond au cycle en V traditionnel, à l'opposé de la philosophie XP."
+      },
+      {
+        "id": "B",
+        "text": "Le client doit être sur place, toujours disponible pour l'équipe, aider à rédiger les User Stories et participer activement aux tests fonctionnels.",
+        "isCorrect": true,
+        "justification": "C'est exact. XP pose comme prérequis que le client soit colocalisé ou constamment disponible sur site pour collaborer au quotidien, lever les ambiguïtés sur les User Stories et tester le produit au fil de l'eau."
+      },
+      {
+        "id": "C",
+        "text": "Le client délègue l'ensemble de ses décisions au Scrum Master pour ne pas interférer avec le rythme de développement.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le Scrum Master ne remplace pas la voix du client dans les arbitrages fonctionnels d'un projet XP."
+      },
+      {
+        "id": "D",
+        "text": "Le client doit savoir programmer pour pouvoir valider lui-même les tests unitaires écrits en binôme.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le client n'a pas besoin de compétences en programmation, il se concentre sur les User Stories et les tests fonctionnels (métier)."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk3-06",
+    "type": "theoretical",
+    "text": "L'une des pratiques phares d'eXtreme Programming (XP) concerne l'écriture du code. Quelle est la règle de XP concernant la 'Programmation en binôme' (Pair Programming) ?",
+    "image": null,
+    "hint": "Pensez au champ d'application de cette pratique pour garantir la qualité collective du logiciel.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elle est recommandée uniquement pour former les nouveaux développeurs juniors de l'équipe.",
+        "isCorrect": false,
+        "justification": "C'est une utilité secondaire, mais XP l'impose de manière beaucoup plus large pour l'ensemble du projet."
+      },
+      {
+        "id": "B",
+        "text": "Elle doit être évitée car elle divise par deux la productivité de l'équipe de développement.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Bien que contre-intuitive pour le management traditionnel, la programmation en binôme améliore la qualité, réduit le nombre de bugs et accélère l'apprentissage collectif."
+      },
+      {
+        "id": "C",
+        "text": "L'équipe doit s'engager dans la programmation en binôme pour l'intégralité du code de production.",
+        "isCorrect": true,
+        "justification": "C'est exact. Les règles principales d'eXtreme Programming stipulent l'engagement à coder en binôme pour l'ensemble du code de production afin de maximiser la qualité, le partage de connaissances et la relecture continue."
+      },
+      {
+        "id": "D",
+        "text": "Elle est réservée aux phases de correction de bugs majeurs signalés en production.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Elle s'applique dès la phase d'écriture initiale des fonctionnalités, pas seulement lors du débogage."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk3-07",
+    "type": "practical",
+    "text": "Un développeur refuse d'estimer ou de travailler sur la Story B ('Visualiser l'historique des scores d'un élève') sous prétexte que la Story A ('Enregistrer les scores de l'élève en base') n'est pas encore développée. Comment résoudre ce problème en appliquant le principe d'Indépendance (I de I.N.V.E.S.T.) ?",
+    "image": null,
+    "hint": "Quelle solution technique simple permet de simuler un comportement pour débloquer le développement parallèle ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reporter la Story B au Sprint suivant et attendre que la base de données soit pleinement opérationnelle.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Cela crée des goulots d'étranglement et contredit le principe d'indépendance des Stories au sein d'un même Sprint."
+      },
+      {
+        "id": "B",
+        "text": "Mettre en place des 'bouchons' (mocks/stubs) pour simuler les données des scores en base, permettant de développer et tester la Story B indépendamment.",
+        "isCorrect": true,
+        "justification": "C'est exact. Le cours mentionne spécifiquement que la solution face à ce type de dépendance classique est la mise en place de 'bouchons' pour simuler les données et rendre les stories implémentables dans n'importe quel ordre."
+      },
+      {
+        "id": "C",
+        "text": "Fusionner les deux Stories en une seule grande Story de 35 points pour simplifier le suivi.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Cela violerait le principe 'Small' (S de INVEST) et augmenterait les risques d'échec de livraison de l'itération."
+      },
+      {
+        "id": "D",
+        "text": "Demander au Product Owner de coder lui-même la partie base de données de la Story A pour débloquer les développeurs.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le PO n'est pas responsable du code de l'incrément, cette tâche incombe aux Developers."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk3-08",
+    "type": "theoretical",
+    "text": "Un Product Owner rédige la story suivante : 'En tant qu'utilisateur, je veux que la vitesse de recherche des établissements scolaires soit grandement améliorée'. En quoi cette story viole-t-elle le principe 'T' (Testable) de la grille I.N.V.E.S.T., et comment la corriger ?",
+    "image": null,
+    "hint": "Pour être testable, une exigence doit être quantifiable et non subjective.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elle n'est pas testable car la performance dépend uniquement des serveurs du Ministère. Il faut supprimer cette story du backlog.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les exigences de performance sont légitimes, mais elles doivent être rédigées de manière objective."
+      },
+      {
+        "id": "B",
+        "text": "L'énoncé est trop long. Il faut le raccourcir en écrivant simplement : 'Améliorer la performance de recherche'.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Raccourcir le titre ne résout pas l'absence de critères d'acceptation quantifiables."
+      },
+      {
+        "id": "C",
+        "text": "L'expression 'grandement améliorée' est subjective. Pour être testable, elle doit spécifier une mesure concrète, par exemple : 'La page des résultats de recherche doit s'afficher en moins de 2 secondes'.",
+        "isCorrect": true,
+        "justification": "C'est exact. Une story de type 'Améliorer la performance' n'est pas une bonne US. Le cours précise qu'il est préférable d'indiquer des critères de succès observables et quantifiables (ex: temps de réponse en secondes) pour pouvoir valider objectivement le test d'acceptation."
+      },
+      {
+        "id": "D",
+        "text": "La formulation 'En tant qu'utilisateur' est trop vague, il aurait fallu écrire 'En tant que lycéen geek' pour que les tests automatisés fonctionnent.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Cibler le bon persona est utile (ex: le lycéen), mais ce n'est pas l'origine de l'absence de testabilité de la performance ici."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk3-09",
+    "type": "theoretical",
+    "text": "Lors d'une session d'affinage (Backlog Refinement), le Product Owner souhaite imposer ses propres estimations de temps de développement aux développeurs pour accélérer le rythme. Que stipule le cadre Scrum à ce sujet ?",
+    "image": null,
+    "hint": "Qui est responsable de l'évaluation de l'effort technique requis pour réaliser le travail ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le PO a le droit d'imposer ses estimations car c'est lui qui gère le budget et maximise la valeur du produit.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le PO est responsable de la valeur et de l'ordonnancement, pas de l'évaluation de l'effort technique."
+      },
+      {
+        "id": "B",
+        "text": "Seuls les Developers sont responsables du dimensionnement et de l'estimation des éléments du Product Backlog.",
+        "isCorrect": true,
+        "justification": "C'est exact. Les personnes qui feront effectivement le travail (les Developers) sont les seules responsables de l'estimation de l'effort (sizing) de réalisation."
+      },
+      {
+        "id": "C",
+        "text": "C'est le Scrum Master qui doit trancher les estimations en cas de désaccord entre le PO et les développeurs.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le Scrum Master facilite la communication mais n'est pas responsable des estimations de l'équipe."
+      },
+      {
+        "id": "D",
+        "text": "Les estimations doivent être réalisées par un cabinet d'audit externe pour garantir l'impartialité des coûts.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Scrum s'appuie sur la confiance et l'intelligence collective de l'équipe interne chargée du développement."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-Scrum-chunk3-10",
+    "type": "practical",
+    "text": "Pour le grand événement national de septembre 2026, trois équipes Scrum différentes collaborent simultanément sur le même produit 'IA citoyenne'. Quelle est la règle concernant leur 'Definition of Done' (DoD) ?",
+    "image": null,
+    "hint": "Comment garantir l'intégration fluide et la cohérence de qualité de plusieurs incréments développés en parallèle sur un même produit ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chaque équipe doit créer sa propre DoD indépendante pour préserver son autonomie et son auto-organisation.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Avoir des DoD différentes pour un même produit créerait d'importants problèmes d'intégration et de qualité hétérogène."
+      },
+      {
+        "id": "B",
+        "text": "Elles doivent s'entendre pour définir ensemble et respecter une seule et même Definition of Done commune.",
+        "isCorrect": true,
+        "justification": "C'est exact. Le cours et le Scrum Guide stipulent clairement que si plusieurs Scrum Teams travaillent ensemble sur un même produit, elles doivent mutuellement définir et se conformer à la même Definition of Done pour garantir que la somme de leurs travaux forme un incrément cohérent et de qualité uniforme."
+      },
+      {
+        "id": "C",
+        "text": "La DoD est définie unilatéralement par le jury de la CNIL et ne peut pas être discutée par les équipes.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Bien que les équipes doivent respecter les standards de l'organisation (CNIL/Ministère) comme minimum requis, c'est aux Scrum Teams de définir et s'approprier les détails opérationnels de leur DoD."
+      },
+      {
+        "id": "D",
+        "text": "Il n'y a pas besoin de DoD dans un projet multi-équipes, les critères d'acceptation de chaque story suffisent largement.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La DoD est indispensable pour assurer la transparence sur l'état de l'Incrément global terminé."
+      }
+    ]
+  }
+]

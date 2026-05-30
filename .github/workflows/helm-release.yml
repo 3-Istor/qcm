@@ -1,0 +1,45 @@
+name: Helm Chart Release
+
+on:
+    push:
+        tags:
+            - "helm-v*.*.*"
+
+jobs:
+    release-helm:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+            packages: write
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Extract version from tag
+              id: version
+              run: |
+                  VERSION=${GITHUB_REF#refs/tags/helm-v}
+                  echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+            - name: Update Chart version
+              run: |
+                  sed -i "s/^version:.*/version: ${{ steps.version.outputs.version }}/" helm/qcm/Chart.yaml
+
+            - name: Install Helm
+              uses: azure/setup-helm@v4
+
+            - name: Package Helm chart
+              run: helm package helm/qcm -d .helm-releases
+
+            - name: Log in to Container Registry
+              uses: docker/login-action@v3
+              with:
+                  registry: ghcr.io
+                  username: ${{ github.actor }}
+                  password: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Push Helm chart to OCI registry
+              run: |
+                  REPO_OWNER=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
+                  helm push .helm-releases/qcm-${{ steps.version.outputs.version }}.tgz oci://ghcr.io/${REPO_OWNER}/charts

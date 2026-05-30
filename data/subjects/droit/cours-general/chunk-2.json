@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ip-titularite-chunk2-01",
+    "type": "practical",
+    "text": "Un graphiste salarié au sein d'une agence de communication crée une charte graphique originale pour un client dans le cadre de ses fonctions. À qui appartiennent les droits d'auteur patrimoniaux sur cette création en l'absence de contrat de cession écrit ?",
+    "image": null,
+    "hint": "Le contrat de travail n'emporte pas automatiquement dérogation au droit d'auteur, sauf exception légale très ciblée.",
+    "options": [
+      {
+        "id": "A",
+        "text": "À l'employeur, car toute création réalisée par un salarié pendant son temps de travail lui appartient d'office.",
+        "isCorrect": false,
+        "justification": "C'est une idée reçue. En droit français, l'existence d'un contrat de travail n'apporte pas de dérogation au principe du droit d'auteur du créateur."
+      },
+      {
+        "id": "B",
+        "text": "Au graphiste salarié, car le contrat de travail n'emporte aucune dérogation automatique sur les œuvres de l'esprit classiques.",
+        "isCorrect": true,
+        "justification": "Selon l'article L111-1 du CPI, l'auteur salarié reste titulaire de ses droits. Pour les acquérir, l'employeur doit impérativement organiser une cession de droits par écrit."
+      },
+      {
+        "id": "C",
+        "text": "Au client final, puisque c'est lui qui finance indirectement la création de la charte graphique.",
+        "isCorrect": false,
+        "justification": "Le financement ne transfère jamais automatiquement les droits d'auteur ; un acte de cession écrit reste indispensable."
+      },
+      {
+        "id": "D",
+        "text": "À l'employeur et au salarié de manière collective et indivise sous le régime de la collaboration.",
+        "isCorrect": false,
+        "justification": "Le régime de la collaboration requiert une création conjointe sur un pied d'égalité, ce qui ne correspond pas à la relation unilatérale salarié-employeur."
+      }
+    ]
+  },
+  {
+    "id": "ip-titularite-chunk2-02",
+    "type": "practical",
+    "text": "Un développeur salarié conçoit un logiciel de gestion interne durant ses heures de travail, conformément aux directives de son employeur. En vertu de l'article L113-9 du CPI, qui détient les droits patrimoniaux sur ce logiciel ?",
+    "image": null,
+    "hint": "Il s'agit de l'exception légale majeure au droit d'auteur du salarié.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le développeur salarié, car l'exception logicielle n'affecte que les droits moraux du créateur.",
+        "isCorrect": false,
+        "justification": "C'est l'inverse : l'employeur obtient les droits patrimoniaux, tandis que le salarié conserve une version restreinte de ses droits moraux."
+      },
+      {
+        "id": "B",
+        "text": "L'employeur, car les droits patrimoniaux sur les logiciels créés par des employés dans l'exercice de leurs fonctions lui sont automatiquement dévolus.",
+        "isCorrect": true,
+        "justification": "L'article L113-9 du CPI dispose que, sauf stipulation contraire, les droits patrimoniaux sur les logiciels et leur documentation créés par des employés dans l'exercice de leurs fonctions sont dévolus à l'employeur."
+      },
+      {
+        "id": "C",
+        "text": "L'employeur et le salarié à parts égales, s'agissant d'une œuvre réputée mixte.",
+        "isCorrect": false,
+        "justification": "La notion d'œuvre mixte n'existe pas sous cette forme pour attribuer une co-titularité automatique entre employeur et salarié."
+      },
+      {
+        "id": "D",
+        "text": "L'État, qui gère les droits sur les outils logiciels d'intérêt économique général.",
+        "isCorrect": false,
+        "justification": "L'État n'intervient pas dans l'attribution des droits patrimoniaux des créations logicielles privées."
+      }
+    ]
+  },
+  {
+    "id": "ip-titularite-chunk2-03",
+    "type": "practical",
+    "text": "Un stagiaire en informatique développe de manière autonome un outil logiciel pour optimiser la base de données de l'entreprise d'accueil. L'entreprise peut-elle exploiter librement ce logiciel sans contrat de cession spécifique ?",
+    "image": null,
+    "hint": "Le stagiaire est-il lié à l'entreprise par un contrat de travail ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car le stagiaire est assimilé à un salarié et l'exception de l'article L113-9 du CPI s'applique à ses créations logicielles.",
+        "isCorrect": false,
+        "justification": "Le stagiaire n'a pas le statut de salarié et n'est pas lié par un contrat de travail ; l'exception de dévolution automatique à l'employeur ne s'applique donc pas."
+      },
+      {
+        "id": "B",
+        "text": "Oui, car la gratification mensuelle de stage fait office de paiement forfaitaire pour la cession des droits de propriété intellectuelle.",
+        "isCorrect": false,
+        "justification": "La gratification de stage a un but pédagogique et ne peut en aucun cas être assimilée à une rémunération de cession de droits d'auteur."
+      },
+      {
+        "id": "C",
+        "text": "Non, car le stagiaire reste propriétaire de ses créations ; l'entreprise doit conclure un contrat de cession écrit distinct, prévoyant idéalement une rémunération spécifique.",
+        "isCorrect": true,
+        "justification": "Tout ce que le stagiaire crée seul lui appartient. Pour acquérir les droits, la structure d'accueil doit passer par un contrat de cession écrit, distinct de la convention de stage."
+      },
+      {
+        "id": "D",
+        "text": "Non, car les logiciels de bases de données sont obligatoirement soumis au régime de la copropriété entre l'école et l'entreprise d'accueil.",
+        "isCorrect": false,
+        "justification": "Il n'existe aucune règle de copropriété automatique de ce type entre les établissements d'enseignement et les entreprises d'accueil."
+      }
+    ]
+  },
+  {
+    "id": "ip-titularite-chunk2-04",
+    "type": "practical",
+    "text": "Une start-up fait appel à un développeur indépendant pour créer une application mobile. Le contrat de prestation de services ne contient aucune clause relative à la propriété intellectuelle. Qui détient les droits d'exploitation à la livraison ?",
+    "image": null,
+    "hint": "Le paiement d'une facture de prestation de services emporte-t-il transfert de propriété intellectuelle ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La start-up, car le paiement de la prestation de commande transfère implicitement les droits patrimoniaux.",
+        "isCorrect": false,
+        "justification": "Le fait qu'un contrat prévoie une rémunération au profit de l'auteur indépendant ne signifie pas que ce dernier a cédé ses droits d'auteur."
+      },
+      {
+        "id": "B",
+        "text": "Le développeur indépendant, car les droits d'auteur sur l'œuvre réalisée dans le cadre d'un contrat de commande restent sa propriété exclusive.",
+        "isCorrect": true,
+        "justification": "En l'absence de contrat écrit de cession respectant les exigences légales, l'auteur indépendant conserve l'intégralité de ses droits patrimoniaux sur l'œuvre créée."
+      },
+      {
+        "id": "C",
+        "text": "Les deux parties de manière conjointe sous le régime de l'œuvre collective.",
+        "isCorrect": false,
+        "justification": "Une prestation externe unilatérale ne répond pas aux critères de l'œuvre collective s'il n'y a pas de processus de fusion des contributions sous la direction exclusive de la start-up."
+      },
+      {
+        "id": "D",
+        "text": "L'État, car l'absence de clause contractuelle écrite annule les droits d'auteur patrimoniaux, rendant l'œuvre libre de droits.",
+        "isCorrect": false,
+        "justification": "L'absence de clause ne détruit pas le droit d'auteur ; l'œuvre reste simplement la propriété de son créateur physique."
+      }
+    ]
+  },
+  {
+    "id": "ip-titularite-chunk2-05",
+    "type": "theoretical",
+    "text": "Un employeur insère une clause dans le contrat de travail d'un ingénieur stipulant que 'toutes les œuvres futures que le salarié créera dans l'entreprise appartiendront automatiquement à l'employeur'. Quelle est la validité de cette clause ?",
+    "image": null,
+    "hint": "Consultez l'article L131-1 du Code de la propriété intellectuelle.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elle est parfaitement valide et recommandée pour sécuriser les investissements de recherche et développement de l'entreprise.",
+        "isCorrect": false,
+        "justification": "La loi française protège l'auteur contre ce type de clause d'accaparement généralisé."
+      },
+      {
+        "id": "B",
+        "text": "Elle est nulle de plein droit, car la loi interdit la cession globale des œuvres futures, ce qui empêche d'insérer des clauses de cession automatique généralisée.",
+        "isCorrect": true,
+        "justification": "L'article L131-1 du CPI dispose que la 'cession globale des œuvres futures est nulle'. Cette disposition interdit d'introduire des clauses de cession automatique générale dans les contrats de travail."
+      },
+      {
+        "id": "C",
+        "text": "Elle est valide uniquement pour les logiciels, mais nulle pour les autres types de créations comme les documentations ou designs.",
+        "isCorrect": false,
+        "justification": "Pour les logiciels, c'est la loi (L113-9) qui organise la dévolution automatique, rendant une telle clause contractuelle inutile ou redondante, mais la clause globale reste nulle en elle-même."
+      },
+      {
+        "id": "D",
+        "text": "Elle est temporairement valide pour une durée de 5 ans à compter de la signature du contrat.",
+        "isCorrect": false,
+        "justification": "La nullité d'une cession globale d'œuvres futures est d'ordre public et immédiate, sans limite de temps ou de durée de tolérance."
+      }
+    ]
+  },
+  {
+    "id": "ip-titularite-chunk2-06",
+    "type": "theoretical",
+    "text": "Une société d'édition coordonne le travail de nombreux rédacteurs pour concevoir un dictionnaire. Elle définit les sujets, relit les textes et publie l'ouvrage sous son propre nom sans qu'on puisse attribuer de droit distinct à chacun sur l'ensemble. Comment est qualifiée cette œuvre ?",
+    "image": null,
+    "hint": "Il s'agit d'une œuvre initiée et éditée par une personne morale où les contributions individuelles se fondent dans l'ensemble.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Une œuvre de collaboration, car plusieurs rédacteurs ont travaillé de concert.",
+        "isCorrect": false,
+        "justification": "L'œuvre de collaboration exige une concertation des coauteurs sur un pied d'égalité et une propriété commune, ce qui n'est pas le cas ici sous la direction de l'éditeur."
+      },
+      {
+        "id": "B",
+        "text": "Une œuvre composite, car elle intègre des contributions préexistantes autonomes.",
+        "isCorrect": false,
+        "justification": "L'œuvre composite consiste à incorporer une œuvre préexistante sans la collaboration de son auteur, ce qui diffère du cas d'un dictionnaire créé sur commande."
+      },
+      {
+        "id": "C",
+        "text": "Une œuvre collective, car elle est créée à l'initiative d'une personne morale qui la publie sous sa direction et son nom, les contributions se fondant dans l'ensemble.",
+        "isCorrect": true,
+        "justification": "Selon l'article L113-2 du CPI, l'œuvre collective est celle créée sur l'initiative d'une personne physique ou morale qui l'édite, la publie et la divulgue sous sa direction et son nom."
+      },
+      {
+        "id": "D",
+        "text": "Une œuvre dérivée, nécessitant l'accord unanime de tous les auteurs de dictionnaires antérieurs.",
+        "isCorrect": false,
+        "justification": "Un dictionnaire original n'est pas une œuvre dérivée de tous les dictionnaires passés s'il est rédigé de manière autonome."
+      }
+    ]
+  },
+  {
+    "id": "ip-titularite-chunk2-07",
+    "type": "practical",
+    "text": "Une société informatique développe des versions successives d'un progiciel pour l'adapter aux évolutions technologiques de ses clients. Selon l'arrêt de la Cour d'appel de Versailles du 4 octobre 2001, ces versions successives constituent-elles une œuvre composite ?",
+    "image": null,
+    "hint": "L'évolution normale et nécessaire d'un logiciel s'inscrit-elle dans la définition de l'œuvre composite ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car chaque nouvelle version intègre l'ancienne version préexistante en la modifiant.",
+        "isCorrect": false,
+        "justification": "Les juges ont rejeté cette analyse pour éviter de complexifier la gestion des droits des progiciels évolutifs."
+      },
+      {
+        "id": "B",
+        "text": "Non, car les versions successives d'un progiciel nécessairement évolutif ne constituent pas en tant que telles une œuvre originale nouvelle.",
+        "isCorrect": true,
+        "justification": "La jurisprudence précise que l'évolution technique obligatoire et la mise en conformité d'un progiciel ne suffisent pas à qualifier les versions successives d'œuvres composites distinctes."
+      },
+      {
+        "id": "C",
+        "text": "Oui, à condition que le code source d'origine ait été écrit par un développeur tiers n'appartenant plus à l'entreprise.",
+        "isCorrect": false,
+        "justification": "Le statut du développeur d'origine ne modifie pas la qualification des versions évolutives logicielles selon cet arrêt."
+      },
+      {
+        "id": "D",
+        "text": "Non, car les logiciels sont légalement exclus du régime des œuvres de collaboration et des œuvres composites.",
+        "isCorrect": false,
+        "justification": "Les logiciels ne sont pas exclus par principe de ces régimes, mais les versions successives d'un progiciel évolutif ont fait l'objet d'un traitement jurisprudentiel spécifique."
+      }
+    ]
+  },
+  {
+    "id": "ip-titularite-chunk2-08",
+    "type": "theoretical",
+    "text": "Quelles sont les trois caractéristiques juridiques fondamentales du droit moral de l'auteur en droit français selon l'article L121-1 du CPI ?",
+    "image": null,
+    "hint": "Ces caractéristiques protègent le lien indissociable entre l'auteur et sa création.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Temporaire, cessible par contrat écrit et limité au territoire national.",
+        "isCorrect": false,
+        "justification": "C'est l'inverse : ces caractéristiques décrivent plutôt certains aspects des droits patrimoniaux de l'auteur."
+      },
+      {
+        "id": "B",
+        "text": "Perpétuel, inaliénable et imprescriptible.",
+        "isCorrect": true,
+        "justification": "Le droit moral est attaché à la personne de l'auteur. Il est perpétuel (survit après sa mort), inaliénable (on ne peut pas le vendre ou y renoncer) et imprescriptible (on peut l'invoquer sans limite de temps)."
+      },
+      {
+        "id": "C",
+        "text": "Rachetable par l'employeur, révocable unilatéralement et transmissible uniquement aux personnes morales.",
+        "isCorrect": false,
+        "justification": "Le droit moral est d'ordre public et ne peut être racheté, ni cédé à une personne morale par contrat."
+      },
+      {
+        "id": "D",
+        "text": "Valable uniquement pendant 70 ans après la mort de l'auteur, puis totalement aboli.",
+        "isCorrect": false,
+        "justification": "Les droits patrimoniaux s'éteignent 70 ans après la mort de l'auteur, mais le droit moral est perpétuel et se transmet aux héritiers."
+      }
+    ]
+  },
+  {
+    "id": "ip-titularite-chunk2-09",
+    "type": "practical",
+    "text": "Un ingénieur logiciel cède tous ses droits d'exploitation patrimoniaux sur une application à son employeur. Suite à un désaccord, il décide d'exercer son droit de retrait et de repentir pour retirer le logiciel du marché. Est-ce légalement possible ?",
+    "image": null,
+    "hint": "Le droit de retrait et de repentir s'applique-t-il au domaine particulier des logiciels ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, à condition qu'il indemnise préalablement son employeur pour le préjudice causé.",
+        "isCorrect": false,
+        "justification": "Bien que ce soit la règle générale pour les œuvres classiques, elle ne s'applique pas aux logiciels."
+      },
+      {
+        "id": "B",
+        "text": "Non, car l'auteur d'un logiciel ne peut pas exercer de droit de retrait ou de repentir selon l'article L121-7 du CPI.",
+        "isCorrect": true,
+        "justification": "L'article L121-7 du CPI exclut expressément l'exercice du droit de repentir ou de retrait pour les auteurs de logiciels, sauf stipulation contractuelle plus favorable."
+      },
+      {
+        "id": "C",
+        "text": "Oui, car le droit moral est d'ordre public et aucune exception légale ne peut en restreindre l'exercice.",
+        "isCorrect": false,
+        "justification": "Le législateur a pourtant créé des aménagements spécifiques et restrictifs pour le droit moral appliqué au logiciel."
+      },
+      {
+        "id": "D",
+        "text": "Oui, mais uniquement si le logiciel a été développé en dehors de ses heures de travail.",
+        "isCorrect": false,
+        "justification": "Le lieu ou l'heure de développement ne réactivent pas le droit de retrait ou de repentir, qui est totalement exclu pour le logiciel."
+      }
+    ]
+  },
+  {
+    "id": "ip-titularite-chunk2-10",
+    "type": "practical",
+    "text": "Un développeur de logiciels s'oppose à ce que l'entreprise acquéreuse de ses droits modifie son code pour corriger des erreurs d'affichage, invoquant son droit au respect de l'intégrité de l'œuvre. Le juge peut-il lui donner raison ?",
+    "image": null,
+    "hint": "Dans quel cas exceptionnel l'auteur d'un logiciel peut-il limiter les modifications du cessionnaire ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car le droit au respect de l'œuvre est absolu et interdit toute modification du code source sans l'accord écrit de l'auteur.",
+        "isCorrect": false,
+        "justification": "Pour le logiciel, le droit d'auteur est adapté pour permettre l'exploitation technique par le cessionnaire."
+      },
+      {
+        "id": "B",
+        "text": "Non, sauf si le développeur parvient à prouver que cette modification est préjudiciable à son honneur ou à sa réputation.",
+        "isCorrect": true,
+        "justification": "Selon l'article L121-7 du CPI, l'auteur d'un logiciel ne peut s'opposer à l'adaptation de son logiciel par le cessionnaire des droits que si cette modification nuit à son honneur ou à sa réputation."
+      },
+      {
+        "id": "C",
+        "text": "Oui, mais uniquement si la correction d'erreurs est effectuée par une intelligence artificielle.",
+        "isCorrect": false,
+        "justification": "L'utilisation de l'IA pour corriger des bugs ne modifie pas les règles d'exercice du droit moral de l'auteur."
+      },
+      {
+        "id": "D",
+        "text": "Non, car le droit moral au respect de l'intégrité est totalement supprimé pour les logiciels.",
+        "isCorrect": false,
+        "justification": "Il n'est pas supprimé mais encadré et restreint au préjudice causé à l'honneur ou à la réputation de l'auteur."
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - DATABASE_URL=postgresql://qcm:localpass@db:5432/qcm?schema=public
+      - NEXTAUTH_SECRET=localsecret
+      - NEXTAUTH_URL=http://localhost:3000
+      # (Ignore Keycloak for simple local testing without Auth, or mock it)
+    depends_on:
+      - db
+
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: qcm
+      POSTGRES_PASSWORD: localpass
+      POSTGRES_DB: qcm
+    ports:
+      - "5435:5432"

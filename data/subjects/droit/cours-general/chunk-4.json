@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ip-contrats-chunk4-01",
+    "type": "theoretical",
+    "text": "Quelles sont les trois conditions cumulatives exigees par l'article 1128 du Code civil pour la validite de tout contrat, y compris un contrat de cession de droits d'auteur ?",
+    "image": null,
+    "hint": "Ces conditions forment la base du droit commun des contrats en France.",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'inscription a l'INPI, la signature devant notaire et un prix superieur au smic.",
+        "isCorrect": false,
+        "justification": "Ces conditions ne sont pas generales et ne conditionnent pas la validite de base des contrats."
+      },
+      {
+        "id": "B",
+        "text": "Le consentement des parties, leur capacite de contracter, et un contenu licite et certain.",
+        "isCorrect": true,
+        "justification": "Selon l'article 1128 du Code civil, ces trois conditions sont indispensables a la validite de tout accord contractuel."
+      },
+      {
+        "id": "C",
+        "text": "La redaction par un avocat, l'homologation par un juge et la publication au Journal Officiel.",
+        "isCorrect": false,
+        "justification": "La tres grande majorite des contrats n'exige ni avocat, ni homologation judiciaire, ni publication officielle."
+      },
+      {
+        "id": "D",
+        "text": "L'absence de clause d'exclusivite, la duree de vie de l'auteur et un paiement en redevances proportionnelles.",
+        "isCorrect": false,
+        "justification": "Ces elements relevent de clauses particulieres et non des conditions de validite du droit commun des contrats."
+      }
+    ]
+  },
+  {
+    "id": "ip-contrats-chunk4-02",
+    "type": "practical",
+    "text": "Une societe de developpement souhaite modifier de maniere unilaterale les conditions financieres d'une licence logicielle en cours d'execution, sans l'accord du developpeur titulaire. Est-ce legal ?",
+    "image": null,
+    "hint": "Pensez au principe de force obligatoire etabli par le Code civil.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car l'utilisateur legitime dispose d'un pouvoir d'adaptation automatique lie aux besoins du marche.",
+        "isCorrect": false,
+        "justification": "La volonte commerciale ne permet pas de s'affranchir unilatéralement des engagements contractuels."
+      },
+      {
+        "id": "B",
+        "text": "Non, car selon le principe de la force obligatoire du contrat, un accord ne peut etre modifie ou revoque que du consentement mutuel des parties, via un avenant.",
+        "isCorrect": true,
+        "justification": "Les articles 1103 et 1193 du Code civil imposent que le contrat a force de loi entre les parties. Toute modification necessite l'accord mutuel des signataires, formalise par un avenant."
+      },
+      {
+        "id": "C",
+        "text": "Oui, a condition que l'augmentation tarifaire soit inferieure a un seuil de 10% par an.",
+        "isCorrect": false,
+        "justification": "La loi n'autorise aucune modification unilaterale de tarif sans clause d'indexation prealablement acceptee."
+      },
+      {
+        "id": "D",
+        "text": "Non, sauf si le logiciel n'est pas encore depose a l'Agence pour la Protection des Programmes.",
+        "isCorrect": false,
+        "justification": "Le statut de depot a l'APP ne modifie en rien la force obligatoire du contrat lie aux parties."
+      }
+    ]
+  },
+  {
+    "id": "ip-contrats-chunk4-03",
+    "type": "practical",
+    "text": "Un developpeur propose les droits d'un logiciel en masquant deliberement une faille de securite critique qu'il sait redhibitoire, tout en affirmant mensongerement que le code est audite et infaillible. Comment est qualifie ce comportement ?",
+    "image": null,
+    "hint": "Il s'agit d'une manoeuvre intentionnelle destinee a tromper le cocontractant pour obtenir son accord.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Une simple erreur d'appreciation sur les qualites essentielles, sans incidence sur la validite du contrat.",
+        "isCorrect": false,
+        "justification": "Le caractere intentionnel et le mensonge ecartent la simple erreur involontaire."
+      },
+      {
+        "id": "B",
+        "text": "Un dol, caractrise par une dissimulation intentionnelle d'une information determinante et des manoeuvres visant a obtenir le consentement.",
+        "isCorrect": true,
+        "justification": "Selon l'article 1130 du Code civil, le dol est un vice du consentement qui entraine la nullite du contrat si l'autre partie n'aurait pas contracte en connaissant la realite."
+      },
+      {
+        "id": "C",
+        "text": "Un simple vice cache, qui n'affecte pas le consentement mais donne seulement droit a une reduction du prix de vente.",
+        "isCorrect": false,
+        "justification": "Le vice cache n'implique pas obligatoirement la volonte de tromper. Ici, la dissimulation et le mensonge volontaires caracterisent le dol."
+      },
+      {
+        "id": "D",
+        "text": "Un acte de violence morale legitime face aux exigences du client.",
+        "isCorrect": false,
+        "justification": "La dissimulation d'un bug n'est pas un acte de contrainte physique ou morale caracterisant la violence."
+      }
+    ]
+  },
+  {
+    "id": "ip-contrats-chunk4-04",
+    "type": "theoretical",
+    "text": "Un developpeur mineur non emancipe signe seul un contrat de cession de ses droits d'auteur sur une application mobile avec un editeur. Quelle est la validite de cet acte ?",
+    "image": null,
+    "hint": "Le mineur dispose-t-il de la capacite juridique pour les contrats de cette importance ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le contrat est parfaitement valable car la loi autorise les mineurs a signer tout contrat de propriete intellectuelle lie au numerique.",
+        "isCorrect": false,
+        "justification": "Il n'existe aucune exception de ce type dans la loi francaise pour les creations numeriques."
+      },
+      {
+        "id": "B",
+        "text": "Le contrat est nul ou annulable, car le mineur non emancipe est juridiquement incapable de contracter seul pour un acte de cession de cette importance.",
+        "isCorrect": true,
+        "justification": "Les mineurs non emancipes ne peuvent pas s'engager seuls pour des actes importants comme la cession de droits de propriete intellectuelle (qui excede les petits actes de la vie courante). Ils doivent etre representes."
+      },
+      {
+        "id": "C",
+        "text": "Le contrat est valable uniquement si la duree de cession est limitee a un an.",
+        "isCorrect": false,
+        "justification": "La reduction de la duree de cession ne supplée pas au defaut de capacite juridique du mineur."
+      },
+      {
+        "id": "D",
+        "text": "Le contrat est d'office requalifie en contrat de stage non remunere sous la tutelle de l'ecole.",
+        "isCorrect": false,
+        "justification": "Un tribunal ne peut pas requalifier unilateralement une cession d'auteur en convention de stage."
+      }
+    ]
+  },
+  {
+    "id": "ip-contrats-chunk4-05",
+    "type": "theoretical",
+    "text": "Quelle est la difference juridique majeure en droit francais entre un contrat de cession de droits d'auteur et une licence d'utilisation de logiciel ?",
+    "image": null,
+    "hint": "L'un de ces contrats entraine un transfert de propriete des droits patrimoniaux, l'autre une simple autorisation d'usage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "La licence est obligatoirement gratuite, alors que la cession est obligatoirement payante.",
+        "isCorrect": false,
+        "justification": "Une licence peut tout a fait etre accordee a titre onereux, et une cession peut etre gratuite si cela est specifié."
+      },
+      {
+        "id": "B",
+        "text": "La cession emporte transfert de propriete de tout ou partie des droits patrimoniaux de l'auteur au cessionnaire (qui peut alors agir en contrefacon), tandis que la licence est une simple autorisation d'utilisation sans transfert de propriete.",
+        "isCorrect": true,
+        "justification": "C'est la distinction essentielle : la cession transfere la qualite de titulaire des droits au cessionnaire, tandis que le licencie n'est qu'un utilisateur autorise sans droit pour agir seul en contrefacon."
+      },
+      {
+        "id": "C",
+        "text": "La licence necessite un enregistrement officiel a l'INPI sous peine de nullite, contrairement a la cession.",
+        "isCorrect": false,
+        "justification": "Aucune de ces deux conventions ne requiert d'enregistrement a l'INPI pour etre valable en droit d'auteur."
+      },
+      {
+        "id": "D",
+        "text": "La cession est limitee a la duree de vie de l'auteur, tandis que la licence peut etre eternelle.",
+        "isCorrect": false,
+        "justification": "La cession peut s'etendre sur la duree des droits patrimoniaux (70 ans post-mortem), et une licence ne peut depasser cette meme limite legale de protection."
+      }
+    ]
+  },
+  {
+    "id": "ip-contrats-chunk4-06",
+    "type": "theoretical",
+    "text": "Un contrat de cession rédigé de facon generale stipule : 'L'auteur cede tous les droits d'exploitation necessaires sur son oeuvre'. Le cessionnaire peut-il adapter le logiciel pour developper une application mobile ?",
+    "image": null,
+    "hint": "Consultez l'article L131-3 du CPI concernant le formalisme des transferts de droits.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car l'expression 'tous les droits necessaires' englobe par defaut le droit d'adaptation pour tous les supports.",
+        "isCorrect": false,
+        "justification": "Les cessions de droits d'auteur s'interpretent de facon restrictive en faveur de l'auteur."
+      },
+      {
+        "id": "B",
+        "text": "Non, car l'ensemble des droits cedés doit etre explicitement listé dans l'acte de cession ; les droits non listes sont reputes conserves par l'auteur.",
+        "isCorrect": true,
+        "justification": "L'article L131-3 du CPI impose que le contrat de cession precise chaque droit cedé. Une formulation globale et imprecise est inefficace : tout droit non explicitement mentionne (comme l'adaptation mobile) reste a l'auteur."
+      },
+      {
+        "id": "C",
+        "text": "Oui, mais l'auteur peut s'y opposer uniquement s'il n'a pas encore encaisse son paiement.",
+        "isCorrect": false,
+        "justification": "L'encaissement du paiement ne valide pas une clause contractuelle nulle ou imprecise."
+      },
+      {
+        "id": "D",
+        "text": "Non, sauf si le developpeur a declare son code source sous licence libre de type GPL.",
+        "isCorrect": false,
+        "justification": "L'application des licences libres obeit a d'autres regles, mais ne valide pas une cession contractuelle classique imprecise."
+      }
+    ]
+  },
+  {
+    "id": "ip-contrats-chunk4-07",
+    "type": "practical",
+    "text": "Un contrat de cession de droits d'auteur sur un design d'interface omet de mentionner la duree de la cession ainsi que l'etendue geographique du transfert. Quelle est la consequence de cette omission ?",
+    "image": null,
+    "hint": "La limitation dans le temps et dans l'espace fait partie des mentions obligatoires du CPI.",
+    "options": [
+      {
+        "id": "A",
+        "text": "La cession est presume geographiquement mondiale et valable pour toute la duree de vie de l'auteur.",
+        "isCorrect": false,
+        "justification": "Le droit francais n'applique aucune presomption de ce type en l'absence de mentions ecrites."
+      },
+      {
+        "id": "B",
+        "text": "La cession est entachee de nullite, car la limitation dans le temps et dans l'espace sont des mentions obligatoires exigees sous peine de nullite par l'article L131-3 du CPI.",
+        "isCorrect": true,
+        "justification": "L'article L131-3 exige que la cession mentionne expressement le domaine d'exploitation, l'etendue geographique (l'espace) et la duree (le temps). L'absence de ces precisions entraine la nullite de la cession."
+      },
+      {
+        "id": "C",
+        "text": "Le contrat reste valable mais l'exploitation est restreinte d'office au departement d'origine de l'auteur pour une duree de 6 mois.",
+        "isCorrect": false,
+        "justification": "Le juge ne peut pas recreer de maniere arbitraire des limites territoriales ou de duree minimales de ce type."
+      },
+      {
+        "id": "D",
+        "text": "Le contrat est automatiquement converti en licence de logiciel libre permissive.",
+        "isCorrect": false,
+        "justification": "La justice ne peut pas imposer de force l'application d'un modele de licence libre."
+      }
+    ]
+  },
+  {
+    "id": "ip-contrats-chunk4-08",
+    "type": "theoretical",
+    "text": "Un contrat de cession de droits d'auteur ne mentionne pas explicitement si le transfert des droits est exclusif. Comment cette absence de precision est-elle interpretee ?",
+    "image": null,
+    "hint": "L'exclusivite restreint fortement la liberté de l'auteur de ceder l'oeuvre a d'autres personnes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le contrat est d'office considere comme exclusif car c'est l'usage habituel en matiere d'informatique.",
+        "isCorrect": false,
+        "justification": "L'usage ne remplace pas l'exigence d'une clause expresse ecrite pour l'exclusivite."
+      },
+      {
+        "id": "B",
+        "text": "La cession est reputee non exclusive ; si l'exclusivite n'est pas expressement stipulee dans le contrat, elle n'est pas accordee au cessionnaire.",
+        "isCorrect": true,
+        "justification": "En droit d'auteur, le transfert exclusif doit etre mentionne explicitement. Sans mention specifique, la cession est non exclusive (sauf exception légale particuliere comme le contrat d'edition)."
+      },
+      {
+        "id": "C",
+        "text": "La cession est declaree nulle car l'exclusivite est une condition de fond de tout contrat.",
+        "isCorrect": false,
+        "justification": "Un contrat de cession non exclusif est parfaitement licite et valide, il n'y a donc pas de nullite."
+      },
+      {
+        "id": "D",
+        "text": "La decision est laissee a l'appreciation souveraine de l'Agence pour la Protection des Programmes.",
+        "isCorrect": false,
+        "justification": "L'APP n'a aucun pouvoir juridictionnel pour interpreter ou modifier les contrats prives."
+      }
+    ]
+  },
+  {
+    "id": "ip-contrats-chunk4-09",
+    "type": "theoretical",
+    "text": "Un contrat prevoit la cession des droits d'exploitation d'une oeuvre pour toute forme future non previsible a la date de conclusion du contrat. Quelle condition la loi impose-t-elle pour la validite de cette clause ?",
+    "image": null,
+    "hint": "Consultez l'article L131-6 du CPI concernant les formes d'exploitation futures.",
+    "options": [
+      {
+        "id": "A",
+        "text": "La clause est interdite par principe pour eviter d'exploiter abusivement l'avenir de l'auteur.",
+        "isCorrect": false,
+        "justification": "Elle est autorisee par la loi, mais sous reserve du respect de conditions strictes de validite."
+      },
+      {
+        "id": "B",
+        "text": "La clause doit etre expresse et stipuler une participation correlative aux profits d'exploitation generes par cette nouvelle forme.",
+        "isCorrect": true,
+        "justification": "L'article L131-6 dispose que la clause d'exploitation sous une forme non previsible a la date du contrat doit etre expresse et comporter une participation correlative de l'auteur aux benefices de cette exploitation."
+      },
+      {
+        "id": "C",
+        "text": "La clause est d'office valable sans condition financiere specifique des lors que le contrat initial est signe de bonne foi.",
+        "isCorrect": false,
+        "justification": "La bonne foi ne dispense pas du respect des regles imperatives de participation financiere prevues par l'article L131-6."
+      },
+      {
+        "id": "D",
+        "text": "La validite de cette clause est subordonnee a un accord ecrit annuel de reconduction.",
+        "isCorrect": false,
+        "justification": "La loi n'impose pas d'accord annuel de reconduction pour valider les clauses d'exploitations futures."
+      }
+    ]
+  },
+  {
+    "id": "ip-contrats-chunk4-10",
+    "type": "theoretical",
+    "text": "Quel est le principe de remuneration de l'auteur etabli par l'article L131-4 du CPI, et quelle exception notable concerne l'informatique ?",
+    "image": null,
+    "hint": "Cherchez le mode de remuneration standard de l'artiste vs la simplification apportee pour le developpement logiciel.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le principe est le salaire horaire fixe, mais les editeurs de logiciels doivent obligatoirement payer en actions de l'entreprise.",
+        "isCorrect": false,
+        "justification": "Le droit d'auteur ne regit pas les salaires horaires ni l'attribution obligatoire de parts sociales."
+      },
+      {
+        "id": "B",
+        "text": "Le principe est la participation proportionnelle aux recettes de vente ou d'exploitation, mais la remuneration forfaitaire est licite en cas de cession de droits portant sur un logiciel.",
+        "isCorrect": true,
+        "justification": "Le CPI pose le principe de la remuneration proportionnelle. Toutefois, l'article L131-4 5° autorise de maniere expresse le recours a une remuneration forfaitaire pour la cession de droits portant sur un logiciel."
+      },
+      {
+        "id": "C",
+        "text": "Le principe est la gratuite de la creation, le forfait n'intervenant qu'en cas de depot Soleau valide.",
+        "isCorrect": false,
+        "justification": "La gratuite ne se presume pas en droit francais, le principe general restant la participation aux benefices d'exploitation."
+      },
+      {
+        "id": "D",
+        "text": "Le principe est la redevance forfaitaire obligatoire, la participation proportionnelle etant interdite aux auteurs de logiciels.",
+        "isCorrect": false,
+        "justification": "La participation proportionnelle n'est pas interdite pour le logiciel, c'est simplement le forfait qui y est autorise comme exception."
+      }
+    ]
+  }
+]

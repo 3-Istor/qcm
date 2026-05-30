@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ip-notes-chunk4-31",
+    "type": "practical",
+    "text": "Un developpeur cree une base de donnees regroupant des adresses de serveurs publics du monde entier. Il trie et ordonne ces adresses de maniere originale par pays et par protocole. Que protege reelement le droit d'auteur sur cette base de donnees ?",
+    "image": null,
+    "hint": "Distinguez la structure (le contenant) de la donnee brute elle-meme (le contenu).",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le droit d'auteur protege individuellement chaque adresse IP de serveur public contenue dans la base.",
+        "isCorrect": false,
+        "justification": "Une adresse IP publique est une donnee brute non originale qui ne peut pas etre protegee par le droit d'auteur."
+      },
+      {
+        "id": "B",
+        "text": "Le droit d'auteur protege la structure de la base de donnees (la selection, le tri et l'agencement original), mais pas la donnee brute elle-meme.",
+        "isCorrect": true,
+        "justification": "Comme l'indiquent vos notes : 'Ce qui est protege c'est la DB et pas la donnee'. La selection et le choix original des matieres constituent l'expression de l'originalite de la structure protegee par le droit d'auteur, tandis que les donnees brutes restent libres."
+      },
+      {
+        "id": "C",
+        "text": "Le droit d'auteur ne protege rien du tout car les adresses IP sont des donnees informatiques exclues du Code de la propriete intellectuelle.",
+        "isCorrect": false,
+        "justification": "La structure d'une base de donnees est tout a fait eligible au droit d'auteur si elle atteste d'un choix original."
+      },
+      {
+        "id": "D",
+        "text": "Le droit d'auteur attribue automatiquement la propriete de tous les serveurs listes au createur de la base.",
+        "isCorrect": false,
+        "justification": "Le droit d'auteur sur une base n'accorde aucun droit de propriete physique ou d'exploitation sur les serveurs distants."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk4-32",
+    "type": "practical",
+    "text": "Une start-up souhaite concevoir une base de donnees commerciale en collectant des descriptifs de produits rediges par des auteurs tiers et proteges par le droit d'auteur. Quelle est son obligation legale de depart ?",
+    "image": null,
+    "hint": "Peut-on utiliser le travail de mise en forme preexistant de tiers sans accord ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elle peut collecter librement ces descriptifs sans accord car l'integration dans une base de donnees annule les droits d'auteur preexistants.",
+        "isCorrect": false,
+        "justification": "L'integration dans une base de donnees ne supprime pas les droits des auteurs des textes d'origine."
+      },
+      {
+        "id": "B",
+        "text": "Pour creer cette base de donnees, elle doit imperatitvement obtenir l'autorisation d'utiliser ces donnees protegees, a moins de collecter uniquement des donnees tombees dans le domaine public.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours le precisent : 'Pour creer cette DB, il faut avoir l'autorisation d'utiliser la donnee'. On ne peut pas exploiter commercialement le travail de mise en forme preexistant d'un tiers sans son accord, sauf si ces donnees sont libres (domaine public)."
+      },
+      {
+        "id": "C",
+        "text": "Elle doit deposer un brevet de base de donnees a l'INPI pour etre dispensee de l'autorisation des auteurs d'origine.",
+        "isCorrect": false,
+        "justification": "Le depot de brevet n'existe pas pour les bases de donnees et ne dispense jamais du respect des droits d'auteur preexistants."
+      },
+      {
+        "id": "D",
+        "text": "Elle peut utiliser les donnees librement a condition d'effacer le nom des auteurs d'origine.",
+        "isCorrect": false,
+        "justification": "Effacer le nom des auteurs violerait gravement leur droit moral de paternite en plus de constituer une reproduction illicite."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk4-33",
+    "type": "theoretical",
+    "text": "Qui est qualifie de 'producteur' d'une base de donnees selon les regles du droit sui generis ?",
+    "image": null,
+    "hint": "Le producteur n'est pas necessairement le developpeur technique qui ecrit les requetes SQL.",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'administrateur systeme charge d'assurer la maintenance du serveur de base de donnees.",
+        "isCorrect": false,
+        "justification": "L'administrateur systeme est un prestataire ou un salarie executant, il n'est pas le producteur au sens legal."
+      },
+      {
+        "id": "B",
+        "text": "La personne (physique ou morale) qui prend l'initiative et assume le risque des investissements (financiers, materiels, humains) pour batir et structurer la base.",
+        "isCorrect": true,
+        "justification": "Selon le cours et l'article L341-1 du CPI, le producteur est celui qui prend l'initiative et le risque des investissements correspondants pour constituer, verifier ou presenter la base de donnees."
+      },
+      {
+        "id": "C",
+        "text": "Le developpeur freelance charge de rediger le schema relationnel de la base de donnees.",
+        "isCorrect": false,
+        "justification": "Le developpeur est le createur de la structure (droit d'auteur), mais pas le producteur qui finance et prend le risque economique."
+      },
+      {
+        "id": "D",
+        "text": "L'internaute qui consulte regulierement les donnees de l'annuaire.",
+        "isCorrect": false,
+        "justification": "L'utilisateur final n'assume aucun risque d'investissement et n'est donc pas le producteur."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk4-34",
+    "type": "practical",
+    "text": "Un developpeur souhaite consulter et recuperer une quantite de donnees sur un site web d'annonces. Rien n'est specifie sur le site concernant l'autorisation ou la gratuite de cette consultation. Quelle est la regle applicable ?",
+    "image": null,
+    "hint": "En matiere d'exploitation de base de donnees, l'absence de clause vaut-elle acceptation ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La consultation est consideree comme gratuite et libre d'office car tout ce qui est accessible sur le web est libre d'usage par defaut.",
+        "isCorrect": false,
+        "justification": "L'accessibilite technique sur Internet ne vaut pas autorisation juridique d'exploitation."
+      },
+      {
+        "id": "B",
+        "text": "Si rien n'est precise, c'est 'non' ! La gratuite n'est jamais presumee, le regime par defaut est la protection et l'extraction requiert l'autorisation explicite du producteur.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours l'affirment sans ambiguite : 'Si rien n'est precise, c'est non ! La gratuite n'est jamais presumee - le regime par defaut est la protection'. Il convient d'obtenir l'accord explicite de l'auteur ou du producteur pour toute extraction."
+      },
+      {
+        "id": "C",
+        "text": "Le developpeur peut copier les donnees a condition d'utiliser un script de scraping tournant uniquement la nuit.",
+        "isCorrect": false,
+        "justification": "L'heure d'execution du script de scraping ne modifie pas l'illegalite de l'extraction sans autorisation."
+      },
+      {
+        "id": "D",
+        "text": "La base de donnees est presumee libre de droits si elle n'affiche pas le symbole '©' sur son portail d'accueil.",
+        "isCorrect": false,
+        "justification": "Le symbole '©' n'a aucune valeur attributive de droit en France ; la protection s'applique d'office sans formalite."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk4-35",
+    "type": "theoretical",
+    "text": "Le Code civil dispose que les contrats doivent etre negocies, formes et executes de 'bonne foi'. Comment se traduit cette obligation lors de la phase d'execution du contrat ?",
+    "image": null,
+    "hint": "Pensez aux devoirs comportementaux reciproques des contractants.",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'obligation de bonne foi impose d'accepter toutes les modifications de tarifs demandees par l'autre partie sans discuter.",
+        "isCorrect": false,
+        "justification": "La bonne foi n'oblige pas a renoncer a ses propres droits contractuels face a des exigences unilatérales."
+      },
+      {
+        "id": "B",
+        "text": "Elle impose une loyauté, une cooperation et une obligation reciproque d'information entre les parties durant toute la vie du contrat.",
+        "isCorrect": true,
+        "justification": "Selon le cours et l'article 1104 du Code civil, l'obligation de bonne foi impose une loyauté et une cooperation mutuelle, se traduisant par un devoir d'information et d'entraide entre les contractants."
+      },
+      {
+        "id": "C",
+        "text": "Elle exige que les parties se rencontrent physiquement devant un notaire tous les mois pour revalider l'accord.",
+        "isCorrect": false,
+        "justification": "La bonne foi est une attitude comportementale de loyauté, elle n'impose pas de formalites de reunions physiques mensuelles."
+      },
+      {
+        "id": "D",
+        "text": "Elle permet de rompre le contrat immediatement et sans preavis des lors que l'on estime que l'autre partie manque de loyauté.",
+        "isCorrect": false,
+        "justification": "La rupture unilatérale sans respect des procedures reste une violation contractuelle, meme sous pretexte de mauvaise foi adverse."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk4-36",
+    "type": "practical",
+    "text": "Un developpeur freelance negocie un contrat de cession de ses droits sur une application avec un client. Concernant la clause de 'duree' de la cession, quelle evolution de la pratique commerciale est soulignee dans le cours ?",
+    "image": null,
+    "hint": "La tendance moderne s'ecarte des cessions permanentes ou calquees sur la vie de l'auteur.",
+    "options": [
+      {
+        "id": "A",
+        "text": "La pratique exige de ceder les droits pour une duree obligatoirement perpetuelle et hereditaire.",
+        "isCorrect": false,
+        "justification": "La cession perpetuelle d'office n'est pas la tendance moderne, et pose de nombreux risques juridiques pour l'auteur."
+      },
+      {
+        "id": "B",
+        "text": "Alors qu'on cedait historiquement pour la duree de vie de l'auteur, la pratique se tourne aujourd'hui beaucoup plus vers des cessions courtes, par exemple d'une duree de 1 an renouvelable.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours l'indiquent : alors que la cession classique portait sur la duree de vie de l'auteur (70 ans post-mortem), la pratique actuelle privilegie de plus en plus des durees plus courtes, 'beaucoup plus sur 1 an', permettant de renegocier les tarifs."
+      },
+      {
+        "id": "C",
+        "text": "La pratique moderne interdit de ceder des droits pour une duree de plus de 6 mois dans le domaine informatique.",
+        "isCorrect": false,
+        "justification": "La loi n'impose pas de duree maximale de 6 mois ; la duree reste a la libre negociation des parties."
+      },
+      {
+        "id": "D",
+        "text": "Le contrat doit obligatoirement calquer sa duree sur le cycle de vie de la machine physique hebergeant le logiciel.",
+        "isCorrect": false,
+        "justification": "La duree de la propriete intellectuelle est independante de la duree de vie du materiel informatique de stockage."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk4-37",
+    "type": "theoretical",
+    "text": "Lors de l'utilisation de composants sous licence libre (GPL, BSD, Apache), pourquoi le cours enseigne-t-il que 'l'on se fiche du nom exact du contrat' ?",
+    "image": null,
+    "hint": "C'est l'analyse pratique des obligations reelles qui doit guider le developpeur.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parce que toutes les licences libres ont exactement la meme valeur juridique et les memes clauses par defaut.",
+        "isCorrect": false,
+        "justification": "Il existe des differences majeures entre licences permissives (BSD, Apache) et licences sous copyleft fort (GPL)."
+      },
+      {
+        "id": "B",
+        "text": "Parce que le nom du contrat importe peu : l'important est de savoir comment la personne souhaite rellement exploiter le logiciel et de verifier quelles obligations concretes (copyleft, attribution) s'appliquent en pratique.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours le precisent : on se fiche de l'etiquette ou du nom du contrat de licence libre. L'analyse juridique doit se focaliser sur la volonte d'exploitation concrete de l'auteur et sur les obligations reelles induites par le modele de contrat choisi."
+      },
+      {
+        "id": "C",
+        "text": "Parce que la loi francaise a annule l'application de toutes les licences dont le nom est en anglais.",
+        "isCorrect": false,
+        "justification": "Les licences d'origine anglo-saxonne comme la GPL ou MIT sont parfaitement valides et reconnues en droit francais."
+      },
+      {
+        "id": "D",
+        "text": "Parce que l'utilisation de logiciels libres dispense de respecter le Code de la propriete intellectuelle.",
+        "isCorrect": false,
+        "justification": "L'open source repose entierement sur le respect prealable du droit d'auteur, qui sert de base a l'application de ses licences."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk4-38",
+    "type": "theoretical",
+    "text": "Dans le cadre de la distribution de logiciels libres de droits ou open source, que signifie l'expression 'les droits de la chaine des auteurs sont preserves' ?",
+    "image": null,
+    "hint": "Le logiciel libre s'oppose-t-il au respect de la paternite et des contributions des developpeurs successifs ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que les developpeurs successifs perdent immediatement leur droit d'auteur au profit du premier createur historique.",
+        "isCorrect": false,
+        "justification": "Chaque developpeur apporte une contribution originale et conserve des droits sur son apport specifique."
+      },
+      {
+        "id": "B",
+        "text": "Que chaque developpeur qui modifie ou enrichit le logiciel conserve ses droits d'auteur sur sa contribution, obligeant les utilisateurs successifs a respecter la chaine des licences liees a ces auteurs.",
+        "isCorrect": true,
+        "justification": "Comme le mentionne la definition du logiciel libre dans vos notes : 'les droits de la chaine des auteurs sont preserves'. L'open source n'est pas une absence de droits ; il s'agit d'un enchainement de droits d'auteur ou chaque contributeur voit sa paternite et ses droits de licence respectes."
+      },
+      {
+        "id": "C",
+        "text": "Que les auteurs doivent obligatoirement verser une redevance annuelle de preservation a l'INPI.",
+        "isCorrect": false,
+        "justification": "Aucune redevance n'est due a l'INPI pour assurer la validite ou la preservation de la chaine des droits d'auteur."
+      },
+      {
+        "id": "D",
+        "text": "Que le code du logiciel libre est depose de force sur un serveur public appartenant au ministere de la Culture.",
+        "isCorrect": false,
+        "justification": "Le stockage des sources libres est gere librement par les auteurs sur les plateformes de leur choix (ex: GitHub) sans controle etatique."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk4-39",
+    "type": "theoretical",
+    "text": "En cas de conflit portant sur l'exploitation d'une application informatique devant les tribunaux, quelle est l'utilite premiere d'avoir redige un contrat ecrit de cession de droits ?",
+    "image": null,
+    "hint": "C'est l'un des rôles majeurs du formalisme requis par le Code de la propriete intellectuelle.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le contrat ecrit sert de justification pour obtenir des subventions de developpement auprès de la Banque publique d'investissement (BPI).",
+        "isCorrect": false,
+        "justification": "Bien que utile pour la BPI, ce n'est pas le role juridique premier du contrat face a la justice civile."
+      },
+      {
+        "id": "B",
+        "text": "Le contrat sert de preuve lors d'une action en justice pour demontrer l'etendue exacte des droits transferes et eviter les contestations.",
+        "isCorrect": true,
+        "justification": "Le cours le rappelle expressement : 'Le contrat sert de preuve lors d'une action en justice'. En cas de litige, l'ecrit permet de prouver au juge ce qui a ete reelement convenu, cede ou conserve."
+      },
+      {
+        "id": "C",
+        "text": "Le contrat ecrit permet de doubler la duree de protection des droits patrimoniaux de l'auteur.",
+        "isCorrect": false,
+        "justification": "La duree du monopole (70 ans post-mortem) est d'ordre public et ne peut pas etre modifiee par un contrat ecrit."
+      },
+      {
+        "id": "D",
+        "text": "Le contrat sert a dispenser l'auteur de l'obligation de bonne foi lors de l'execution.",
+        "isCorrect": false,
+        "justification": "L'obligation de bonne foi est imperrative et d'ordre public ; aucun contrat ne peut en dispenser les signataires."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk4-40",
+    "type": "theoretical",
+    "text": "Quel est l'objectif principal du cours de Propriete Intellectuelle, au-dela de l'acquisition pure de connaissances legislatives theoriques ?",
+    "image": null,
+    "hint": "Vos notes introduisent l'esprit du cours des les premieres lignes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apprendre par coeur l'integralite des articles du Code de la propriete intellectuelle pour devenir avocat specialise.",
+        "isCorrect": false,
+        "justification": "La mémorisation pure n'est pas l'objectif d'un cours d'ingenieurs ou de managers, les textes etant accessibles en ligne."
+      },
+      {
+        "id": "B",
+        "text": "Comprendre le raisonnement pratique face a des choses immaterielles, apprehender les relations entre les differents droits et travailler sur l'appreciation et la gestion du risque juridique.",
+        "isCorrect": true,
+        "justification": "Comme l'indique l'introduction de vos notes : 'But du cours : comprendre le raisonnement (on parle de choses immaterielles), pourquoi il y a tant d'incertitudes (travail sur l'appreciation du risque), les relations entre les différents droits. Ce ne sont pas les connaissances qu'on travaille dans ce cours (texte libre sur internet)'."
+      },
+      {
+        "id": "C",
+        "text": "Developper des competences techniques de cryptage de bases de donnees relationnelles en SQL.",
+        "isCorrect": false,
+        "justification": "La securite technique SQL releve de la cybersecurite et non du droit de la propriete intellectuelle."
+      },
+      {
+        "id": "D",
+        "text": "Apprendre a masquer les failles de securite pour revendre legalement des logiciels defectueux.",
+        "isCorrect": false,
+        "justification": "Cacher des failles constituerait un dol, acte frauduleux fermement condamne par la loi."
+      }
+    ]
+  }
+]

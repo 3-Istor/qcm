@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ip-notes-chunk1-01",
+    "type": "theoretical",
+    "text": "Dans la codification du droit francais, notamment au sein du Code de la propriete intellectuelle, quelle est la relation de complementarite entre un article commencant par la lettre 'L' et un article commencant par la lettre 'R' ?",
+    "image": null,
+    "hint": "L'un represente le pouvoir legislatif et l'autre le pouvoir de completer les lois pour leur mise en oeuvre.",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'article 'L' designe le droit du Logiciel, tandis que l'article 'R' designe le droit de la Representation.",
+        "isCorrect": false,
+        "justification": "C'est une fausse interpretation des lettres du code. Les lettres designent la source legislative ou reglementaire de l'article."
+      },
+      {
+        "id": "B",
+        "text": "Un article 'L' represente une Loi votee par le Parlement, tandis qu'un article 'R' est un Decret d'application (Reglementaire) qui vient la completer ; s'il y a un article 'R', il faut chercher l'article 'L' associe.",
+        "isCorrect": true,
+        "justification": "Comme l'indiquent vos notes de cours, 'L' correspond aux Lois et 'R' aux Decrets d'application reglementaires qui les completent. Pour comprendre la portee d'un article 'R', il convient de se referer a l'article 'L' correspondant."
+      },
+      {
+        "id": "C",
+        "text": "L'article 'L' est reserve aux decrets de l'Union europeenne, alors que l'article 'R' ne concerne que la reglementation des douanes francaises.",
+        "isCorrect": false,
+        "justification": "La codification nationale 'L' et 'R' s'applique a l'ensemble du droit francais codifie, sans lien exclusif avec les douanes ou l'Union europeenne."
+      },
+      {
+        "id": "D",
+        "text": "L'article 'L' a une valeur juridique temporaire d'un an, tandis que l'article 'R' est permanent.",
+        "isCorrect": false,
+        "justification": "Les articles de loi 'L' ont une valeur juridique permanente jusqu'a leur abrogation ou modification legislative."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk1-02",
+    "type": "theoretical",
+    "text": "Lors de la mise en conformite d'une activite numerique avec les textes europeens, quelle est la difference d'application immediate entre un 'Reglement' et une 'Directive' ?",
+    "image": null,
+    "hint": "L'un est immediatement applicable dans l'Etat membre, l'autre exige une intervention legislative nationale prealable.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le Reglement est indicatif, tandis que la Directive est d'ordre public et s'applique sous 24 heures.",
+        "isCorrect": false,
+        "justification": "C'est l'inverse : le reglement s'impose de lui-meme et de facon imperative sans delai de transposition."
+      },
+      {
+        "id": "B",
+        "text": "Le Reglement est applicable immediatement a effet direct dans tous les pays membres, tandis que la Directive doit d'abord etre transposee par les Etats membres avant de devenir applicable.",
+        "isCorrect": true,
+        "justification": "Vos notes soulignent cette distinction fondamentale : un reglement europeen s'applique immediatement de facon uniforme, tandis qu'une directive fixe des objectifs et necessite une transposition (loi nationale) qui prend plusieurs mois ou annees."
+      },
+      {
+        "id": "C",
+        "text": "La Directive concerne uniquement les personnes physiques, alors que le Reglement s'adresse exclusivement aux personnes morales.",
+        "isCorrect": false,
+        "justification": "Les deux types de textes europeens s'appliquent de maniere generale aux personnes physiques et morales selon leur contenu."
+      },
+      {
+        "id": "D",
+        "text": "Le Reglement doit etre valide par le Conseil constitutionnel francais pour s'appliquer, contrairement a la Directive.",
+        "isCorrect": false,
+        "justification": "Les reglements europeens s'imposent en droit interne sans passer par un controle de constitutionnalite systematique prealable."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk1-03",
+    "type": "theoretical",
+    "text": "Le droit d'auteur repose sur un double probleme : encourager la creation en accordant un monopole, tout en evitant de bloquer le progres pour l'humanite. Comment le regime de protection resout-il ce dilemme ?",
+    "image": null,
+    "hint": "Certains types de developpements ou de recherches sont volontairement exclus de tout monopole.",
+    "options": [
+      {
+        "id": "A",
+        "text": "En limitant la protection du droit d'auteur a une duree maximale de 5 ans pour toutes les oeuvres technologiques.",
+        "isCorrect": false,
+        "justification": "La duree standard reste de 70 ans post-mortem, ce qui est tres long. La regulation ne se fait pas sur ce critere de duree courte."
+      },
+      {
+        "id": "B",
+        "text": "En refusant d'accorder un monopole sur la recherche fondamentale (qui reste libre de droits), tout en accordant des protections aux developpements et applications plus aboutis.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours expliquent que pour preserver le progres, la recherche fondamentale ne dispose d'aucune protection (pas de monopole). En revanche, la recherche appliquee ou aboutie dispose de protections, ce qui evite de bloquer les fondements scientifiques indispensables a l'humanite."
+      },
+      {
+        "id": "C",
+        "text": "En imposant a tous les auteurs de publier leur code source sous licence libre apres une periode d'un an.",
+        "isCorrect": false,
+        "justification": "Il n'existe aucune obligation legale de publication ou de passage sous licence libre imposee aux auteurs de logiciels."
+      },
+      {
+        "id": "D",
+        "text": "En interdisant l'utilisation commerciale des oeuvres d'art pour reserver le droit d'auteur aux applications utilitaires.",
+        "isCorrect": false,
+        "justification": "L'exploitation commerciale des oeuvres artistiques est le fondement meme de l'industrie culturelle et des droits patrimoniaux."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk1-04",
+    "type": "practical",
+    "text": "Antoine de Saint-Exupery est decede en 1944. Bien que la protection des droits patrimoniaux s'eteigne en principe 70 ans apres la mort de l'auteur, pourquoi ses oeuvres restent-elles encore protegees aujourd'hui en France ?",
+    "image": null,
+    "hint": "Il s'agit d'un statut honorifique lie aux circonstances historiques du deces de l'auteur pendant la Seconde Guerre mondiale.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parce que l'unite de mesure pour les pilotes de l'air est soumise a un decret specifique du Code des transports.",
+        "isCorrect": false,
+        "justification": "Le domaine de l'aviation n'influe pas sur les regles de protection du Code de la propriete intellectuelle."
+      },
+      {
+        "id": "B",
+        "text": "Parce qu'il est mort pour la France, statut qui lui confere des prorogations de guerre exceptionnelles allongeant la duree de son monopole d'exploitation.",
+        "isCorrect": true,
+        "justification": "Vos notes mentionnent specifiquement le cas de Saint-Exupery : etant mort pour la France, il beneficie d'une extension de la duree de protection de ses oeuvres (prorogations de guerre) retardant leur passage dans le domaine public."
+      },
+      {
+        "id": "C",
+        "text": "Parce que son testament interdisait formellement le passage de ses ecrits dans le domaine public pendant 200 ans.",
+        "isCorrect": false,
+        "justification": "Un auteur ne peut pas prolonger la duree legale de son monopole patrimonial par simple volonte testamentaire."
+      },
+      {
+        "id": "D",
+        "text": "Parce que le Petit Prince est qualifie d'oeuvre complexe soumise au regime perpetuel des bases de donnees.",
+        "isCorrect": false,
+        "justification": "Le Petit Prince est un roman (oeuvre litteraire classique) et non une base de donnees, et les bases de donnees n'ont pas de droit perpetuel."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk1-05",
+    "type": "theoretical",
+    "text": "L'article L112-2 du CPI dresse une liste des oeuvres d'esprit eligibles au droit d'auteur. Comment la jurisprudence et la doctrine interpretent-elles la portee de cette liste ?",
+    "image": null,
+    "hint": "Pensez aux actions d'ajout ou de retrait d'elements dans cette liste.",
+    "options": [
+      {
+        "id": "A",
+        "text": "C'est une liste fermee ; aucun type d'oeuvre cree apres 1992 ne peut pretendre au droit d'auteur.",
+        "isCorrect": false,
+        "justification": "La jurisprudence a largement elargi la protection a de nouvelles oeuvres comme les sites web ou les jeux video."
+      },
+      {
+        "id": "B",
+        "text": "C'est une liste ouverte : on peut y ajouter de nouvelles categories par la jurisprudence, mais on ne peut pas en retrancher.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours indiquent clairement qu'il s'agit d'une liste ouverte. De nouvelles oeuvres (comme les sites web ou les jeux video) peuvent etre ajoutees, mais on ne peut pas enlever (retrancher) de categories de la liste."
+      },
+      {
+        "id": "C",
+        "text": "C'est une liste purement decorative qui n'a aucun effet juridique contraignant pour les tribunaux.",
+        "isCorrect": false,
+        "justification": "La liste pose un cadre legal obligatoire de depart pour qualifier les oeuvres eligibles."
+      },
+      {
+        "id": "D",
+        "text": "C'est une liste dont l'application est reservee aux seuls developpeurs de logiciels de gestion.",
+        "isCorrect": false,
+        "justification": "La liste s'applique a toutes les creations de l'esprit (livres, musiques, designs, logiciels, etc.)."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk1-06",
+    "type": "practical",
+    "text": "Un auteur est place sous un regime de protection judiciaire de ses actes civils. Quelle est la difference majeure d'autonomie pour signer un contrat important entre la curatelle et la tutelle ?",
+    "image": null,
+    "hint": "L'un de ces regimes laisse une autonomie de signature sous reserve d'assistance, tandis que l'autre l'annule au profit d'une representation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sous curatelle, l'auteur perd l'usage de son droit au nom, tandis que sous tutelle il perd ses droits patrimoniaux.",
+        "isCorrect": false,
+        "justification": "Les regimes de protection judiciaire n'affectent pas la titularite des droits d'auteur moraux ou patrimoniaux eux-memes, mais leur capacite d'exercice."
+      },
+      {
+        "id": "B",
+        "text": "La curatelle laisse a la personne son autonomie pour les actes simples tout en imposant l'assistance d'un curateur pour les actes importants, tandis que la tutelle impose une representation complete par un tuteur pour tous les actes de la vie civile.",
+        "isCorrect": true,
+        "justification": "Comme l'expliquent vos notes : la curatelle est un regime d'assistance (le majeur agit avec le curateur), tandis que la tutelle est un regime de representation de la personne pour tous les actes civils."
+      },
+      {
+        "id": "C",
+        "text": "La tutelle est reservee aux mineurs de moins de 15 ans, alors que la curatelle ne concerne que les personnes morales.",
+        "isCorrect": false,
+        "justification": "Ces regimes concernent les personnes physiques majeures protegees, et les personnes morales ne sont pas soumises a la curatelle ou la tutelle."
+      },
+      {
+        "id": "D",
+        "text": "Il n'y a aucune difference pratique, les deux regimes interdisant formellement de creer de nouvelles oeuvres de l'esprit.",
+        "isCorrect": false,
+        "justification": "Aucun de ces regimes n'interdit l'acte intellectuel de creation, qui reste libre pour tous."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk1-07",
+    "type": "practical",
+    "text": "Un acheteur achete des locaux pour sa start-up et decouvre apres coup une infiltration d'eau active. Les murs avaient ete repeints juste avant la vente pour la masquer. Quelle est la difference de qualification juridique entre un vice cache et un dol ?",
+    "image": null,
+    "hint": "L'intention de tromper est l'element clé qui sépare ces deux notions du Code civil.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le vice cache necessite de prouver la volonte consciente de tromper, tandis que le dol peut etre involontaire.",
+        "isCorrect": false,
+        "justification": "C'est exactement l'inverse. Le dol exige la mauvaise foi intentionnelle, pas le vice cache."
+      },
+      {
+        "id": "B",
+        "text": "Le vice cache est un defaut non apparent present lors de la vente sans qu'il soit necessaire de prouver l'intention de tromper (le vendeur peut l'ignorer) ; le dol implique une tromperie intentionnelle (comme repeindre les murs pour masquer la fuite).",
+        "isCorrect": true,
+        "justification": "Vos notes de cours illustrent parfaitement ce cas concret : le vice cache est objectif (le vendeur peut ignorer l'infiltration), tandis que le dol est subjectif et malicieux (le fait de repeindre pour masquer le defaut et mentir a l'acheteur pour obtenir son consentement)."
+      },
+      {
+        "id": "C",
+        "text": "Le dol s'applique uniquement aux ventes de logiciels, alors que le vice cache est reserve aux immeubles.",
+        "isCorrect": false,
+        "justification": "Le dol et le vice cache sont des concepts generaux du droit des contrats et des biens applicables a de nombreux types de transactions."
+      },
+      {
+        "id": "D",
+        "text": "Le dol n'entraîne jamais la nullite de la vente, contrairement au vice cache.",
+        "isCorrect": false,
+        "justification": "Le dol est un vice du consentement qui permet de demander la nullite du contrat de vente, tandis que le vice cache donne plutot lieu a une action estimatoire ou redhibitoire."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk1-08",
+    "type": "theoretical",
+    "text": "En matiere d'engagement contractuel, pourquoi est-il paradoxalement plus risque d'avoir signe un contrat legal desavantageux qu'un contrat contenant des clauses illegales ?",
+    "image": null,
+    "hint": "Pensez aux conséquences juridiques d'un contrat non conforme a la loi face a un contrat parfaitement conforme.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parce qu'un contrat legal desavantageux s'applique sans possibilite d'annulation et expose a des executions forcees, alors qu'un contrat illegal peut etre annule par le juge.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours mettent en garde : un contrat contenant des clauses illegales ou non conformes a l'ordre public peut etre annule en justice (on n'est pas tenu de le faire). En revanche, un contrat legal desavantageux a force obligatoire (force de loi) et s'impose strictement a vous, vous exposant a une mise en demeure ou execution forcee."
+      },
+      {
+        "id": "B",
+        "text": "Parce que le non-respect d'un contrat illegal entraine d'office une peine de prison ferme.",
+        "isCorrect": false,
+        "justification": "Une clause illegale rend le contrat ou la clause nul, elle n'entraine pas l'emprisonnement automatique de la victime de la clause."
+      },
+      {
+        "id": "C",
+        "text": "Parce que les contrats illegaux sont valides de plein droit s'ils ont ete signes de bonne foi.",
+        "isCorrect": false,
+        "justification": "La signature de bonne foi ne peut pas valider une clause qui deroge a l'ordre public ou aux dispositions imperatives de la loi."
+      },
+      {
+        "id": "D",
+        "text": "Parce que l'annulation d'un contrat illegal impose le versement d'une redevance obligatoire a l'Etat.",
+        "isCorrect": false,
+        "justification": "La nullite d'un contrat ne s'accompagne pas d'une taxe ou d'une amende obligatoire au profit de l'Etat."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk1-09",
+    "type": "theoretical",
+    "text": "Pourquoi le titre donne a un contrat (comme 'Licence d'utilisation' ou 'Cession de droits') ne determine-t-il pas sa portee reelle en droit d'auteur ?",
+    "image": null,
+    "hint": "C'est une regle d'interpretation des contrats liee aux intentions reelles des contractants.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parce que la loi impose que tous les contrats s'appellent obligatoirement 'Contrats de Cession de Droits'.",
+        "isCorrect": false,
+        "justification": "Il n'existe aucune obligation de nommer tous les contrats de la sorte ; les parties choisissent librement leurs titres."
+      },
+      {
+        "id": "B",
+        "text": "Parce que le nom d'un contrat ne presume en rien de sa nature réelle ; on regarde l'intention des parties et les obligations convenues, d'autant que le mot 'Licence' est un concept importé non defini dans le CPI pour le droit d'auteur.",
+        "isCorrect": true,
+        "justification": "Vos notes soulignent cette regle : 'le nom du contrat ne presume en rien de ce que va etre le contrat'. En droit d'auteur, le mot 'licence' n'est jamais mentionne dans la partie du CPI relative au droit d'auteur. C'est le contenu et l'intention qui dictent la qualification."
+      },
+      {
+        "id": "C",
+        "text": "Parce que seuls les contrats rediges sous format de 'Licence Libre' sont legalement autorises pour le logiciel.",
+        "isCorrect": false,
+        "justification": "Les licences proprietaires ou les contrats de cession classiques sont tout a fait legaux et autorises pour les logiciels."
+      },
+      {
+        "id": "D",
+        "text": "Parce que l'INPI impose l'utilisation de modeles de titres standardises sous peine de nullite des accords.",
+        "isCorrect": false,
+        "justification": "L'INPI ne gere pas et n'impose pas de nomenclature contractuelle obligatoire pour les titres des contrats prives de droit d'auteur."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk1-10",
+    "type": "theoretical",
+    "text": "Selon la methodologie de redaction contractuelle vue en cours, que convient-il d'ecrire en priorite dans un contrat de propriete intellectuelle ?",
+    "image": null,
+    "hint": "La loi pose de nombreuses regles et protections par defaut.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il faut réécrire toutes les lois existantes du Code de la propriete intellectuelle pour s'assurer que le client en a pris connaissance.",
+        "isCorrect": false,
+        "justification": "Reecrire la loi est inutile car elle s'applique par defaut, et cela alourdit inutilement le document."
+      },
+      {
+        "id": "B",
+        "text": "On n'ecrit dans un contrat que ce qui differe de la loi ou des regles par defaut, afin de clarifier les derogations voulues par les parties.",
+        "isCorrect": true,
+        "justification": "Comme l'indiquent vos notes : 'On ecrit dans un contrat ce qui differe de la loi'. Si la loi prevoit deja une obligation par defaut (ex: conformite), il n'est pas necessaire de la reecrire, sauf si l'on souhaite prevoir une regle differente."
+      },
+      {
+        "id": "C",
+        "text": "Il faut obligatoirement reecrire toutes les definitions des licences libres pour eviter les recours judiciaires.",
+        "isCorrect": false,
+        "justification": "Le renvoi au texte de la licence ou sa reference suffit, point n'est besoin de reecrire tout le texte standardise."
+      },
+      {
+        "id": "D",
+        "text": "Il convient d'ecrire uniquement les elements de la charte informatique interne de l'entreprise d'accueil.",
+        "isCorrect": false,
+        "justification": "La charte informatique est un document distinct du contrat de cession de droits d'auteur."
+      }
+    ]
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ip-patrimoniaux-chunk3-01",
+    "type": "theoretical",
+    "text": "Pour une oeuvre de collaboration realisee par trois auteurs, comment est calculee la duree de protection des droits patrimoniaux en droit francais ?",
+    "image": null,
+    "hint": "La protection est calquee sur la duree de vie de ses createurs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pendant 70 ans a compter du premier deces parmi les trois coauteurs.",
+        "isCorrect": false,
+        "justification": "La mort du premier collaborateur ne marque pas le debut du decompte de protection."
+      },
+      {
+        "id": "B",
+        "text": "Pendant 70 ans a compter du 1er janvier de l'annee civile suivant la mort du dernier coauteur survivant.",
+        "isCorrect": true,
+        "justification": "Selon l'article L123-2 du CPI (cite indirectement dans le cours au slide 34), pour les oeuvres de collaboration, l'annee civile prise en consideration est celle de la mort du dernier vivant des collaborateurs, a laquelle s'ajoutent les 70 ans."
+      },
+      {
+        "id": "C",
+        "text": "Pendant 50 ans a compter de la publication officielle de l'oeuvre, quelle que soit la date de deces des auteurs.",
+        "isCorrect": false,
+        "justification": "La duree de 50 ans est obsolete et le decompte pour les oeuvres de collaboration ne depend pas de la date de publication."
+      },
+      {
+        "id": "D",
+        "text": "Pendant 70 ans a compter de la signature du premier contrat d'exploitation commerciale.",
+        "isCorrect": false,
+        "justification": "La date de signature d'un contrat n'intervient pas dans le calcul de la duree legale du monopole."
+      }
+    ]
+  },
+  {
+    "id": "ip-patrimoniaux-chunk3-02",
+    "type": "theoretical",
+    "text": "La Convention de Berne pose trois principes fondamentaux. Lequel de ces principes stipule qu'une oeuvre originaire d'un Etat contractant doit beneficier dans un autre Etat contractant de la meme protection que celle accordee aux auteurs nationaux ?",
+    "image": null,
+    "hint": "Ce principe vise a eviter les discriminations fondees sur la nationalite de l'auteur.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le principe de protection automatique.",
+        "isCorrect": false,
+        "justification": "Ce principe indique que la protection n'est sujette a aucune formalite d'enregistrement."
+      },
+      {
+        "id": "B",
+        "text": "Le principe d'independance de la protection.",
+        "isCorrect": false,
+        "justification": "Ce principe prevoit que la protection est regie exclusivement par la loi du pays ou elle est invoquee."
+      },
+      {
+        "id": "C",
+        "text": "Le principe du traitement national.",
+        "isCorrect": true,
+        "justification": "Le traitement national garantit qu'un Etat accorde aux oeuvres etrangeres de la convention la meme protection qu'il accorde aux oeuvres de ses propres ressortissants."
+      },
+      {
+        "id": "D",
+        "text": "Le principe de reciprocite stricte des redevances.",
+        "isCorrect": false,
+        "justification": "Ce principe n'est pas l'un des trois piliers fondamentaux etablis par la Convention de Berne."
+      }
+    ]
+  },
+  {
+    "id": "ip-patrimoniaux-chunk3-03",
+    "type": "theoretical",
+    "text": "Quelle est la distinction fondamentale entre le droit de reproduction et le droit de representation selon le Code de la propriete intellectuelle ?",
+    "image": null,
+    "hint": "L'un necessite un support materiel intermediaire pour communiquer l'oeuvre, tandis que l'autre non.",
+    "options": [
+      {
+        "id": "A",
+        "text": "La reproduction est gratuite pour l'utilisateur, tandis que la representation est toujours payante.",
+        "isCorrect": false,
+        "justification": "Ces deux droits exclusifs font partie du monopole de l'auteur et donnent lieu en principe a une remuneration."
+      },
+      {
+        "id": "B",
+        "text": "La reproduction necessite la fixation de l'oeuvre sur un support materiel, tandis que la representation consiste en une communication directe au public sans support materiel.",
+        "isCorrect": true,
+        "justification": "Selon les articles L122-2 et L122-3 du CPI, la representation communique l'oeuvre sans support materiel (ex: diffusion en direct), tandis que la reproduction passe par une fixation physique permettant une communication indirecte."
+      },
+      {
+        "id": "C",
+        "text": "La reproduction ne s'applique qu'aux textes ecrits, tandis que la representation concerne uniquement les arts visuels et la musique.",
+        "isCorrect": false,
+        "justification": "Les deux droits s'appliquent a toutes les categories d'oeuvres de l'esprit (musique, logiciel, texte, peinture, etc.)."
+      },
+      {
+        "id": "D",
+        "text": "La representation est exclusive a l'auteur alors que la reproduction peut etre transferee de force sans accord.",
+        "isCorrect": false,
+        "justification": "Ces deux attributs patrimoniaux font partie du monopole d'exploitation de l'auteur et necessitent son consentement."
+      }
+    ]
+  },
+  {
+    "id": "ip-patrimoniaux-chunk3-04",
+    "type": "practical",
+    "text": "Un client achete legalement un progiciel. Il souhaite effectuer une copie de sauvegarde de ce logiciel pour se premunir d'une perte de donnees. L'editeur peut-il contractuellement interdire cette copie ?",
+    "image": null,
+    "hint": "Consultez l'article L122-6-1 du CPI concernant les droits imperatifs de l'utilisateur légitime.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car l'editeur dispose d'un monopole absolu sur toute forme de reproduction de son logiciel.",
+        "isCorrect": false,
+        "justification": "Bien que l'editeur dispose d'un monopole, la loi prevoit des exceptions imperatives auxquelles on ne peut pas deroger par contrat."
+      },
+      {
+        "id": "B",
+        "text": "Non, car la copie de sauvegarde est un droit garanti par la loi a l'utilisateur legitime des lors qu'elle est necessaire pour preserver l'utilisation du logiciel.",
+        "isCorrect": true,
+        "justification": "L'article L122-6-1 II du CPI precise que la personne ayant le droit d'utiliser le logiciel peut faire une copie de sauvegarde si elle est necessaire pour preserver son utilisation. Toute clause contraire est nulle."
+      },
+      {
+        "id": "C",
+        "text": "Oui, mais uniquement si l'editeur fournit une deuxieme licence gratuite en contrepartie.",
+        "isCorrect": false,
+        "justification": "La loi n'impose pas la fourniture d'une seconde licence payante ou gratuite pour remplacer le droit a la copie de sauvegarde."
+      },
+      {
+        "id": "D",
+        "text": "Non, car le logiciel est considere comme une oeuvre du domaine public des l'achat de sa licence.",
+        "isCorrect": false,
+        "justification": "Un logiciel sous licence n'est pas dans le domaine public ; il reste protege par le droit d'auteur de l'editeur."
+      }
+    ]
+  },
+  {
+    "id": "ip-patrimoniaux-chunk3-05",
+    "type": "practical",
+    "text": "Un developpeur souhaite inserer une citation de 10 lignes d'une documentation technique protegee dans son propre ouvrage pedagogique. A quelles conditions cette citation est-elle licite sans l'accord prealable de l'auteur ?",
+    "image": null,
+    "hint": "L'exception de courte citation est strictement encadree par l'article L122-5 du CPI.",
+    "options": [
+      {
+        "id": "A",
+        "text": "La citation doit etre declaree prealablement a l'INPI et faire l'objet d'un paiement forfaitaire.",
+        "isCorrect": false,
+        "justification": "L'exception de courte citation est gratuite et ne requiert aucune declaration administrative."
+      },
+      {
+        "id": "B",
+        "text": "La longueur de la citation doit etre limitee a ce qui est necessaire au but poursuivi, et elle doit mentionner clairement la source et le nom de l'auteur.",
+        "isCorrect": true,
+        "justification": "Selon l'article L122-5 du CPI, la citation doit etre breve, justifiee par un but critique, pedagogique ou d'information, et mentionner obligatoirement le nom de l'auteur et la source."
+      },
+      {
+        "id": "C",
+        "text": "La citation est toujours licite du moment qu'elle est inseree dans un document distribue gratuitement en ligne.",
+        "isCorrect": false,
+        "justification": "La gratuite de la diffusion ne dispense pas du respect des conditions de brievete et de mention de la source."
+      },
+      {
+        "id": "D",
+        "text": "La citation doit etre traduite dans une autre langue pour ne pas concurrencer l'oeuvre originale.",
+        "isCorrect": false,
+        "justification": "La traduction sans autorisation constitue elle-meme une adaptation illegale et n'est pas une condition de l'exception de citation."
+      }
+    ]
+  },
+  {
+    "id": "ip-patrimoniaux-chunk3-06",
+    "type": "practical",
+    "text": "Une start-up souhaite collecter par aspiration automatique (scraping) des donnees en ligne pour entrainer son modele d'intelligence artificielle. Un site web s'y oppose au moyen de metadonnees lisibles par machine (opt-out). La start-up peut-elle ignorer cette opposition ?",
+    "image": null,
+    "hint": "Analysez l'application de l'exception de fouille de textes et de donnees (TDM) confirmee par l'IA Act.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car les donnees accessibles publiquement sur Internet ne beneficient d'aucune protection contre la fouille de donnees.",
+        "isCorrect": false,
+        "justification": "Les donnees meme accessibles restent protegees, et l'exception de fouille de donnees est encadree par la loi."
+      },
+      {
+        "id": "B",
+        "text": "Oui, car l'entrainement d'une IA beneficie d'une exemption absolue de droit d'auteur de par sa nature technologique.",
+        "isCorrect": false,
+        "justification": "Il n'existe pas d'exemption absolue ; l'IA Act soumet l'entrainement au respect du droit d'auteur et des exclusions exprimees."
+      },
+      {
+        "id": "C",
+        "text": "Non, car l'exception de fouille de donnees a des fins commerciales peut etre exclue par l'opposition expresse des ayants droit, notamment par des procedes lisibles par machine.",
+        "isCorrect": true,
+        "justification": "Selon l'article L122-5-3 III du CPI et l'IA Act, l'utilisation de l'exception de fouille de donnees commerciale est interdite si l'auteur s'y est oppose de maniere appropriee, notamment par des procedes lisibles par machine."
+      },
+      {
+        "id": "D",
+        "text": "Non, car toute extraction automatique de donnees sur le web est qualifiee de contrefacon pénale, sans exception possible.",
+        "isCorrect": false,
+        "justification": "La loi autorise la fouille de donnees a des fins de recherche scientifique (sans opt-out possible) et a des fins commerciales (sauf opt-out)."
+      }
+    ]
+  },
+  {
+    "id": "ip-patrimoniaux-chunk3-07",
+    "type": "theoretical",
+    "text": "Un utilisateur ecrit un prompt textuel detaille de trois phrases sur une plateforme d'IA generative pour generer une illustration complexe. L'image ainsi obtenue est-elle protegee par le droit d'auteur de l'utilisateur ?",
+    "image": null,
+    "hint": "Le droit d'auteur exige l'empreinte de la personnalite d'une personne physique.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car le prompt redige est considere comme un effort de creation suffisant pour s'approprier l'image finale.",
+        "isCorrect": false,
+        "justification": "Un simple prompt ne constitue pas en soi un controle creatif suffisant sur le processus d'expression de l'image finale generee de maniere autonome par l'IA."
+      },
+      {
+        "id": "B",
+        "text": "Non, car un contenu genere de maniere autonome par une intelligence artificielle ne peut pas, en principe, etre protege par le droit d'auteur francais, faute d'empreinte de la personnalite d'une personne physique.",
+        "isCorrect": true,
+        "justification": "En droit francais, la protection exige l'empreinte de la personnalite d'une personne physique. Un contenu genere de maniere autonome par l'IA sans intervention humaine revelant un apport creatif caracterise n'est pas protege."
+      },
+      {
+        "id": "C",
+        "text": "Oui, car l'IA Act attribue automatiquement la copropriete des oeuvres generees a l'utilisateur et a l'editeur du modele d'IA.",
+        "isCorrect": false,
+        "justification": "L'IA Act ne regle pas la titularite des droits d'auteur des oeuvres generees et n'attribue pas de copropriete automatique."
+      },
+      {
+        "id": "D",
+        "text": "Non, car toutes les oeuvres graphiques numeriques creees apres 2024 sont exclues du Code de la propriete intellectuelle.",
+        "isCorrect": false,
+        "justification": "Le support numerique n'exclut pas les oeuvres graphiques de la protection si elles sont creees par un humain."
+      }
+    ]
+  },
+  {
+    "id": "ip-patrimoniaux-chunk3-08",
+    "type": "practical",
+    "text": "Dans le cadre d'un litige pour contrefacon de logiciel par plagiat, sur quel element d'appreciation principal les juges s'appuient-ils pour reconnaitre la contrefacon ?",
+    "image": null,
+    "hint": "Pensez a la regle de comparaison utilisee par la jurisprudence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sur l'existence d'une ressemblance globale et l'analyse des ressemblances entre les oeuvres, et non sur leurs differences.",
+        "isCorrect": true,
+        "justification": "Le cours precise au slide 55 que l'appreciation de la contrefacon repose sur les ressemblances entre plusieurs elements de deux oeuvres et non sur leurs differences."
+      },
+      {
+        "id": "B",
+        "text": "Sur l'exacte identite bit a bit des deux fichiers executables (copie servile uniquement).",
+        "isCorrect": false,
+        "justification": "La contrefacon ne se limite pas a la copie servile ; elle englobe le plagiat, qui est la reprise d'elements proteges non identiques."
+      },
+      {
+        "id": "C",
+        "text": "Sur le fait que l'oeuvre contrefaisante a ete developpee dans un delai de moins de 30 jours apres la publication de l'originale.",
+        "isCorrect": false,
+        "justification": "Le delai de developpement n'entre pas en compte pour qualifier juridiquement l'acte de contrefacon."
+      },
+      {
+        "id": "D",
+        "text": "Sur la perte financiere declaree par l'auteur original, qui doit depasser un seuil minimal.",
+        "isCorrect": false,
+        "justification": "La contrefacon est un delit constitue des lors qu'il y a atteinte aux droits, independamment du montant du prejudice financier subi."
+      }
+    ]
+  },
+  {
+    "id": "ip-patrimoniaux-chunk3-09",
+    "type": "theoretical",
+    "text": "Quelle est la sanction maximale encourue en France pour un delit de contrefacon d'oeuvre de l'esprit commis en bande organisee ?",
+    "image": null,
+    "hint": "Cette peine est aggravee par l'article L335-2 du CPI pour decourager les reseaux structures.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Une amende de 150 000 euros et l'interdiction d'utiliser un ordinateur pendant un an.",
+        "isCorrect": false,
+        "justification": "Cette sanction est tres en dessous du maximum penal prevu pour la criminalite organisee en propriete intellectuelle."
+      },
+      {
+        "id": "B",
+        "text": "Une peine de 3 ans d'emprisonnement et 300 000 euros d'amende.",
+        "isCorrect": false,
+        "justification": "Il s'agit de la peine prevue pour une contrefacon simple, non commise en bande organisee."
+      },
+      {
+        "id": "C",
+        "text": "Une peine de 7 ans d'emprisonnement et 750 000 euros d'amende.",
+        "isCorrect": true,
+        "justification": "L'article L335-2 in fine du CPI dispose que lorsque les delits de contrefacon ont ete commis en bande organisee, les peines sont portees a sept ans d'emprisonnement et a 750 000 euros d'amende."
+      },
+      {
+        "id": "D",
+        "text": "La fermeture definitive de l'entreprise fautive sans peine d'emprisonnement pour les dirigeants.",
+        "isCorrect": false,
+        "justification": "La loi prevoit des sanctions penales cumulatives incluant des peines de prison fermes pour les dirigeants physiques."
+      }
+    ]
+  },
+  {
+    "id": "ip-patrimoniaux-chunk3-10",
+    "type": "practical",
+    "text": "Un editeur de logiciels integre un verrou numerique (MTP/DRM) empechant techniquement l'utilisateur de realiser une copie de sauvegarde ou d'analyser le code a des fins d'interoperabilite. Est-ce legalement acceptable ?",
+    "image": null,
+    "hint": "Les mesures techniques de protection (MTP) tolerent-elles des exceptions imperatives ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car l'editeur a le droit d'utiliser tous les moyens technologiques pour preserver son code contre l'espionnage industriel.",
+        "isCorrect": false,
+        "justification": "Les editeurs ont le droit d'utiliser des DRM, mais ce droit est limite par les exceptions légales garanties a l'utilisateur."
+      },
+      {
+        "id": "B",
+        "text": "Non, car les mesures techniques de protection ne doivent pas priver l'utilisateur de son droit a la copie de sauvegarde, a la correction d'erreurs ou a l'interoperabilite effective.",
+        "isCorrect": true,
+        "justification": "Le cours precise au slide 51 que les MTP ne doivent pas priver l'utilisateur legitime de son droit a la copie de sauvegarde, a la correction d'erreurs, ni empecher l'interoperabilite effective."
+      },
+      {
+        "id": "C",
+        "text": "Oui, mais l'editeur doit verser une compensation financiere a l'ARMT (autorite de regulation).",
+        "isCorrect": false,
+        "justification": "L'ARMT (devenue Hadopi puis Arcom) n'est pas destinee a recevoir des redevances d'autorisation de DRM bloquants."
+      },
+      {
+        "id": "D",
+        "text": "Non, car l'installation de DRM est interdite en Europe depuis la loi DADVSI de 2006.",
+        "isCorrect": false,
+        "justification": "La loi DADVSI de 2006 a au contraire legalise et encadre l'utilisation des mesures techniques de protection."
+      }
+    ]
+  }
+]

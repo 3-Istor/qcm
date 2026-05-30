@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ip-os-bdd-chunk5-01",
+    "type": "theoretical",
+    "text": "Quelle est la difference juridique fondamentale entre un logiciel dit 'libre' et un logiciel tombe dans le 'domaine public' ?",
+    "image": null,
+    "hint": "Pensez a la presence ou a l'absence de droits d'auteur actifs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le logiciel libre est depourvu de droits d'auteur, tandis que le logiciel du domaine public appartient a l'Etat.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le logiciel libre est protege par le droit d'auteur et l'Etat ne possede pas le domaine public."
+      },
+      {
+        "id": "B",
+        "text": "Le logiciel libre reste protege par le droit d'auteur de ses createurs qui accordent des libertes via une licence, tandis que pour le domaine public, les droits patrimoniaux sont eteints.",
+        "isCorrect": true,
+        "justification": "Le logiciel libre utilise le droit d'auteur pour imposer le respect des libertes via une licence. Dans le domaine public (generalement 70 ans apres la mort de l'auteur), les droits patrimoniaux s'eteignent, permettant l'usage sans aucune contrainte de licence."
+      },
+      {
+        "id": "C",
+        "text": "Le logiciel libre est obligatoirement payant a l'acquisition, alors que le domaine public est obligatoirement gratuit.",
+        "isCorrect": false,
+        "justification": "Un logiciel libre peut etre gratuit ou payant, et le domaine public n'est pas defini par un critere de prix d'acquisition."
+      },
+      {
+        "id": "D",
+        "text": "Le domaine public interdit toute modification du code source, contrairement au logiciel libre.",
+        "isCorrect": false,
+        "justification": "Le domaine public permet au contraire toute modification sans aucune restriction de droit d'auteur."
+      }
+    ]
+  },
+  {
+    "id": "ip-os-bdd-chunk5-02",
+    "type": "theoretical",
+    "text": "Selon la Free Software Foundation, laquelle de ces propositions ne fait pas partie des quatre libertes fondamentales garanties a l'utilisateur de logiciel libre ?",
+    "image": null,
+    "hint": "Les quatre libertes visent a assurer un usage, une etude, une modification et une redistribution libres et sans discrimination.",
+    "options": [
+      {
+        "id": "A",
+        "text": "La liberte d'executer le programme pour tous les usages.",
+        "isCorrect": false,
+        "justification": "Cette proposition constitue la premiere des quatre libertes fondamentales du logiciel libre."
+      },
+      {
+        "id": "B",
+        "text": "La liberte d'etudier le fonctionnement du programme et de l'adapter a ses besoins.",
+        "isCorrect": false,
+        "justification": "Cette proposition est la deuxieme liberte fondamentale, qui requiert l'acces au code source."
+      },
+      {
+        "id": "C",
+        "text": "La liberte d'exclure des concurrents commerciaux du droit de reutiliser les modifications apportees.",
+        "isCorrect": true,
+        "justification": "La FSF interdit d'exclure des utilisateurs ou des domaines d'application (pas de discrimination). Cette restriction est incompatible avec les libertes de redistribution et d'usage."
+      },
+      {
+        "id": "D",
+        "text": "La liberte de redistribuer des copies (donner ou vendre des copies).",
+        "isCorrect": false,
+        "justification": "La redistribution est la troisieme liberte fondamentale du logiciel libre."
+      }
+    ]
+  },
+  {
+    "id": "ip-os-bdd-chunk5-03",
+    "type": "theoretical",
+    "text": "Comment se comporte une licence de type 'copyleft fort' (comme la licence GNU GPL) lors de la redistribution d'une oeuvre modifiee ou integree dans un autre developpement ?",
+    "image": null,
+    "hint": "On parle parfois d'effet contaminant ou de preservation stricte de la licence d'origine.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elle permet de modifier le code et de le redistribuer sous n'importe quelle licence proprietaire fermee.",
+        "isCorrect": false,
+        "justification": "C'est la caracteristique des licences sans copyleft (permissives), pas du copyleft fort."
+      },
+      {
+        "id": "B",
+        "text": "Elle exige que toute redistribution de l'oeuvre initiale, modifiee ou integree dans un developpement derive, soit soumise a cette meme licence libre.",
+        "isCorrect": true,
+        "justification": "Le copyleft fort impose que les créations dérivées héritent de la même licence libre, empechant ainsi l'appropriation exclusive du code dans un produit proprietaire."
+      },
+      {
+        "id": "C",
+        "text": "Elle s'applique uniquement aux fichiers initiaux du developpeur, permettant de masquer tout le reste du code de l'application.",
+        "isCorrect": false,
+        "justification": "C'est la definition du copyleft faible (comme la licence LGPL), qui limite la contamination aux seuls composants d'origine."
+      },
+      {
+        "id": "D",
+        "text": "Elle s'efface automatiquement des lors que le nouveau logiciel est revendu de maniere commerciale.",
+        "isCorrect": false,
+        "justification": "Le caractere commercial ou payant ne suspend pas les obligations d'une licence sous copyleft fort."
+      }
+    ]
+  },
+  {
+    "id": "ip-os-bdd-chunk5-04",
+    "type": "practical",
+    "text": "Un developpeur integre dans son projet proprietaire un composant soumis a la licence Apache 2.0 (sans copyleft) et un autre soumis a la licence GNU GPL v2 (copyleft fort). A quel probleme majeur est-il confronte lors de la distribution du produit ?",
+    "image": null,
+    "hint": "Verifiez si les obligations de ces deux licences peuvent coexister sans contradiction pour le projet final.",
+    "options": [
+      {
+        "id": "A",
+        "text": "La licence Apache 2.0 l'oblige a payer des redevances à la fondation GNU.",
+        "isCorrect": false,
+        "justification": "Les licences libres n'imposent pas le paiement de redevances financieres a des organismes tiers."
+      },
+      {
+        "id": "B",
+        "text": "Un probleme d'incompatibilite des licences, car les obligations de redistribution du copyleft fort (GPL) entrent en contradiction avec le caractere proprietaire souhaite pour le projet final.",
+        "isCorrect": true,
+        "justification": "La licence GPL impose que l'ensemble du projet soit distribue sous licence GPL (copyleft). Cela interdit d'en faire un produit proprietaire ferme, créant un conflit d'incompatibilité insurmontable sans reecriture."
+      },
+      {
+        "id": "C",
+        "text": "Aucun probleme, car la presence d'une licence sans copyleft annule automatiquement les obligations de la licence a copyleft.",
+        "isCorrect": false,
+        "justification": "Une licence permissive ne peut pas effacer ou annuler les exigences d'une licence a copyleft fort integree au projet."
+      },
+      {
+        "id": "D",
+        "text": "L'obligation de detruire l'integralite du code source sous 48 heures sous peine d'amende forfaitaire de l'ARMT.",
+        "isCorrect": false,
+        "justification": "L'incompatibilite contractuelle est un risque de contrefacon civile, mais n'entraine pas une destruction administrative automatique par l'ARMT."
+      }
+    ]
+  },
+  {
+    "id": "ip-os-bdd-chunk5-05",
+    "type": "theoretical",
+    "text": "En droit francais, comment s'organise la double protection juridique possible d'une base de donnees ?",
+    "image": null,
+    "hint": "Distinguez l'originalite de la structure (contenant) des efforts financiers lies au contenu.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Par un depot de brevet pour la structure et une marque deposee pour les donnees.",
+        "isCorrect": false,
+        "justification": "Le brevet et la marque ne sont pas les outils par defaut de la protection specifique des bases de donnees."
+      },
+      {
+        "id": "B",
+        "text": "Par le droit d'auteur qui protege la structure originale de la base (choix et disposition), et par le droit sui generis du producteur qui protege le contenu de la base.",
+        "isCorrect": true,
+        "justification": "Le Code de la propriete intellectuelle prevoit cette double protection : le droit d'auteur classique pour l'originalite de la structure, et le droit sui generis pour proteger les investissements consentis pour le contenu."
+      },
+      {
+        "id": "C",
+        "text": "Par un brevet logiciel d'une duree de 20 ans associe a un secret industriel d'une duree de 15 ans.",
+        "isCorrect": false,
+        "justification": "Il n'existe pas de brevet logiciel par defaut pour les bases de donnees, et les durees indiquees ne correspondent pas au cadre de protection."
+      },
+      {
+        "id": "D",
+        "text": "La double protection est interdite ; il faut obligatoirement choisir entre le droit d'auteur et le droit de brevet.",
+        "isCorrect": false,
+        "justification": "La protection par le droit d'auteur et le droit sui generis sont cumulables et independantes (article L341-1 du CPI)."
+      }
+    ]
+  },
+  {
+    "id": "ip-os-bdd-chunk5-06",
+    "type": "theoretical",
+    "text": "Pour que le producteur d'une base de donnees beneficie de la protection du droit sui generis (article L341-1 du CPI), quelle condition essentielle liee aux investissements doit-il remplir ?",
+    "image": null,
+    "hint": "Cette condition porte sur l'importance et l'objet des depenses engagees.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il doit prouver que l'integralite du budget a ete financee par des subventions publiques de l'Union europeenne.",
+        "isCorrect": false,
+        "justification": "La source du financement (public ou prive) n'est pas un critere legal d'octroi du droit sui generis."
+      },
+      {
+        "id": "B",
+        "text": "Il doit justifier d'un investissement financier, materiel ou humain substantiel pour la constitution, la verification ou la presentation du contenu de la base.",
+        "isCorrect": true,
+        "justification": "L'article L341-1 du CPI dispose que le producteur beneficie de la protection du contenu si sa constitution, verification ou presentation atteste d'un investissement financier, materiel ou humain substantiel."
+      },
+      {
+        "id": "C",
+        "text": "Il doit demontrer que le developpement de la base a necessite l'obtention prealable d'un brevet logiciel.",
+        "isCorrect": false,
+        "justification": "Le droit sui generis n'est aucunement lie ou conditionne a l'obtention d'un quelconque brevet."
+      },
+      {
+        "id": "D",
+        "text": "Il doit prouver que l'investissement a servi uniquement a concevoir les outils techniques d'aspiration automatique (web scrapers).",
+        "isCorrect": false,
+        "justification": "La creation d'outils d'aspiration de donnees tiers n'est pas l'investissement de constitution ou de verification protege par la loi."
+      }
+    ]
+  },
+  {
+    "id": "ip-os-bdd-chunk5-07",
+    "type": "practical",
+    "text": "Une societe cree de toutes pieces des donnees meteorologiques grace a des simulations de ses propres supercalculateurs, puis les regroupe dans une base de donnees. Peut-elle invoquer le droit sui generis contre un tiers qui extrait ces donnees ?",
+    "image": null,
+    "hint": "Distinguez l'investissement de constitution/verification des elements existants de l'investissement de creation pure de la donnee elle-meme.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car la creation de donnees par supercalculateur represente un investissement financier substantiel.",
+        "isCorrect": false,
+        "justification": "La creation brute d'informations nouvelles n'est pas protegee par le droit sui generis."
+      },
+      {
+        "id": "B",
+        "text": "Non, car les investissements consacres a la creation des elements constitutifs de la base de donnees sont exclus de la notion d'investissement substantiel requise pour le droit sui generis.",
+        "isCorrect": true,
+        "justification": "La jurisprudence exclut de la protection sui generis les investissements de pure creation d'informations (ex: generer de la donnee meteo ou de nouvelles cotes sportives). Seuls les investissements de recherche, collecte, rassemblement et verification de donnees existantes sont proteges."
+      },
+      {
+        "id": "C",
+        "text": "Oui, car toute base de donnees de plus de 10 000 entrees beneficie automatiquement du droit sui generis.",
+        "isCorrect": false,
+        "justification": "Le nombre d'entrees n'est pas un critere juridique suffisant si l'investissement de collecte/verification fait defaut."
+      },
+      {
+        "id": "D",
+        "text": "Non, car seules les administrations publiques peuvent invoquer le droit sui generis.",
+        "isCorrect": false,
+        "justification": "Toute personne physique ou morale (privee ou publique) peut pretendre au statut de producteur de base de donnees."
+      }
+    ]
+  },
+  {
+    "id": "ip-os-bdd-chunk5-08",
+    "type": "theoretical",
+    "text": "Quelle est la duree de protection initiale accordee au titre du droit sui generis du producteur de base de donnees, et comment peut-elle etre prolongee ?",
+    "image": null,
+    "hint": "Consultez l'article de loi du CPI lie aux investissements successifs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "La duree est de 70 ans post-mortem, sans aucune possibilite de prolongation.",
+        "isCorrect": false,
+        "justification": "La duree de 70 ans concerne le droit d'auteur classique, pas le droit sui generis des bases de donnees."
+      },
+      {
+        "id": "B",
+        "text": "La duree est de 15 ans a compter de l'achevement de la base, et un nouvel investissement substantiel fait courir une nouvelle periode de protection de 15 ans.",
+        "isCorrect": true,
+        "justification": "Le droit sui generis dure 15 ans a compter du 1er janvier de l'annee suivant l'achevement. Si la base fait l'objet d'un nouvel investissement substantiel (mises a jour permanentes), la protection expire 15 ans apres ce nouvel investissement."
+      },
+      {
+        "id": "C",
+        "text": "La duree est de 5 ans renouvelable une fois uniquement si la base est declaree d'interet public.",
+        "isCorrect": false,
+        "justification": "Il n'existe aucune exigence de declaration d'interet public ni de limite absolue de deux periodes de 5 ans."
+      },
+      {
+        "id": "D",
+        "text": "La protection est eternelle et ne s'eteint jamais tant que le producteur paye une redevance annuelle.",
+        "isCorrect": false,
+        "justification": "Le droit d'auteur et les droits connexes ne sont pas perpetuels (sauf le droit moral) et ne sont pas soumis a des taxes d'entretien annuelles."
+      }
+    ]
+  },
+  {
+    "id": "ip-os-bdd-chunk5-09",
+    "type": "practical",
+    "text": "Un concurrent utilise un script automatise pour extraire quotidiennement 0,5% des fiches d'un annuaire en ligne protege. Cette quantite etant individuellement tres faible (non substantielle), l'editeur peut-il interdire cette pratique ?",
+    "image": null,
+    "hint": "Consultez l'article L342-2 du CPI sur l'abus d'extractions mineures mais repetees.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non, car les extractions de moins de 1% du contenu global sont totalement libres d'usage en ligne.",
+        "isCorrect": false,
+        "justification": "La loi n'etablit aucun pourcentage d'exemption en deca duquel le vol systematique de donnees est autorise."
+      },
+      {
+        "id": "B",
+        "text": "Oui, car l'extraction repetee et systematique de parties non substantielles du contenu est interdite lorsqu'elle excede manifestement les conditions d'utilisation normale de la base.",
+        "isCorrect": true,
+        "justification": "L'article L342-2 du CPI interdit l'extraction ou la reutilisation repetee et systematique de parties non substantielles lorsque ces operations portent atteinte a l'exploitation normale de la base par le producteur."
+      },
+      {
+        "id": "C",
+        "text": "Non, sauf si le concurrent utilise le protocole d'exclusion robot.txt sur son propre serveur.",
+        "isCorrect": false,
+        "justification": "Le protocole robot.txt est une mesure technique, mais son absence ne rend pas legale une extraction abusive interdite par la loi."
+      },
+      {
+        "id": "D",
+        "text": "Oui, mais uniquement si la base de donnees a fait l'objet d'un depot de brevet logiciel prealable.",
+        "isCorrect": false,
+        "justification": "La protection sui generis s'applique de plein droit sans qu'aucun brevet logiciel ne soit requis."
+      }
+    ]
+  },
+  {
+    "id": "ip-os-bdd-chunk5-10",
+    "type": "practical",
+    "text": "Un utilisateur inscrit legalement sur un site d'annonces immobilieres consulte et extrait manuellement deux ou trois annonces pour son usage prive. Le producteur du site peut-il l'en empecher au titre du droit sui generis ?",
+    "image": null,
+    "hint": "Consultez l'article L342-3 du CPI concernant les droits garantis aux utilisateurs legitimes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car le producteur d'une base de donnees peut s'opposer a toute extraction, meme d'une seule donnee, pour preserver sa valeur commerciale.",
+        "isCorrect": false,
+        "justification": "Le monopole de l'auteur n'est pas sans limites ; la loi garantit des droits minimums a l'utilisateur legitime."
+      },
+      {
+        "id": "B",
+        "text": "Non, car le producteur ne peut pas interdire l'extraction d'une partie non substantielle (qualitativement ou quantitativement) du contenu de la base par la personne qui y a legalement acces.",
+        "isCorrect": true,
+        "justification": "Selon l'article L342-3 du CPI, des lors qu'une base est mise a disposition du public, le producteur ne peut pas interdire l'extraction d'une partie non substantielle par un utilisateur legitime a des fins personnelles."
+      },
+      {
+        "id": "C",
+        "text": "Oui, sauf si l'utilisateur possede une licence d'exploitation commerciale validee par l'ARMT.",
+        "isCorrect": false,
+        "justification": "L'usage prive d'une partie non substantielle ne necessite aucunement de licence commerciale de l'ARMT."
+      },
+      {
+        "id": "D",
+        "text": "Non, car les annonces immobilieres sont legalement exclues du champ d'application de la protection par le droit sui generis.",
+        "isCorrect": false,
+        "justification": "Les annonces immobilieres regroupees au sein d'une base de donnees verifiee et presentee de maniere substantielle sont tout a fait eligibles a la protection sui generis."
+      }
+    ]
+  }
+]

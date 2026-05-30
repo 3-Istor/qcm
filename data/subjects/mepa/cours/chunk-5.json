@@ -1,0 +1,332 @@
+[
+  {
+    "id": "MEPA-SCALE-chunk5-01",
+    "type": "theoretical",
+    "text": "La slide 'Faire de l’Agile n’est pas être Agile !' (Cours #2) modélise l'agilité sous la forme d'un entonnoir de comportements. Quelle est la distinction fondamentale entre 'Être Agile' et 'Faire de l'Agile' selon ce schéma ?",
+    "image": null,
+    "hint": "L'un relève d'un état d'esprit interne (valeurs et principes), tandis que l'autre relève de l'application externe d'outils et de méthodologies.",
+    "options": [
+      {
+        "id": "A",
+        "text": "'Être Agile' consiste à appliquer strictement le framework SAFe, tandis que 'Faire de l'Agile' consiste à utiliser Scrum à petite échelle.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. SAFe et Scrum sont tous deux des frameworks qui relèvent du 'Faire de l'Agile' (la couche externe des outils)."
+      },
+      {
+        "id": "B",
+        "text": "'Être Agile' est un état d'esprit interne décliné à travers 4 valeurs et 12 principes. 'Faire de l'Agile' correspond à l'application externe de pratiques et de frameworks (Scrum, Kanban, XP, SAFe).",
+        "isCorrect": true,
+        "justification": "C'est exact. L'agilité est d'abord une culture et une posture intellectuelle ('Être Agile'). L'implémentation de processus, de rituels et de frameworks (Scrum, Kanban, etc.) n'est que la déclinaison pratique ('Faire de l'Agile') qui reste stérile sans l'état d'esprit adéquat."
+      },
+      {
+        "id": "C",
+        "text": "Il n'y a aucune différence, ces deux expressions ont été inventées par des consultants pour vendre des certifications.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La slide montre bien que l'état d'esprit (mindset) est le moteur indispensable pour que les frameworks fonctionnent efficacement."
+      },
+      {
+        "id": "D",
+        "text": "'Être Agile' s'adresse uniquement aux développeurs, alors que 'Faire de l'Agile' est réservé aux managers et aux clients.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'état d'esprit agile concerne l'ensemble de l'organisation, des développeurs aux parties prenantes et sponsors."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-SCALE-chunk5-02",
+    "type": "theoretical",
+    "text": "Parmi les frameworks agiles présentés dans l'entonnoir de l'agilité, lequel est spécifiquement conçu pour déployer les pratiques agiles à l'échelle de grandes organisations comportant de nombreuses équipes ?",
+    "image": null,
+    "hint": "Recherchez l'acronyme d'un framework d'agilité à l'échelle présenté tout à droite du schéma.",
+    "options": [
+      {
+        "id": "A",
+        "text": "XP (eXtreme Programming)",
+        "isCorrect": false,
+        "justification": "C'est incorrect. XP est un framework axé sur les pratiques d'ingénierie logicielle pour des équipes de développement de taille réduite (jusqu'à 12 personnes)."
+      },
+      {
+        "id": "B",
+        "text": "Kanban",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Kanban est un outil de gestion visuelle des flux de travail qui s'applique généralement à l'échelle d'une équipe ou d'un service, bien qu'il puisse être décliné."
+      },
+      {
+        "id": "C",
+        "text": "SAFe (Scaled Agile Framework)",
+        "isCorrect": true,
+        "justification": "C'est exact. SAFe est conçu pour l'agilité à l'échelle ('Scaled Agile'). Il permet de synchroniser l'alignement, la collaboration et la livraison de nombreuses équipes agiles travaillant sur un même portefeuille de produits."
+      },
+      {
+        "id": "D",
+        "text": "Scrum",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Scrum est conçu à la base pour une seule équipe pluridisciplinaire (jusqu'à 10 personnes). Pour plusieurs équipes, on doit l'adapter ou utiliser des frameworks d'échelle."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-SCALE-chunk5-03",
+    "type": "practical",
+    "text": "Comment est structurée l'évaluation académique des étudiants pour le module MEPA (Mise En Pratique de l'Agile) selon le plan de cours présenté ?",
+    "image": null,
+    "hint": "L'évaluation comporte une part théorique individuelle et une part pratique collective liée au produit.",
+    "options": [
+      {
+        "id": "A",
+        "text": "100% de la note repose sur l'examen écrit final individuel (QCM de 100 questions).",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le cours adopte une approche 'learning by doing' où le projet d'équipe est fortement valorisé."
+      },
+      {
+        "id": "B",
+        "text": "50% sur la présence aux cours et 50% sur le codage de l'application sur GitHub.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La présence n'est pas le seul critère et l'évaluation globale englobe la démarche agile et le produit présenté."
+      },
+      {
+        "id": "C",
+        "text": "30% sur une évaluation individuelle (QCM de 20 questions lors de l'avant-dernier cours, sans points négatifs) et 70% sur le produit réalisé en équipe (soutenance + démo du MVP).",
+        "isCorrect": true,
+        "justification": "C'est exact. Le barème officiel du cours MEPA (Cours #1, Slide 8 & 9) attribue 30% de la note finale au QCM individuel et 70% au projet de réalisation d'un produit en équipe."
+      },
+      {
+        "id": "D",
+        "text": "100% de la note est attribuée par un vote anonyme des autres équipes étudiantes de la promotion.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Bien que les autres équipes évaluent et testent votre produit, la note finale est attribuée par l'enseignant/consultant sur des critères précis."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-SCALE-chunk5-04",
+    "type": "practical",
+    "text": "Dans la structure pédagogique du cours MEPA, quelle dynamique collaborative originale est mise en place entre les différentes équipes étudiantes de la promotion pour tester les produits ?",
+    "image": null,
+    "hint": "Pensez au principe de réciprocité des tests utilisateurs décrit dans la planification des cours.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chaque équipe doit recruter des lycéens externes à l'école pour réaliser des tests en conditions réelles.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Bien que la cible soit les lycéens, le recrutement externe n'est pas imposé dans le cadre du cours pour les tests réguliers."
+      },
+      {
+        "id": "B",
+        "text": "Chaque équipe devient utilisatrice (représentant la population 'jeunes') du produit d'une autre équipe, participant à ses revues pour lui faire des feedbacks.",
+        "isCorrect": true,
+        "justification": "C'est exact. Pour simuler de vrais retours utilisateurs, le cours organise une collaboration croisée : 'Chaque équipe devient utilisatrice du produit d’une autre équipe'. Cela permet d'expérimenter la culture du feedback et d'améliorer le produit de manière itérative."
+      },
+      {
+        "id": "C",
+        "text": "Les équipes s'affrontent lors d'un hackathon de 24 heures où le code de chaque produit est audité par l'équipe adverse.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La dynamique est orientée sur la collaboration continue et les tests d'usage, pas sur un affrontement de type hackathon."
+      },
+      {
+        "id": "D",
+        "text": "Toutes les équipes travaillent ensemble sur un seul et unique dépôt de code pour fusionner leurs MVP.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Chaque équipe réalise son propre produit innovant en toute autonomie sur la forme et la conception."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-SCALE-chunk5-05",
+    "type": "practical",
+    "text": "Votre équipe prépare la soutenance finale du projet 'IA citoyenne' prévue le 29 juin 2026. Quelles sont les contraintes de temps et de contenu à respecter pour cette présentation devant le consultant client ?",
+    "image": null,
+    "hint": "Consultez les recommandations pour la soutenance (Cours #1, Slide 12 & 15).",
+    "options": [
+      {
+        "id": "A",
+        "text": "La soutenance dure 60 minutes, ne doit contenir aucun support visuel, et seul le Product Owner prend la parole.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La durée est beaucoup plus courte et tous les membres de l'équipe doivent parler."
+      },
+      {
+        "id": "B",
+        "text": "La soutenance dure 20 minutes maximum. Elle doit inclure une prise de parole équilibrée de chaque co-équipier, la présentation de la démarche agile, et une démonstration en direct d'un parcours utilisateur complet sur le MVP.",
+        "isCorrect": true,
+        "justification": "C'est exact. La soutenance est très rythmée (20 minutes max pour la présentation, démo MVP incluse + Q&A). Chaque membre de l'équipe doit prendre la parole et l'on doit montrer un parcours utilisateur réel complet."
+      },
+      {
+        "id": "C",
+        "text": "La présentation dure 5 minutes chrono et consiste uniquement à montrer les lignes de code écrites sur GitHub.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Une démonstration technique du code ne répond pas aux attentes du jury qui évalue un produit utile, clair et responsable."
+      },
+      {
+        "id": "D",
+        "text": "La soutenance est facultative si l'équipe a obtenu une note supérieure à 15/20 lors du QCM individuel.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La soutenance du projet d'équipe compte pour 70% de la note finale et est obligatoire."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-SCALE-chunk5-06",
+    "type": "theoretical",
+    "text": "Sur le schéma explicatif 'La roue de Deming en action' (Cours #4, Slide 41), un triangle rouge nommé 'Standard' est positionné sous la roue (PDCA) sur la pente de l'amélioration de la qualité. Quel est le rôle de ce 'Standard' ?",
+    "image": null,
+    "hint": "Que se passe-t-il si l'on pousse une roue sur une pente sans mettre de cale pour la bloquer ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le standard sert à bloquer l'équipe pour l'empêcher d'innover et de modifier ses processus à l'avenir.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le standard n'est pas figé à vie, il évolue à chaque nouveau cycle d'amélioration."
+      },
+      {
+        "id": "B",
+        "text": "Il représente le budget financier du projet sous lequel l'équipe ne doit jamais descendre.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Il s'agit d'un concept de management de la qualité (Standardisation), pas d'un indicateur budgétaire."
+      },
+      {
+        "id": "C",
+        "text": "Le Standard agit comme une cale (consolidation) qui empêche la roue de la qualité de redescendre. Il formalise les acquis et les meilleures pratiques avant de lancer un nouveau cycle d'amélioration.",
+        "isCorrect": true,
+        "justification": "C'est exact. Dans la philosophie d'amélioration continue (Kaizen/PDCA), la standardisation est la cale indispensable. Elle stabilise le processus à un niveau donné, évitant les régressions (les retours en arrière), pour servir de socle solide aux futures améliorations."
+      },
+      {
+        "id": "D",
+        "text": "C'est un outil de contrôle de la productivité individuelle destiné exclusivement au Scrum Master.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. C'est un outil collectif pour garantir que toute l'équipe travaille selon les mêmes exigences de qualité (ex: la DoD)."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-SCALE-chunk5-07",
+    "type": "practical",
+    "text": "Le projet 'IA citoyenne' qui vous est confié est mandaté par la CNIL et le Ministère de l'Éducation Nationale. Parmi les objectifs suivants, lequel fait explicitement partie du brief de votre mission ?",
+    "image": null,
+    "hint": "Le produit doit s'adresser aux citoyens, aux jeunes et aux enseignants pour les aider sur les questions éthiques de l'IA.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Développer un algorithme d'IA capable de corriger automatiquement les copies des lycéens au baccalauréat.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. C'est un sujet de pure productivité technique qui ne fait pas partie des objectifs d'éducation à l'éthique citoyenne demandés."
+      },
+      {
+        "id": "B",
+        "text": "Permettre aux citoyens, jeunes et enseignants de comprendre les enjeux de l'IA, de réfléchir de manière critique et éthique à son usage, et d'ouvrir des espaces de débat citoyen.",
+        "isCorrect": true,
+        "justification": "C'est exact. Le brief projet (Cours #1, Slide 10 & 11) indique que le produit numérique innovant doit sensibiliser, éduquer à l'éthique (biais, vie privée), faire réfléchir et débattre de manière critique."
+      },
+      {
+        "id": "C",
+        "text": "Créer une base de données centralisant l'ensemble des données personnelles des élèves pour le compte de l'État.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La CNIL s'opposerait fermement à un tel projet s'il n'avait pas des garanties de sécurité extrêmes, et cela contredit l'objectif pédagogique d'éducation aux libertés individuelles."
+      },
+      {
+        "id": "D",
+        "text": "Remplacer les enseignants de philosophie par des agents conversationnels intelligents d'ici septembre 2026.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le brief indique bien que le produit s'adresse AUSSI aux enseignants pour les accompagner, et non pour les remplacer."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-SCALE-chunk5-08",
+    "type": "theoretical",
+    "text": "Le 10ème principe du Manifeste Agile énonce : 'La simplicité – l’art de maximiser la quantité de travail à ne pas faire – est essentielle'. Comment un Product Owner doit-il appliquer ce principe au quotidien sur son produit ?",
+    "image": null,
+    "hint": "Pensez aux statistiques du Standish Group concernant l'utilisation réelle des fonctionnalités d'un logiciel.",
+    "options": [
+      {
+        "id": "A",
+        "text": "En refusant de trier le backlog pour laisser les développeurs coder tout ce qu'ils souhaitent de manière simple.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'absence de priorisation crée du gaspillage et de la complexité inutile."
+      },
+      {
+        "id": "B",
+        "text": "En se concentrant uniquement sur le strict nécessaire pour résoudre le problème de l'utilisateur, et en éliminant les fonctionnalités superflues, sachant que 50% des fonctionnalités développées ne sont jamais ou presque jamais utilisées.",
+        "isCorrect": true,
+        "justification": "C'est exact. Les statistiques du Chaos Report montrent que la moitié des fonctionnalités d'un produit traditionnel ne servent jamais. Appliquer la simplicité agile consiste à chasser ce gaspillage en ne concevant que ce qui apporte une réelle valeur immédiate."
+      },
+      {
+        "id": "C",
+        "text": "En écrivant des User Stories d'une seule ligne sans aucun critère d'acceptation pour aller plus vite.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Supprimer la qualité des spécifications (DoD/Critères) n'est pas de la simplicité, c'est de la négligence technique."
+      },
+      {
+        "id": "D",
+        "text": "En déléguant la totalité de la vision produit au client pour ne pas avoir à réfléchir aux arbitrages complexes.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le PO doit assumer ses choix de conception et de priorisation."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-SCALE-chunk5-09",
+    "type": "theoretical",
+    "text": "Le 7ème principe du Manifeste Agile stipule : 'Les processus Agiles encouragent un rythme de développement soutenable'. Qui doit être capable de maintenir ce rythme de manière constante et indéfinie ?",
+    "image": null,
+    "hint": "Ce principe implique la collaboration de tous les acteurs du produit.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uniquement les développeurs juniors, les seniors devant travailler plus pour compenser.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Scrum ne fait aucune distinction hiérarchique au sein des développeurs."
+      },
+      {
+        "id": "B",
+        "text": "Le Scrum Master uniquement, qui doit travailler jour et nuit pour éliminer les obstacles techniques.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le rythme soutenable s'applique à toute l'équipe pour éviter l'épuisement professionnel (burnout)."
+      },
+      {
+        "id": "C",
+        "text": "Ensemble, les commanditaires (sponsors), les développeurs et les utilisateurs devraient être capables de maintenir indéfiniment un rythme constant.",
+        "isCorrect": true,
+        "justification": "C'est exact. C'est la formulation exacte du 7ème principe du Manifeste Agile. L'agilité cherche à éviter les pics de stress et les 'rushs' de fin de projet traditionnels en stabilisant le flux de livraison sur le long terme."
+      },
+      {
+        "id": "D",
+        "text": "Le rythme constant n'est requis que pendant les phases de test utilisateur (les Sprints de revue).",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le rythme doit être soutenable tout au long de la vie du produit."
+      }
+    ]
+  },
+  {
+    "id": "MEPA-SCALE-chunk5-10",
+    "type": "practical",
+    "text": "Votre équipe MEPA hésite entre l'implémentation de Scrum et de Kanban pour le projet. En vous basant sur la slide comparative du mode produit (Cours #2) et la structure du cours, quelle est une différence fondamentale de fonctionnement entre ces deux frameworks ?",
+    "image": null,
+    "hint": "Pensez au concept de timeboxing (Sprints) propre à l'un et au flux continu propre à l'autre.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scrum est un mode de travail prédictif (Waterfall) alors que Kanban est adaptatif (Agile).",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Scrum et Kanban sont tous deux des frameworks adaptatifs (Agiles)."
+      },
+      {
+        "id": "B",
+        "text": "Scrum utilise des itérations de temps fixes (Sprints) et définit des responsabilités précises (PO, SM, Dev), tandis que Kanban se concentre sur la visualisation du flux continu de travail et la limitation du travail en cours (WIP) sans imposer d'itérations temporelles fixes.",
+        "isCorrect": true,
+        "justification": "C'est exact. Scrum cadre le travail dans le temps via des Sprints (Timeboxing) et des rôles structurés. Kanban est un système de flux tiré continu, sans rôles prédéfinis ni itérations obligatoires, centré sur l'optimisation visuelle de la capacité de traitement de l'équipe."
+      },
+      {
+        "id": "C",
+        "text": "Kanban interdit toute réunion d'équipe, alors que Scrum impose de passer la moitié de son temps en réunion.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Kanban possède aussi des rituels d'alignement, et Scrum timeboxe rigoureusement ses réunions pour qu'elles restent courtes et productives."
+      },
+      {
+        "id": "D",
+        "text": "Scrum est réservé au développement d'applications mobiles, tandis que Kanban est utilisé uniquement pour les sites web d'IA.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les deux frameworks sont agnostiques de la technologie et s'appliquent à tout type de produit complexe."
+      }
+    ]
+  }
+]

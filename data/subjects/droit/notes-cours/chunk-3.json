@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ip-notes-chunk3-21",
+    "type": "practical",
+    "text": "Un client commande un logiciel sur mesure et finance l'intégralité du projet. Le développeur, insatisfait du résultat technique, refuse de livrer et de publier l'application. Le client peut-il le contraindre en justice à divulguer l'œuvre au motif qu'elle est payée ?",
+    "image": null,
+    "hint": "Il s'agit d'un attribut fondamental et discrétionnaire du droit moral de l'auteur.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, car le paiement complet de la commande transfère automatiquement le droit de divulgation au client.",
+        "isCorrect": false,
+        "justification": "Le paiement de la commande n'altère pas le droit moral de l'auteur, qui reste souverain sur la divulgation de son œuvre."
+      },
+      {
+        "id": "B",
+        "text": "Non, car seul l'auteur a le droit de divulguer son œuvre. Nul ne peut le contraindre à rendre publique une œuvre dont il n'est pas satisfait, quand bien même on lui en aurait passé commande.",
+        "isCorrect": true,
+        "justification": "Conformément au cours et à l'article L121-2 du CPI, le droit de divulgation est un attribut du droit moral. L'auteur est le seul à décider du moment et des conditions de la divulgation, même en cas d'œuvre de commande payée."
+      },
+      {
+        "id": "C",
+        "text": "Oui, mais uniquement si le client s'engage à ne pas modifier le code source par la suite.",
+        "isCorrect": false,
+        "justification": "L'engagement du client sur le code ne permet pas de contourner le droit moral exclusif de divulgation de l'auteur."
+      },
+      {
+        "id": "D",
+        "text": "Non, sauf si le logiciel utilise des composants sous licence libre permissive de type MIT.",
+        "isCorrect": false,
+        "justification": "La présence de composants open source ne modifie pas les règles de base du droit moral de divulgation de l'auteur sur son travail personnel."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk3-22",
+    "type": "practical",
+    "text": "Un rédacteur technique effectue une courte citation d'un guide d'architecture logicielle sans mentionner le nom de l'auteur d'origine, estimant que la brièveté de la citation l'en dispense. L'auteur d'origine peut-il exiger l'affichage de son nom ?",
+    "image": null,
+    "hint": "L'exception de courte citation dispense-t-elle de respecter le droit moral au nom ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non, car l'exception de courte citation annule l'intégralité du droit moral de l'auteur d'origine.",
+        "isCorrect": false,
+        "justification": "Les exceptions aux droits patrimoniaux ne suppriment jamais le droit moral de l'auteur, qui reste impératif."
+      },
+      {
+        "id": "B",
+        "text": "Oui, car même dans le cadre d'une courte citation, on doit respecter le droit moral de l'auteur d'origine : s'il demande à ce que son nom soit mentionné (droit à la paternité), on doit obligatoirement le mettre.",
+        "isCorrect": true,
+        "justification": "Comme l'indiquent vos notes de cours, l'exception de courte citation exige d'indiquer le nom de l'auteur et la source. Le droit à la paternité (droit au nom) fait partie du droit moral inaliénable de l'auteur."
+      },
+      {
+        "id": "C",
+        "text": "Non, car le droit à la paternité ne s'applique qu'aux œuvres complètes et non aux extraits de texte.",
+        "isCorrect": false,
+        "justification": "Le droit au nom s'applique à toute partie de l'œuvre originale dès lors qu'elle est reproduite ou représentée."
+      },
+      {
+        "id": "D",
+        "text": "Oui, mais uniquement si la citation représente plus de 50% de la page d'accueil de l'utilisateur.",
+        "isCorrect": false,
+        "justification": "Le respect du droit à la paternité s'impose dès l'usage de la citation, indépendamment de la proportion de la page d'accueil."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk3-23",
+    "type": "theoretical",
+    "text": "Un contrat de cession de droits d'auteur sur un logo omet de mentionner le prix ou la gratuité de la transaction. Comment la loi française traite-t-elle cette absence de précision financière ?",
+    "image": null,
+    "hint": "Pensez au principe fondamental d'interprétation financière des contrats de propriété intellectuelle.",
+    "options": [
+      {
+        "id": "A",
+        "text": "La transaction est présumée gratuite par défaut afin de faciliter les échanges commerciaux entre entreprises.",
+        "isCorrect": false,
+        "justification": "La gratuité n'est jamais présumée par défaut en droit d'auteur français."
+      },
+      {
+        "id": "B",
+        "text": "La gratuité ne se présume pas : on considère par défaut que l'exploitation est payante. Pour qu'une cession soit gratuite, la gratuité doit être expressément mentionnée dans le contrat.",
+        "isCorrect": true,
+        "justification": "Vos notes rappellent ce principe important du droit français : 'La gratuité ne se présume pas'. En l'absence de clause de prix ou de mention explicite de gratuité, le contrat est contestable ou réputé onéreux."
+      },
+      {
+        "id": "C",
+        "text": "Le contrat est automatiquement requalifié en don d'œuvre de bienfaisance par le tribunal.",
+        "isCorrect": false,
+        "justification": "Le juge ne peut pas transformer de force une cession d'affaires en œuvre caritative."
+      },
+      {
+        "id": "D",
+        "text": "La cession est valide et gratuite d'office uniquement si l'auteur est un developpeur indépendant.",
+        "isCorrect": false,
+        "justification": "Le statut d'indépendant n'entraîne aucune présomption de gratuité de ses créations de l'esprit."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk3-24",
+    "type": "theoretical",
+    "text": "Selon l'article 1103 du Code civil, quelle est la portée juridique de la formule 'Les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits' ?",
+    "image": null,
+    "hint": "Un contrat légitime a-t-il moins de valeur aux yeux de la justice qu'un texte de loi officiel ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le contrat a moins de valeur que la loi et peut être rompu à tout moment par simple lettre recommandée.",
+        "isCorrect": false,
+        "justification": "Un contrat ne peut être rompu unilatéralement sans motif ou accord mutuel sous prétexte qu'il n'est pas une loi générale."
+      },
+      {
+        "id": "B",
+        "text": "Le contrat a la même force juridique que la loi pour les parties signataires ; si l'une des parties ne respecte pas ses engagements, l'autre peut saisir la justice pour obtenir une exécution forcée.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours insistent sur ce pilier du droit civil : le contrat a la même force que la loi pour les signataires. Il oblige au respect des engagements sous peine d'exécution forcée après procédure judiciaire (mise en demeure)."
+      },
+      {
+        "id": "C",
+        "text": "La formule signifie que le contrat remplace le Code civil dans l'intégralité des relations commerciales du pays.",
+        "isCorrect": false,
+        "justification": "Le contrat ne s'applique qu'aux parties signataires et ne peut pas déroger aux règles d'ordre public du Code civil."
+      },
+      {
+        "id": "D",
+        "text": "Le contrat devient une loi nationale applicable à tous les citoyens dès lors qu'il est contresigné par un huissier.",
+        "isCorrect": false,
+        "justification": "Le contrat a un effet relatif : il ne lie que les parties contractantes et ne devient jamais une loi générale pour l'ensemble des citoyens."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk3-25",
+    "type": "practical",
+    "text": "Lors de l'achat d'un véhicule de livraison pour une entreprise, le contrat n'indique pas explicitement que 'la voiture doit être en état de rouler'. L'acheteur peut-il contester la vente si le moteur est hors d'usage à la livraison ?",
+    "image": null,
+    "hint": "Certaines obligations légales s'appliquent de plein droit sans qu'il soit nécessaire de les réécrire.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non, car l'acheteur aurait dû exiger d'écrire explicitement cette clause de fonctionnement dans le contrat de vente.",
+        "isCorrect": false,
+        "justification": "L'acheteur est protégé par des garanties légales implicites de conformité et d'usage."
+      },
+      {
+        "id": "B",
+        "text": "Oui, car 'le contrat n'a pas besoin de dire si c'est conforme' ; l'obligation de conformité est imposée par la loi et s'applique par défaut (la voiture doit rouler, le logiciel doit fonctionner), sans qu'il soit nécessaire de l'écrire.",
+        "isCorrect": true,
+        "justification": "Vos notes de cours illustrent ce principe : il est inutile d'écrire ce qui est déjà évident et imposé par la loi (comme l'état de marche d'un véhicule ou le fonctionnement de base d'un outil). L'obligation de conformité s'applique par défaut."
+      },
+      {
+        "id": "C",
+        "text": "Non, car la conformité technique est une notion facultative exclue des ventes professionnelles.",
+        "isCorrect": false,
+        "justification": "L'obligation de conformité et de garantie des vices cachés s'applique également aux relations professionnelles."
+      },
+      {
+        "id": "D",
+        "text": "Oui, mais uniquement si la voiture a été payée en espèces lors de la livraison.",
+        "isCorrect": false,
+        "justification": "Le moyen de paiement utilisé n'influe pas sur la garantie légale de conformité du bien."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk3-26",
+    "type": "practical",
+    "text": "Une entreprise de services du numérique souhaite modifier les clauses d'un contrat d'assistance technique signé il y a six mois pour réduire ses heures d'intervention. Comment doit-elle procéder réglementairement ?",
+    "image": null,
+    "hint": "Un contrat ne peut pas être modifié unilatéralement par l'une des parties.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elle peut envoyer un e-mail officiel pour notifier la modification unilatérale immédiate des termes.",
+        "isCorrect": false,
+        "justification": "Une notification unilatérale par e-mail n'a aucune valeur juridique pour modifier un accord contractuel ferme."
+      },
+      {
+        "id": "B",
+        "text": "Il faut obtenir un nouvel accord de volonté des deux parties dans les mêmes formes, en rédigeant et en signant un document modificatif appelé un avenant.",
+        "isCorrect": true,
+        "justification": "Conformément aux cours, une fois qu'un contrat est formé, il ne peut être modifié que d'un commun accord entre les signataires. Cette modification prend la forme d'un accord modificatif appelé un 'avenant'."
+      },
+      {
+        "id": "C",
+        "text": "Elle doit rompre le contrat initial et en faire signer un nouveau sous peine de nullité pénale.",
+        "isCorrect": false,
+        "justification": "La rupture totale n'est pas nécessaire ; un simple avenant permet de modifier les clauses existantes tout en conservant le contrat d'origine."
+      },
+      {
+        "id": "D",
+        "text": "La modification est automatique des lors qu'elle est visée par le Product Owner du projet.",
+        "isCorrect": false,
+        "justification": "Le Product Owner n'a pas le pouvoir de modifier unilatéralement les engagements contractuels juridiques de son entreprise."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk3-27",
+    "type": "practical",
+    "text": "Un contrat rédigé à la hâte indique : 'L'auteur cède l'intégralité de ses droits sur l'illustration pour tout usage'. Le cessionnaire l'imprime sur des vêtements pour les vendre. L'auteur, constatant que les vêtements n'étaient pas mentionnés, peut-il s'y opposer ?",
+    "image": null,
+    "hint": "En droit d'auteur, la cession globale non spécifiée protège l'auteur.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non, car le terme 'tout usage' couvre de manière absolue l'impression sur n'importe quel support physique.",
+        "isCorrect": false,
+        "justification": "La formule 'tout usage' ou 'tous droits' est inefficace en droit français car elle manque de la spécificité obligatoire requise par la loi."
+      },
+      {
+        "id": "B",
+        "text": "Oui, car pour chaque droit cédé, le contrat doit préciser de manière très spécifique les supports autorisés. Si le support (comme les vêtements) n'est pas écrit, le droit d'exploitation sur ce support reste la propriété de l'auteur.",
+        "isCorrect": true,
+        "justification": "Vos notes rappellent que l'on doit préciser pour chaque droit cédé les supports autorisés. Les formules globales n'ont pas de valeur légale : tout ce qui n'est pas écrit de façon claire et spécifique reste à l'auteur."
+      },
+      {
+        "id": "C",
+        "text": "Non, sauf si l'auteur apporte la preuve qu'il a déposé le design sous enveloppe Soleau.",
+        "isCorrect": false,
+        "justification": "L'enveloppe Soleau sert à dater la création, mais l'interprétation restrictive du contrat de cession protège l'auteur même sans ce dépôt."
+      },
+      {
+        "id": "D",
+        "text": "Oui, mais uniquement si l'illustration a été réalisée au moyen d'un outil de dessin libre et open source.",
+        "isCorrect": false,
+        "justification": "La nature des outils logiciels utilisés pour la création n'altère en rien l'application des règles de la cession de droits d'auteur."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk3-28",
+    "type": "theoretical",
+    "text": "D'après les analyses de cas du cours, pourquoi les signataires regrettent-ils fréquemment d'avoir signé un contrat de cession de droits ?",
+    "image": null,
+    "hint": "Le regret découle d'un problème survenu lors de la phase d'échange des consentements.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parce que les tarifs légaux obligatoires définis par le Code de la propriété intellectuelle ont augmenté après la signature.",
+        "isCorrect": false,
+        "justification": "Il n'existe pas de tarifs légaux ou réglementaires obligatoires imposés par l'État pour les cessions de droits."
+      },
+      {
+        "id": "B",
+        "text": "Parce qu'ils ont été mal informés avant de s'engager, ou forcés à signer rapidement, ce qui traduit une fragilité ou un vice du consentement (dol, rétention d'informations ou violence).",
+        "isCorrect": true,
+        "justification": "Comme le soulignent vos notes de cours, les regrets proviennent généralement d'un manque d'information, d'une rétention d'informations ou d'une pression lors de l'échange des consentements, ce qui peut caractériser un vice du consentement (dol, violence)."
+      },
+      {
+        "id": "C",
+        "text": "Parce que le contrat n'a pas été traduit en langue anglaise avant sa publication en ligne.",
+        "isCorrect": false,
+        "justification": "La traduction en anglais n'est pas une condition de validité ni la cause principale des regrets des signataires d'un contrat en France."
+      },
+      {
+        "id": "D",
+        "text": "Parce qu'ils s'aperçoivent que l'œuvre n'a pas été enregistrée de force sous licence GPL par l'employeur.",
+        "isCorrect": false,
+        "justification": "L'absence de licence GPL n'est pas la cause de regret contractuel analysée dans cette section du cours."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk3-29",
+    "type": "theoretical",
+    "text": "Quelle est la définition d'un 'bon contrat' selon l'approche pragmatique enseignée dans ce cours ?",
+    "image": null,
+    "hint": "Un bon contrat doit s'inscrire dans une relation saine et durable entre les signataires.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un contrat très complexe et obscur qui empêche toute contestation judiciaire de la part du créateur.",
+        "isCorrect": false,
+        "justification": "Un contrat obscur crée de la méfiance, des conflits et une fragilité juridique à long terme."
+      },
+      {
+        "id": "B",
+        "text": "Un contrat équilibré, gagnant-gagnant, qui dure dans le temps et établit une relation pérenne en expliquant clairement ce que l'on va faire dans le préambule.",
+        "isCorrect": true,
+        "justification": "Vos notes décrivent la philosophie du cours : un bon contrat est durable et s'inscrit dans une relation pérenne 'gagnant-gagnant'. C'est pour cela que l'on rédige un préambule clair pour bien définir le contexte de l'accord."
+      },
+      {
+        "id": "C",
+        "text": "Un contrat rédigé unilatéralement par l'employeur sans possibilité de négociation pour le salarié.",
+        "isCorrect": false,
+        "justification": "L'absence de négociation peut fragiliser le consentement et créer un déséquilibre nuisible à la pérennité de la relation."
+      },
+      {
+        "id": "D",
+        "text": "Un contrat court de moins de trois lignes pour éviter d'avoir à détailler les supports de reproduction.",
+        "isCorrect": false,
+        "justification": "Un contrat trop court omettant les détails requis par la loi est nul ou inefficace pour transférer les droits d'exploitation."
+      }
+    ]
+  },
+  {
+    "id": "ip-notes-chunk3-30",
+    "type": "theoretical",
+    "text": "Comment l'évaluation de ce cours de Propriété Intellectuelle est-elle structurée, et quel en est l'objectif pédagogique principal ?",
+    "image": null,
+    "hint": "Il ne s'agit pas d'un simple exercice de mémorisation de textes de lois bruts.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un exercice de réécriture intégrale du Code civil de mémoire sans document.",
+        "isCorrect": false,
+        "justification": "La mémorisation brute d'articles n'est pas l'objectif du cours."
+      },
+      {
+        "id": "B",
+        "text": "Un QCM associant des questions de cours et des questions sur un texte (analyse de cas), visant à évaluer le raisonnement pratique et l'appréciation du risque immatériel.",
+        "isCorrect": true,
+        "justification": "Vos notes précisent que l'examen est un QCM contenant des questions de cours et des analyses sur un texte. Le but du cours est de travailler sur le raisonnement pratique et l'appréciation du risque lié aux choses immatérielles, plutôt que la simple mémorisation de connaissances disponibles sur internet."
+      },
+      {
+        "id": "C",
+        "text": "Une soutenance orale obligatoire devant un collège de notaires de l'INPI.",
+        "isCorrect": false,
+        "justification": "L'évaluation est écrite sous forme de QCM et ne comprend pas de soutenance devant l'INPI."
+      },
+      {
+        "id": "D",
+        "text": "Un examen technique consistant uniquement à programmer un outil de détection de plagiat en C++.",
+        "isCorrect": false,
+        "justification": "C'est un cours de droit et d'évaluation des risques juridiques, pas un projet de développement logiciel technique."
+      }
+    ]
+  }
+]

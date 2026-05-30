@@ -1,0 +1,8 @@
+apiVersion: v2
+name: qcm
+description: Anki-style QCM application for active recall study
+type: application
+version: 1.0.0
+appVersion: "0.1.0"
+maintainers:
+  - name: 3-Istor Team
