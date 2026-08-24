@@ -1,9 +1,11 @@
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
 import { PrismaClient } from "@prisma/client";
+import { PrismaPg } from "@prisma/adapter-pg";
 import NextAuth, { NextAuthOptions } from "next-auth";
 import KeycloakProvider from "next-auth/providers/keycloak";
 
-const prisma = new PrismaClient();
+const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL });
+const prisma = new PrismaClient({ adapter });
 const baseAdapter = PrismaAdapter(prisma);
 
 // Custom Adapter wrapper to sanitize non-standard Keycloak parameters

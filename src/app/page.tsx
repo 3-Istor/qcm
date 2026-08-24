@@ -1,10 +1,12 @@
 import DashboardClient from "@/components/DashboardClient";
 import { getAllDecks } from "@/lib/data";
 import { PrismaClient } from "@prisma/client";
+import { PrismaPg } from "@prisma/adapter-pg";
 import { getServerSession } from "next-auth";
 import { authOptions } from "./api/auth/[...nextauth]/route";
 
-const prisma = new PrismaClient();
+const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL });
+const prisma = new PrismaClient({ adapter });
 
 export default async function DashboardPage() {
   const decks = await getAllDecks();

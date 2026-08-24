@@ -2,10 +2,12 @@ import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import QuizEngine from "@/components/QuizEngine";
 import { getAllDecks } from "@/lib/data";
 import { PrismaClient } from "@prisma/client";
+import { PrismaPg } from "@prisma/adapter-pg";
 import { getServerSession } from "next-auth";
 import { notFound } from "next/navigation";
 
-const prisma = new PrismaClient();
+const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL });
+const prisma = new PrismaClient({ adapter });
 
 interface PageProps {
     params: Promise<{ subjectId: string; chapterId: string }>;
