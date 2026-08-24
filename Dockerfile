@@ -26,7 +26,13 @@ COPY --from=builder /app/.next/static ./.next/static
 COPY --from=builder /app/data ./data
 
 COPY --from=builder /app/prisma ./prisma
-RUN npm install -g prisma@6.18.0 --legacy-peer-deps
+COPY --from=builder /app/prisma.config.ts ./prisma.config.ts
+# Full node_modules from the deps stage (not a fresh `npm install prisma` here):
+# prisma.config.ts does `import ... from "prisma/config"`, which Node resolves
+# from ./node_modules, and the standalone output's pruned node_modules doesn't
+# carry the prisma CLI or its transitive deps.
+COPY --from=deps /app/node_modules ./node_modules
+ENV PATH="/app/node_modules/.bin:${PATH}"
 
 EXPOSE 3000
 ENV PORT=3000

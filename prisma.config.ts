@@ -1,4 +1,4 @@
-import { defineConfig, env } from "prisma/config";
+import { defineConfig } from "prisma/config";
 
 export default defineConfig({
   schema: "prisma/schema.prisma",
@@ -6,6 +6,9 @@ export default defineConfig({
     path: "prisma/migrations",
   },
   datasource: {
-    url: env("DATABASE_URL"),
+    // `prisma/config`'s env() throws if unset, which breaks `prisma generate`
+    // at Docker build time (no DATABASE_URL there). This is only actually
+    // needed by `prisma migrate deploy`, where it's set for real.
+    url: process.env.DATABASE_URL,
   },
 });
