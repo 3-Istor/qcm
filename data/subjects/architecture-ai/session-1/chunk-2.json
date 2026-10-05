@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ARCHAI-S1-chunk2-01",
+    "type": "theoretical",
+    "text": "Qu'est-ce que la découverte « top-down » d'un cas d'usage ?",
+    "image": null,
+    "hint": "On part de ce que la direction nomme déjà.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lancer un appel d'offres auprès de fournisseurs d'IA.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ce n'est pas une méthode de découverte du cours."
+      },
+      {
+        "id": "B",
+        "text": "Choisir d'abord un modèle puis chercher des problèmes à lui donner.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. On part du besoin, pas du modèle."
+      },
+      {
+        "id": "C",
+        "text": "Partir des chaînes de valeur que le management nomme déjà et chercher les étapes qui consomment le plus de temps ou d'argent.",
+        "isCorrect": true,
+        "justification": "C'est exact. C'est la première des deux voies du cours. Elle part de la stratégie et descend vers les étapes coûteuses."
+      },
+      {
+        "id": "D",
+        "text": "Demander aux personnes qui font le travail quelles tâches elles redoutent.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. C'est la démarche bottom-up."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk2-02",
+    "type": "theoretical",
+    "text": "Qu'est-ce que la découverte « bottom-up » ?",
+    "image": null,
+    "hint": "On part du terrain.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Demander à un LLM de lister des cas d'usage sans aucune donnée métier.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le cours s'appuie sur les chaînes de valeur et sur les personnes qui font le travail."
+      },
+      {
+        "id": "B",
+        "text": "Mesurer le coût par token de chaque fournisseur de modèle.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. C'est un critère de choix de modèle, pas de découverte de cas d'usage."
+      },
+      {
+        "id": "C",
+        "text": "Partir des chaînes de valeur déjà nommées par le management.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. C'est la démarche top-down."
+      },
+      {
+        "id": "D",
+        "text": "Interroger les personnes qui font le travail sur les tâches qu'elles redoutent, répètent mécaniquement ou ne peuvent faire sans expert.",
+        "isCorrect": true,
+        "justification": "C'est exact. C'est la voie terrain, complémentaire du top-down."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk2-03",
+    "type": "practical",
+    "text": "Parmi ces tâches de votre projet, laquelle est le meilleur candidat pour l'IA générative selon les quatre signes du cours ?",
+    "image": null,
+    "hint": "Texte non structuré, répétition quotidienne, expert goulot, avant/après mesurable.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ouvrir une porte quand un badge valide est détecté.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. C'est une règle déterministe simple, sans texte non structuré ni besoin d'un modèle."
+      },
+      {
+        "id": "B",
+        "text": "Le tri de 200 tickets de support en texte libre par jour, aujourd'hui en file d'attente derrière un seul ingénieur senior, avec un temps de traitement mesurable.",
+        "isCorrect": true,
+        "justification": "C'est exact. Les quatre signes sont réunis : texte non structuré, tâche répétée, goulot d'expert, gain mesurable."
+      },
+      {
+        "id": "C",
+        "text": "Migrer une seule fois un schéma de base de données.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Une opération ponctuelle ne remplit pas le critère de répétition quotidienne."
+      },
+      {
+        "id": "D",
+        "text": "Additionner exactement les mesures d'une table de capteurs.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. C'est un calcul exact : une requête fait mieux, moins cher et de façon vérifiable."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk2-04",
+    "type": "theoretical",
+    "text": "Lequel de ces éléments est un signe qu'une tâche est un bon candidat pour l'IA générative ?",
+    "image": null,
+    "hint": "Pensez aux files d'attente derrière un expert.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il n'existe aucun moyen de mesurer le résultat.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Un avant/après mesurable est requis, sinon on ne peut pas défendre le cas."
+      },
+      {
+        "id": "B",
+        "text": "Les données sont exclusivement des tableaux numériques structurés.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le premier signe est au contraire un travail porté par du texte non structuré."
+      },
+      {
+        "id": "C",
+        "text": "Un expert unique est le goulot d'étranglement : le travail attend dans une file son temps disponible.",
+        "isCorrect": true,
+        "justification": "C'est exact. C'est l'un des quatre signes avec le texte non structuré, la répétition quotidienne et l'avant/après mesurable."
+      },
+      {
+        "id": "D",
+        "text": "La tâche n'arrive qu'une fois par trimestre.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Il faut une tâche qui revient plusieurs fois par jour."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk2-05",
+    "type": "theoretical",
+    "text": "Sur la matrice de priorisation du cours, quel coin passe en premier ?",
+    "image": null,
+    "hint": "On cherche le plus de valeur pour le moins de complexité.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Faible valeur ajoutée et forte complexité.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. C'est le pire coin : peu de gain pour beaucoup d'effort."
+      },
+      {
+        "id": "B",
+        "text": "Faible valeur ajoutée et faible complexité.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Facile mais peu rentable : ce n'est pas la priorité."
+      },
+      {
+        "id": "C",
+        "text": "Forte valeur ajoutée et forte complexité.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Utile à planifier plus tard, mais pas le premier à lancer."
+      },
+      {
+        "id": "D",
+        "text": "Forte valeur ajoutée et faible complexité.",
+        "isCorrect": true,
+        "justification": "C'est exact. Le coin « best opportunities » du cours est en haut (valeur élevée) et à gauche (faible complexité)."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk2-06",
+    "type": "theoretical",
+    "text": "Quels éléments composent l'axe « faisabilité » de la priorisation ?",
+    "image": null,
+    "hint": "Le revenu, le coût, le risque et l'expérience relèvent de l'autre axe.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Les données, la maturité technique et l'intégration.",
+        "isCorrect": true,
+        "justification": "C'est exact. La faisabilité se lit sur trois dimensions : données disponibles, prêt technique, intégration au SI."
+      },
+      {
+        "id": "B",
+        "text": "Le nombre d'utilisateurs, la taille de l'équipe et la notoriété de la marque.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ces éléments n'apparaissent pas dans la grille du cours."
+      },
+      {
+        "id": "C",
+        "text": "Le prix du token, la taille du modèle et son rang sur un benchmark.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ce sont des critères de choix de modèle, pas la faisabilité d'un cas d'usage."
+      },
+      {
+        "id": "D",
+        "text": "Le revenu, le coût, le risque et l'expérience.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ce sont les composantes de l'axe valeur."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk2-07",
+    "type": "theoretical",
+    "text": "Quelle règle simple le cours donne-t-il pour dire « go » sur un cas d'usage ?",
+    "image": null,
+    "hint": "Deux conditions réunies par un ET.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un « go » quand une erreur coûte peu et que la vérification est facile.",
+        "isCorrect": true,
+        "justification": "C'est exact. Puisque le modèle peut se tromper avec aplomb, on privilégie les cas où l'erreur est bon marché et le contrôle simple."
+      },
+      {
+        "id": "B",
+        "text": "Un « go » quand le modèle obtient le meilleur score sur un benchmark public.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Un benchmark donne une présélection, pas une décision."
+      },
+      {
+        "id": "C",
+        "text": "Un « go » dès que le cas d'usage touche beaucoup d'utilisateurs.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le volume ne dit rien du coût d'une erreur ni de la facilité de contrôle."
+      },
+      {
+        "id": "D",
+        "text": "Un « go » quand le modèle est le plus gros disponible.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La taille du modèle n'est pas un critère de qualification du cas d'usage."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk2-08",
+    "type": "practical",
+    "text": "Parmi ces projets autour de vos salles de réunion, lequel est le « go » le plus sûr d'après la règle du cours ?",
+    "image": null,
+    "hint": "Erreur peu coûteuse ET vérification facile.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Valider seul et sans relecture les paiements fournisseurs.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Une erreur coûte cher et personne ne vérifie : à l'opposé de la règle."
+      },
+      {
+        "id": "B",
+        "text": "Rédiger un brouillon de compte rendu relu par les participants avant diffusion.",
+        "isCorrect": true,
+        "justification": "C'est exact. Une erreur sera repérée par les participants et coûte peu : les deux conditions sont réunies."
+      },
+      {
+        "id": "C",
+        "text": "Envoyer des contrats juridiques aux clients sans relecture humaine.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le risque d'une erreur est élevé et aucune vérification n'est prévue."
+      },
+      {
+        "id": "D",
+        "text": "Régler automatiquement le chauffage d'un entrepôt de médicaments sans contrôle.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Une erreur est coûteuse et difficile à détecter à temps."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk2-09",
+    "type": "practical",
+    "text": "Un groupe propose qu'un LLM calcule chaque heure la température moyenne des capteurs de la chaîne du froid. Que répondez-vous ?",
+    "image": null,
+    "hint": "Le projet est noté sur « Does it deserve generative AI? ».",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accepter : un LLM sait lire des tableaux de chiffres mieux qu'une base de données.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Une base de données calcule une moyenne exactement, un LLM peut se tromper."
+      },
+      {
+        "id": "B",
+        "text": "Une simple requête fait ce calcul exactement, gratuitement et de façon vérifiable : l'IA générative ajouterait du coût et du risque d'erreur sans valeur.",
+        "isCorrect": true,
+        "justification": "C'est exact. Le cas d'usage ne mérite pas l'IA générative. Un calcul déterministe sur des données structurées se traite mieux avec du code."
+      },
+      {
+        "id": "C",
+        "text": "Accepter, mais après avoir fine-tuné le modèle sur les capteurs.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Un fine-tuning ajoute du coût à un problème qui n'en a pas besoin."
+      },
+      {
+        "id": "D",
+        "text": "Refuser, car les températures sont des données trop sensibles pour un modèle.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le motif est faux : le vrai problème est l'absence de valeur ajoutée."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk2-10",
+    "type": "theoretical",
+    "text": "Dans la liste de cas d'usage par fonction du cours, lequel est rangé dans la fonction Legal ?",
+    "image": null,
+    "hint": "Un contrat est un document long à lire.",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'analyse automatisée de contrats.",
+        "isCorrect": true,
+        "justification": "C'est exact. C'est le cas d'usage cité pour le juridique, très adapté au texte non structuré."
+      },
+      {
+        "id": "B",
+        "text": "L'appariement CV et fiche de poste.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Il relève des ressources humaines."
+      },
+      {
+        "id": "C",
+        "text": "L'analyse de devis.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Elle est citée pour les achats (Procurement)."
+      },
+      {
+        "id": "D",
+        "text": "La génération automatisée de rapports.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Elle est citée pour la finance."
+      }
+    ]
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ARCHAI-S1-chunk5-01",
+    "type": "theoretical",
+    "text": "Lequel de ces éléments fait partie des six questions à se poser avant de choisir un modèle ?",
+    "image": null,
+    "hint": "Besoin, écosystème IT, modèle de consommation, coût, souveraineté, communauté.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le langage de programmation du SDK.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Cela n'apparaît pas dans la liste."
+      },
+      {
+        "id": "B",
+        "text": "La position du modèle sur un seul benchmark.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Un benchmark donne une présélection, pas un critère de choix."
+      },
+      {
+        "id": "C",
+        "text": "La souveraineté : usage de vos interactions, pays, cible de conformité.",
+        "isCorrect": true,
+        "justification": "C'est exact. Avec le besoin, l'écosystème IT, le modèle de consommation, le coût et la communauté, ce sont les six questions du cours."
+      },
+      {
+        "id": "D",
+        "text": "Le nombre de GPU du datacenter du fournisseur.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ce n'est pas une des six questions."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk5-02",
+    "type": "practical",
+    "text": "Votre assistant doit répondre sur des produits sortis le mois dernier. Quel critère de la grille pose problème au modèle seul ?",
+    "image": null,
+    "hint": "Un modèle entraîné avant 2020 n'a jamais entendu parler du Covid.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le cut-off : la date de fin des données d'entraînement, il faut fournir l'information dans le contexte.",
+        "isCorrect": true,
+        "justification": "C'est exact. Le modèle ignore ce qui est postérieur à son entraînement. C'est le sujet de la session 2."
+      },
+      {
+        "id": "B",
+        "text": "La taille du modèle, car seuls les petits modèles sont en retard.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La taille ne détermine pas la fraîcheur des données."
+      },
+      {
+        "id": "C",
+        "text": "La tokenisation, qui rend les noms de produits illisibles.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La tokenisation touche au coût, pas à la connaissance récente."
+      },
+      {
+        "id": "D",
+        "text": "L'ouverture : un modèle open source ne connaît pas les produits récents.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'ouverture ne détermine pas la date de coupure."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk5-03",
+    "type": "theoretical",
+    "text": "Pourquoi un score de benchmark public peut-il être trompeur ?",
+    "image": null,
+    "hint": "Contamination, optimisation, adéquation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Les items de test fuitent dans les données d'entraînement, le score devient une cible, et les classements mesurent rarement votre tâche.",
+        "isCorrect": true,
+        "justification": "C'est exact. Ce sont les trois pièges du cours : contamination, optimisation, adéquation."
+      },
+      {
+        "id": "B",
+        "text": "Parce que les benchmarks sont truqués par les régulateurs.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Rien de tel dans le cours."
+      },
+      {
+        "id": "C",
+        "text": "Parce que les scores sont uniquement calculés en français.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ce n'est pas un des trois pièges."
+      },
+      {
+        "id": "D",
+        "text": "Parce que les benchmarks mesurent seulement la vitesse.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ils mesurent plutôt la qualité, d'où le besoin d'évaluer sur votre tâche."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk5-04",
+    "type": "practical",
+    "text": "Votre équipe veut retenir le modèle n° 1 d'un classement public sans le tester. Que recommandez-vous ?",
+    "image": null,
+    "hint": "Un classement donne une présélection, pas une décision.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Choisir le modèle le moins cher, il est forcément équivalent.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les prix varient de 1 à 20, la qualité aussi."
+      },
+      {
+        "id": "B",
+        "text": "Entraîner un nouveau modèle de zéro pour éviter la contamination.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Disproportionné : on teste d'abord sur vos exemples."
+      },
+      {
+        "id": "C",
+        "text": "Présélectionner trois ou quatre candidats avec les classements, puis les tester sur une trentaine d'exemples à vous.",
+        "isCorrect": true,
+        "justification": "C'est exact. Trente exemples de votre cas valent mieux que n'importe quel classement. La construction du jeu d'évaluation est vue en session 5."
+      },
+      {
+        "id": "D",
+        "text": "Valider le n° 1 : les classements publics sont fiables pour toutes les tâches.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ils mesurent rarement votre tâche."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk5-05",
+    "type": "theoretical",
+    "text": "Quelle technique de prompt consiste à demander les étapes pour rendre le raisonnement visible et vérifiable ?",
+    "image": null,
+    "hint": "Étape 1, étape 2, etc.",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'auto-évaluation.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Elle fait noter et réécrire sa propre réponse au modèle."
+      },
+      {
+        "id": "B",
+        "text": "Le few-shot prompting.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Il consiste à donner deux ou trois exemples."
+      },
+      {
+        "id": "C",
+        "text": "Le méta-prompting.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Il consiste à faire écrire par le modèle le prompt qu'on réutilisera."
+      },
+      {
+        "id": "D",
+        "text": "Le chain of thought.",
+        "isCorrect": true,
+        "justification": "C'est exact. On demande les étapes pour pouvoir inspecter le raisonnement."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk5-06",
+    "type": "practical",
+    "text": "Le modèle classe mal vos tickets et le format de sortie varie d'un appel à l'autre. Quelle technique est la plus adaptée ?",
+    "image": null,
+    "hint": "Montrer plutôt que décrire.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le few-shot : donner deux ou trois exemples résolus de la sortie attendue.",
+        "isCorrect": true,
+        "justification": "C'est exact. Des exemples fixent à la fois la règle de classement et le format."
+      },
+      {
+        "id": "B",
+        "text": "Le persona « agis comme un poète ».",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Un rôle ne fixe pas le format de sortie."
+      },
+      {
+        "id": "C",
+        "text": "Augmenter la température pour varier les résultats.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ce serait contre-productif pour la stabilité."
+      },
+      {
+        "id": "D",
+        "text": "Le méta-prompting seul, sans aucun exemple.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Il n'apporte pas l'exemple de sortie dont le modèle a besoin."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk5-07",
+    "type": "theoretical",
+    "text": "Quelles sont les cinq parties du cheat sheet de prompt du cours ?",
+    "image": null,
+    "hint": "Persona, contexte, tâche, format, exemples.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Persona, tâche, température, format, budget.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La température et le budget ne sont pas dans le cheat sheet."
+      },
+      {
+        "id": "B",
+        "text": "Persona, contexte et objectif, tâche, format de réponse, exemple(s).",
+        "isCorrect": true,
+        "justification": "C'est exact. Un prompt est une spécification, pas une conversation. Le format de réponse rend la sortie exploitable par un programme."
+      },
+      {
+        "id": "C",
+        "text": "Contexte, question, ton, longueur, signature.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ce n'est pas la liste du cours."
+      },
+      {
+        "id": "D",
+        "text": "Tâche, modèle, tokenizer, format, exemple.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le modèle et le tokenizer relèvent du choix du modèle."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk5-08",
+    "type": "practical",
+    "text": "Votre portable a 16 Go de RAM. Quel modèle Ollama le cours vous invite-t-il à tirer ?",
+    "image": null,
+    "hint": "Le tableau associe RAM et modèle.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ollama pull qwen3:4b",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Il tournerait, mais c'est le palier des machines à 8 Go."
+      },
+      {
+        "id": "B",
+        "text": "ollama pull qwen3:8b (5,2 Go de téléchargement).",
+        "isCorrect": true,
+        "justification": "C'est exact. Le cours propose qwen3:4b pour 8 Go, qwen3:8b pour 16 Go et qwen3:14b pour 32 Go et plus."
+      },
+      {
+        "id": "C",
+        "text": "Le plus gros modèle disponible, la RAM n'étant pas un facteur.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La RAM limite la taille du modèle chargé."
+      },
+      {
+        "id": "D",
+        "text": "ollama pull qwen3:14b",
+        "isCorrect": false,
+        "justification": "C'est incorrect. C'est le palier prévu pour 32 Go de RAM ou plus."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk5-09",
+    "type": "practical",
+    "text": "Dans l'exercice de triage, le message du client ne contient aucun numéro de téléphone. Que doit renvoyer le champ phone ?",
+    "image": null,
+    "hint": "Règle pour tout champ absent ou incertain.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Une chaîne vide.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les chaînes vides sont interdites par le prompt de référence."
+      },
+      {
+        "id": "B",
+        "text": "La chaîne « Unknown ».",
+        "isCorrect": true,
+        "justification": "C'est exact. Pour tout champ absent ou incertain, on utilise exactement « Unknown ». Jamais null ni chaîne vide, et on n'invente rien."
+      },
+      {
+        "id": "C",
+        "text": "Un numéro plausible déduit de l'organisation.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Inventer est exactement ce qu'il ne faut pas faire."
+      },
+      {
+        "id": "D",
+        "text": "null",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le prompt interdit explicitement null."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk5-10",
+    "type": "practical",
+    "text": "Après avoir lancé `ollama run <model> --verbose`, quelles mesures le cours demande-t-il de surveiller ?",
+    "image": null,
+    "hint": "Ce que ça coûte en ressources.",
+    "options": [
+      {
+        "id": "A",
+        "text": "La température, le top-p et la graine aléatoire.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ce sont des réglages de génération."
+      },
+      {
+        "id": "B",
+        "text": "Le nombre de paramètres et la taille du corpus.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ce sont des caractéristiques du modèle, pas des mesures d'exécution."
+      },
+      {
+        "id": "C",
+        "text": "Le score LMArena et le rang Artificial Analysis.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ce sont des classements publics."
+      },
+      {
+        "id": "D",
+        "text": "La RAM utilisée, les tokens par seconde et le délai avant le premier token.",
+        "isCorrect": true,
+        "justification": "C'est exact. Cela rend concret le compromis cloud contre on-premise de la session suivante."
+      }
+    ]
+  }
+]
