@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ARCHAI-S1-chunk3-01",
+    "type": "theoretical",
+    "text": "Quel est l'ordre du cycle de vie d'un modèle présenté dans la partie « Under the hood » ?",
+    "image": null,
+    "hint": "Du texte brut jusqu'à l'appel par votre application.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Corpus, pré-entraînement, post-entraînement, inférence.",
+        "isCorrect": true,
+        "justification": "C'est exact. On découpe un corpus en tokens, on pré-entraîne, on affine par le post-entraînement, puis le modèle figé est appelé en inférence."
+      },
+      {
+        "id": "B",
+        "text": "Pré-entraînement, inférence, post-entraînement, corpus.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Il faut un corpus avant tout et l'inférence est la phase d'usage finale."
+      },
+      {
+        "id": "C",
+        "text": "Inférence, corpus, pré-entraînement, post-entraînement.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'inférence arrive en dernier : le modèle est d'abord construit."
+      },
+      {
+        "id": "D",
+        "text": "Corpus, post-entraînement, pré-entraînement, inférence.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le post-entraînement affine un modèle déjà pré-entraîné."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk3-02",
+    "type": "theoretical",
+    "text": "Pourquoi le pré-entraînement ne nécessite-t-il ni labels ni humains ?",
+    "image": null,
+    "hint": "Le texte contient déjà sa propre réponse.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parce que le modèle est initialisé avec les réponses du modèle précédent.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le mécanisme est la prédiction de texte masqué, pas une copie d'un modèle précédent."
+      },
+      {
+        "id": "B",
+        "text": "Parce que le texte est sa propre clé de correction : on cache un mot, le modèle le devine, on compare puis on ajuste.",
+        "isCorrect": true,
+        "justification": "C'est exact. C'est l'exercice « à trou » répété des milliards de fois, d'où provient la connaissance du modèle."
+      },
+      {
+        "id": "C",
+        "text": "Parce que le modèle apprend à partir de vidéos annotées par des utilisateurs.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le pré-entraînement porte sur du texte brut, sans annotations."
+      },
+      {
+        "id": "D",
+        "text": "Parce que des experts valident chaque phrase en temps réel.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Aucun humain ne valide : c'est précisément ce qui le rend possible à grande échelle."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk3-03",
+    "type": "theoretical",
+    "text": "Que modifie le post-entraînement (fine-tuning sur paires) ?",
+    "image": null,
+    "hint": "Ton, format, refus.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le nombre de GPU utilisés lors de l'inférence.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Cela relève de l'infrastructure, pas du comportement du modèle."
+      },
+      {
+        "id": "B",
+        "text": "Le tokenizer, qui est remplacé par celui du client.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le tokenizer est fixé avec le modèle et ne se change pas au post-entraînement."
+      },
+      {
+        "id": "C",
+        "text": "La connaissance factuelle du modèle, qui est réécrite entièrement.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La connaissance vient du pré-entraînement."
+      },
+      {
+        "id": "D",
+        "text": "Le comportement : ton, format, refus. Il ne modifie pas la connaissance.",
+        "isCorrect": true,
+        "justification": "C'est exact. Il repose sur bien moins d'exemples que le pré-entraînement, écrits à la main, et façonne la manière de répondre."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk3-04",
+    "type": "practical",
+    "text": "Un fournisseur observe que son modèle répond « Of course! Here it is in three paragraphs » alors qu'il veut trois puces, sans préambule. Quelle étape corrige cela ?",
+    "image": null,
+    "hint": "On écrit la réponse voulue et on réentraîne sur ces paires.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le pré-entraînement sur un corpus web dix fois plus grand.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Plus de texte ajoute de la connaissance, pas un format de réponse."
+      },
+      {
+        "id": "B",
+        "text": "Le post-entraînement : on écrit la réponse voulue et on réentraîne sur ces paires.",
+        "isCorrect": true,
+        "justification": "C'est exact. Format et ton relèvent du comportement, que le post-entraînement façonne à partir de paires question et réponse voulue."
+      },
+      {
+        "id": "C",
+        "text": "L'inférence, en mettant à jour les poids à chaque appel d'un client.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les poids sont figés en inférence."
+      },
+      {
+        "id": "D",
+        "text": "Le corpus, en supprimant les pages web qui contiennent des préambules.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le comportement ne se règle pas en retirant quelques pages du corpus."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk3-05",
+    "type": "theoretical",
+    "text": "Que deviennent les poids du modèle quand votre application l'appelle en inférence ?",
+    "image": null,
+    "hint": "Une copie partagée par tous les appelants.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ils sont figés : tous les appelants utilisent les mêmes poids, qui ne changent plus.",
+        "isCorrect": true,
+        "justification": "C'est exact. Le modèle est un service distant : votre côté de la ligne, ce sont les applications."
+      },
+      {
+        "id": "B",
+        "text": "Ils sont mis à jour avec le contenu de votre conversation.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le modèle n'apprend pas de vos appels."
+      },
+      {
+        "id": "C",
+        "text": "Chaque client reçoit sa propre copie personnalisée.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Il y a une seule copie partagée sur une flotte de GPU."
+      },
+      {
+        "id": "D",
+        "text": "Ils sont réentraînés chaque nuit sur vos prompts.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le cours est clair : après l'entraînement, les poids ne changent plus."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk3-06",
+    "type": "theoretical",
+    "text": "Qu'est-ce qu'un token ?",
+    "image": null,
+    "hint": "Pensez à l'unité de lecture et de facturation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un fragment de texte, souvent plus court qu'un mot, qui est l'unité lue, écrite et facturée par le modèle.",
+        "isCorrect": true,
+        "justification": "C'est exact. Le modèle ne voit jamais une page, seulement une suite de tokens."
+      },
+      {
+        "id": "B",
+        "text": "Un mot entier.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Un token est souvent plus court qu'un mot."
+      },
+      {
+        "id": "C",
+        "text": "Un jeton qu'on achète à l'avance pour utiliser le modèle.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le token est une unité de texte, même si on paie par token."
+      },
+      {
+        "id": "D",
+        "text": "Une lettre, car le modèle lit lettre par lettre.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Il lit des fragments de quelques caractères, pas des lettres isolées."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk3-07",
+    "type": "practical",
+    "text": "Vous avez estimé le budget d'un chatbot sur des tests en anglais, mais il sera déployé en français. Que prévoir ?",
+    "image": null,
+    "hint": "La même phrase se découpe en plus de morceaux en français.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rien : le nombre de tokens est indépendant de la langue.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Faux, la tokenisation dépend de la langue."
+      },
+      {
+        "id": "B",
+        "text": "Environ 50 % de moins, car les phrases françaises sont plus compactes.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. C'est le contraire : plus de tokens en français."
+      },
+      {
+        "id": "C",
+        "text": "Environ 20 à 30 % de tokens en plus, donc un budget à réévaluer d'autant.",
+        "isCorrect": true,
+        "justification": "C'est exact. Le même texte coûte plus de tokens en français, et le token est l'unité de facturation."
+      },
+      {
+        "id": "D",
+        "text": "Un doublement exact du coût, car il faut deux appels.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le coût suit les tokens, pas un nombre fixe d'appels."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk3-08",
+    "type": "theoretical",
+    "text": "Pourquoi un token de sortie coûte-t-il environ 3 à 5 fois plus cher qu'un token d'entrée ?",
+    "image": null,
+    "hint": "Parallèle contre séquentiel.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parce que les tokens de sortie sont toujours plus longs.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La longueur d'un token n'explique pas l'écart de prix."
+      },
+      {
+        "id": "B",
+        "text": "Parce que le fournisseur facture une marge sur le français.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le ratio existe dans toutes les langues."
+      },
+      {
+        "id": "C",
+        "text": "Parce que l'entrée est traitée en parallèle alors que la sortie est générée token par token.",
+        "isCorrect": true,
+        "justification": "C'est exact. C'est la justification donnée par le cours : l'entrée se calcule en bloc, la sortie s'écrit un token à la fois."
+      },
+      {
+        "id": "D",
+        "text": "Parce que les tokens de sortie sont chiffrés avant l'envoi.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Rien à voir avec le chiffrement : c'est une question de calcul."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk3-09",
+    "type": "practical",
+    "text": "Hypothèse : un token de sortie coûte 4 fois un token d'entrée. Un appel envoie 3000 tokens et en reçoit 500. Quelle part de la facture vient de la sortie ?",
+    "image": null,
+    "hint": "Ramenez tout à l'unité de prix d'un token d'entrée.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Environ 14 %",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ce chiffre compare 500 à 3500 tokens sans appliquer le ratio de prix."
+      },
+      {
+        "id": "B",
+        "text": "80 %",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ce serait vrai si l'entrée ne comptait presque pas, ce qui n'est pas le cas ici."
+      },
+      {
+        "id": "C",
+        "text": "Environ 62 %",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Il ne découle pas du calcul : 500 × 4 = 2000 contre 3000 pour l'entrée."
+      },
+      {
+        "id": "D",
+        "text": "40 %",
+        "isCorrect": true,
+        "justification": "C'est exact. L'entrée vaut 3000 unités, la sortie 500 × 4 = 2000 unités. La sortie pèse donc 2000 / 5000 = 40 %."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk3-10",
+    "type": "practical",
+    "text": "Vous avez compté 1000 tokens pour un texte avec le tokenizer du modèle A. Que pouvez-vous en déduire pour le modèle B ?",
+    "image": null,
+    "hint": "GPT et Claude ne découpent pas aux mêmes endroits.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exactement 20 % de plus, comme pour le français.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le surcoût de 20 à 30 % est lié à la langue, pas au changement de modèle."
+      },
+      {
+        "id": "B",
+        "text": "Rien de fiable : chaque modèle a son tokenizer, donc le décompte peut différer.",
+        "isCorrect": true,
+        "justification": "C'est exact. Un décompte appartient à un modèle précis et ne se transpose pas."
+      },
+      {
+        "id": "C",
+        "text": "Toujours moins de 1000 tokens, car B est plus récent.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Rien ne garantit un décompte plus faible."
+      },
+      {
+        "id": "D",
+        "text": "Exactement 1000 tokens, puisque le texte est identique.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les frontières de tokens ne sont pas les mêmes d'un modèle à l'autre."
+      }
+    ]
+  }
+]

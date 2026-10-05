@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ARCHAI-S1-chunk1-01",
+    "type": "theoretical",
+    "text": "Quelle hiérarchie décrit correctement le rapport entre les domaines présentés en ouverture du cours ?",
+    "image": null,
+    "hint": "Pensez aux cercles concentriques : le plus large contient tous les autres.",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'IA contient le machine learning, qui contient le deep learning, dont relève l'IA générative.",
+        "isCorrect": true,
+        "justification": "C'est exact. L'IA est le champ le plus large (1956), le ML en est un sous-ensemble, le deep learning une technique de ML (2012) et l'IA générative (2022) s'appuie sur lui."
+      },
+      {
+        "id": "B",
+        "text": "Le deep learning contient le machine learning, qui contient l'IA.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le sens est inversé : le deep learning est une technique de machine learning, pas l'inverse."
+      },
+      {
+        "id": "C",
+        "text": "Le machine learning et l'IA générative sont deux domaines disjoints, l'IA générative n'utilisant aucun apprentissage.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'IA générative repose justement sur des réseaux de neurones appris sur des données, donc sur le deep learning."
+      },
+      {
+        "id": "D",
+        "text": "L'IA générative est le champ le plus large et regroupe tout le reste.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. C'est le plus récent et le plus étroit des quatre, pas le plus large."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk1-02",
+    "type": "theoretical",
+    "text": "Quelle chronologie correspond aux dates du cours pour l'IA, le deep learning et l'IA générative ?",
+    "image": null,
+    "hint": "Le champ de l'IA est bien plus ancien que le boom actuel.",
+    "options": [
+      {
+        "id": "A",
+        "text": "IA en 1956, deep learning en 2022, IA générative en 2012.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les deux dernières dates sont inversées : le deep learning précède de dix ans l'IA générative."
+      },
+      {
+        "id": "B",
+        "text": "IA en 1980, deep learning en 2000, IA générative en 2020.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ces dates sont inventées : le cours donne 1956, 2012 et 2022."
+      },
+      {
+        "id": "C",
+        "text": "IA en 1956, deep learning en 2012, IA générative en 2022.",
+        "isCorrect": true,
+        "justification": "C'est exact. Ce sont les trois repères du cours : le champ naît en 1956, le deep learning décolle en 2012, l'IA générative grand public arrive en 2022."
+      },
+      {
+        "id": "D",
+        "text": "IA en 2012, deep learning en 2022, IA générative en 2023.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'IA est bien antérieure : le champ est posé dès 1956."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk1-03",
+    "type": "theoretical",
+    "text": "Comment le cours définit-il l'IA générative ?",
+    "image": null,
+    "hint": "Le verbe clé est « créer ».",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elle applique des règles écrites à la main pour décrire ce qui s'est passé.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ce sont les règles manuelles du niveau descriptif, sans génération de contenu."
+      },
+      {
+        "id": "B",
+        "text": "Elle prédit une valeur future à partir d'un jeu de données étiqueté.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. C'est la définition du machine learning prédictif, pas de l'IA générative."
+      },
+      {
+        "id": "C",
+        "text": "Elle crée de nouveaux contenus écrits, visuels et audio à partir de prompts ou de données existantes.",
+        "isCorrect": true,
+        "justification": "C'est exact. C'est la définition du cours. L'accent est mis sur la production de contenu nouveau, pas sur la prédiction ou le classement."
+      },
+      {
+        "id": "D",
+        "text": "Elle recommande la meilleure action à partir de données, GPU et experts.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Ce profil correspond au niveau prescriptif, associé au deep learning dans le cours."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk1-04",
+    "type": "theoretical",
+    "text": "Quel profil d'effort le cours attribue-t-il à l'IA générative par rapport au deep learning ?",
+    "image": null,
+    "hint": "On ne l'entraîne pas, on l'appelle.",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'effort se limite à écrire des règles à la main, comme pour le niveau descriptif.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les règles manuelles caractérisent le premier niveau, pas l'IA générative."
+      },
+      {
+        "id": "B",
+        "text": "L'effort est identique à celui du machine learning : il faut un jeu de données étiqueté.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le jeu étiqueté est le prix du ML prédictif, pas de l'appel à un modèle génératif."
+      },
+      {
+        "id": "C",
+        "text": "L'effort est le plus élevé, car il faut entraîner un modèle de plusieurs milliards de paramètres soi-même.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'entraînement est fait par le fournisseur. Côté application, on appelle un modèle déjà prêt."
+      },
+      {
+        "id": "D",
+        "text": "L'effort s'effondre : un appel d'API suffit, alors que le deep learning demande données, GPU et experts.",
+        "isCorrect": true,
+        "justification": "C'est exact. Le profil d'effort monte jusqu'au deep learning puis chute pour l'IA générative, qu'on consomme comme un service."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk1-05",
+    "type": "practical",
+    "text": "Votre équipe IoT veut anticiper quels capteurs de la chaîne du froid tomberont en panne la semaine prochaine, à partir de l'historique de pannes étiquetées. Quel niveau de la grille du cours cela illustre-t-il ?",
+    "image": null,
+    "hint": "Question posée : que va-t-il se passer ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le niveau prédictif (machine learning sur jeu de données étiqueté).",
+        "isCorrect": true,
+        "justification": "C'est exact. Anticiper un événement futur à partir de données historiques étiquetées est le cas typique du ML prédictif."
+      },
+      {
+        "id": "B",
+        "text": "Prescriptif : il s'agit de décider quoi faire.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. La question « What should we do? » vient après la prédiction. Ici on prédit d'abord."
+      },
+      {
+        "id": "C",
+        "text": "Génératif : il s'agit de créer du contenu.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. On ne cherche pas à produire du texte, des images ou de l'audio mais à prédire une panne."
+      },
+      {
+        "id": "D",
+        "text": "Descriptif : il s'agit de décrire ce qui s'est passé.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le descriptif répond à « What happened? », ici on cherche à anticiper."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk1-06",
+    "type": "theoretical",
+    "text": "Que montre le graphique « months to reach 100M monthly users » du cours ?",
+    "image": null,
+    "hint": "Le message de l'ouverture : facile à adopter, difficile à industrialiser.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ChatGPT a atteint 100 millions d'utilisateurs mensuels en 2 mois, devant TikTok (9) et Instagram (30).",
+        "isCorrect": true,
+        "justification": "C'est exact. C'est l'illustration de la facilité d'adoption : 2 mois pour ChatGPT contre 9 pour TikTok, 30 pour Instagram et 78 pour Google Translate."
+      },
+      {
+        "id": "B",
+        "text": "Tous les services ont atteint ce seuil en environ 30 mois.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'écart est énorme, de 2 à 78 mois selon le service."
+      },
+      {
+        "id": "C",
+        "text": "Google Translate est le plus rapide, car il existe depuis le plus longtemps.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Google Translate est le plus lent du classement avec 78 mois."
+      },
+      {
+        "id": "D",
+        "text": "TikTok est le plus rapide avec 2 mois, ChatGPT arrive ensuite avec 9 mois.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les chiffres sont permutés : ChatGPT 2 mois, TikTok 9 mois."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk1-07",
+    "type": "theoretical",
+    "text": "Selon le cours, que fait un « AI engineer » ?",
+    "image": null,
+    "hint": "Il ne construit pas le moteur, il construit la voiture autour.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il entraîne des modèles de fondation à partir de zéro sur de gros clusters de GPU.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le cours précise explicitement qu'il n'entraîne pas le modèle."
+      },
+      {
+        "id": "B",
+        "text": "Il étiquette manuellement les données d'entraînement du fournisseur.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. L'étiquetage et le post-training relèvent du fournisseur du modèle."
+      },
+      {
+        "id": "C",
+        "text": "Il se limite à rédiger des prompts dans une interface de chat.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le prompt n'est qu'une partie : le rôle couvre l'intégration, l'évaluation et l'exploitation."
+      },
+      {
+        "id": "D",
+        "text": "Il construit l'application autour du modèle : intégration au SI, données, évaluation, exploitation.",
+        "isCorrect": true,
+        "justification": "C'est exact. Il met le modèle en production. Il n'entraîne pas le modèle, il l'intègre et l'opère."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk1-08",
+    "type": "theoretical",
+    "text": "Qu'est-ce qu'une « AI Factory » telle que définie dans le cours ?",
+    "image": null,
+    "hint": "Pensez à une équipe et à une plateforme mutualisées, pas à une usine physique.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Une startup qui vend des modèles open source.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Une AI Factory est interne à l'entreprise et sert ses projets."
+      },
+      {
+        "id": "B",
+        "text": "Une équipe et une plateforme partagées pour industrialiser les cas d'usage d'IA générative : passerelle LLM, gouvernance, accélérateurs, support aux projets.",
+        "isCorrect": true,
+        "justification": "C'est exact. C'est une organisation transverse qui évite que chaque projet réinvente la passerelle, la gouvernance et les bonnes pratiques."
+      },
+      {
+        "id": "C",
+        "text": "Une chaîne de fabrication de capteurs IoT équipés d'IA embarquée.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le terme ne désigne pas de production matérielle."
+      },
+      {
+        "id": "D",
+        "text": "Un datacenter qui entraîne les modèles de fondation de l'entreprise.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le cours décrit une équipe et une plateforme d'industrialisation, pas un site d'entraînement."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk1-09",
+    "type": "theoretical",
+    "text": "Comment est noté le projet IA du semestre ?",
+    "image": null,
+    "hint": "Ce qui est noté est la conception, pas le code.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sur la qualité du code : couverture de tests, lisibilité et performance de l'application.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le cours dit que l'on note la conception, pas le code."
+      },
+      {
+        "id": "B",
+        "text": "Sur la conception : cas d'usage, architecture de l'agent, démarche d'évaluation, démarche de sécurité, 25 % chacun.",
+        "isCorrect": true,
+        "justification": "C'est exact. Le projet vaut 50 % de la note et seul le design compte, réparti à parts égales sur quatre axes."
+      },
+      {
+        "id": "C",
+        "text": "Sur le seul score obtenu par le modèle sur un benchmark public.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Un benchmark public ne mesure pas votre tâche. La démarche d'évaluation est notée, pas un classement."
+      },
+      {
+        "id": "D",
+        "text": "Sur une démonstration en direct, avec 70 % pour l'effet visuel de l'interface.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Aucun critère d'interface n'est annoncé, les quatre axes sont à 25 %."
+      }
+    ]
+  },
+  {
+    "id": "ARCHAI-S1-chunk1-10",
+    "type": "practical",
+    "text": "Vous préparez le contrôle continu de ce cours. Quand a lieu le quiz portant sur la session 1 ?",
+    "image": null,
+    "hint": "Un quiz par séance, de la séance 2 à la séance 5.",
+    "options": [
+      {
+        "id": "A",
+        "text": "À la fin de la session 1, avant de partir.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Les quiz ouvrent les sessions 2 à 5, il n'y en a pas en fin de session 1."
+      },
+      {
+        "id": "B",
+        "text": "Au début de la session 2.",
+        "isCorrect": true,
+        "justification": "C'est exact. Chaque quiz ouvre la séance suivante et porte sur la précédente. Les cinq points clés de la dernière diapo en sont la matière."
+      },
+      {
+        "id": "C",
+        "text": "Au début de la session 5, avec toutes les sessions cumulées.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Chaque quiz ne porte que sur la session précédente."
+      },
+      {
+        "id": "D",
+        "text": "Lors d'un examen final unique à la fin du semestre.",
+        "isCorrect": false,
+        "justification": "C'est incorrect. Le contrôle continu repose sur quatre quiz successifs, le projet est noté une seule fois à la fin."
+      }
+    ]
+  }
+]
