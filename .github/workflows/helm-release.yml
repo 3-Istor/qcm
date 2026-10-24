@@ -27,7 +27,7 @@ jobs:
                   sed -i "s/^version:.*/version: ${{ steps.version.outputs.version }}/" helm/qcm/Chart.yaml
 
             - name: Install Helm
-              uses: azure/setup-helm@v4
+              uses: azure/setup-helm@v5
 
             - name: Package Helm chart
               run: helm package helm/qcm -d .helm-releases
